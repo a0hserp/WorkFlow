@@ -29,3 +29,13 @@ https://dotblogs.com.tw/kirkchen/2013/04/23/use_ssh_to_interact_with_github_in_w
 
 git remote add origin  git@github.com:a0hserp/WorkFlow.git //加入github 主機
 git clone git@github.com:a0hserp/WorkFlow.git //複製遠端
+
+git pull 將遠端分支資料拉回並合併本地分支
+
+
+//詳細學習 請參考六角學院
+https://www.youtube.com/watch?v=PNEM7CH3ZAg&list=PLYrA-SsMvTPOZeB6DHvB0ewl3miMf-2tj
+
+
+
+
