@@ -21,7 +21,11 @@ https://dotblogs.com.tw/kirkchen/2013/04/23/use_ssh_to_interact_with_github_in_w
 
 
 4.基本指令
+ git init //初始化
+ git add . //加入所有檔案
+ git commit -m '摘要描述' //提交
+ git branch dev //開分支
+ git status //目前狀態
 
- git add . 加入所有檔案
- git commit -m '摘要描述'
- 
+git remote add origin  git@github.com:a0hserp/WorkFlow.git //加入github 主機
+git clone git@github.com:a0hserp/WorkFlow.git //複製遠端
