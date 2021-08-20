@@ -20,3 +20,8 @@ https://dotblogs.com.tw/kirkchen/2013/04/23/use_ssh_to_interact_with_github_in_w
 將公鑰貼到github profile seeting SSH key中
 
 
+4.基本指令
+
+ git add . 加入所有檔案
+ git commit -m '摘要描述'
+ 
