@@ -56,9 +56,17 @@ https://git-scm.com/docs/gitignore
 
 !fileA //為例外
 
+github 發PR須同意
+在你的branch裡面新增一個資料夾.github以及在.github資料夾裡面新增一個檔案CODEOWNERS，
 
 
-66666
+
+
+
+
+
+
+
 
 
 
