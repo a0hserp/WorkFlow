@@ -26,6 +26,12 @@ https://dotblogs.com.tw/kirkchen/2013/04/23/use_ssh_to_interact_with_github_in_w
  git commit -m '摘要描述' //提交
  git branch dev //開分支
  git status //目前狀態
+ git reset //返回步驟
+-----------
+$ git reset HEAD^            # 回退所有內容到上一個版本  
+$ git reset HEAD^ hello.php  # 回退 hello.php 文件的版本到上一個版本  
+$ git  reset  052e           # 回退到指定版本
+
 
 git remote add origin  git@github.com:a0hserp/WorkFlow.git //加入github 主機
 git clone git@github.com:a0hserp/WorkFlow.git //複製遠端
