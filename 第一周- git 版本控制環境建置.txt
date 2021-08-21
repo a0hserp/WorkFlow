@@ -51,6 +51,12 @@ https://www.youtube.com/watch?v=PNEM7CH3ZAg&list=PLYrA-SsMvTPOZeB6DHvB0ewl3miMf-
 .gitignore 編輯
 線上產生
 https://www.toptal.com/developers/gitignore
+說明
+https://git-scm.com/docs/gitignore
+
+!fileA //為例外
+
+
 
 
 
