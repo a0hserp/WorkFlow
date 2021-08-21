@@ -36,6 +36,15 @@ git pull 將遠端分支資料拉回並合併本地分支
 //詳細學習 請參考六角學院
 https://www.youtube.com/watch?v=PNEM7CH3ZAg&list=PLYrA-SsMvTPOZeB6DHvB0ewl3miMf-2tj
 
+.gitignore 編輯
+線上產生
+https://www.toptal.com/developers/gitignore
+
+
+
+
+
+
 
 
 
