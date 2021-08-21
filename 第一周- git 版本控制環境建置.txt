@@ -58,6 +58,7 @@ https://git-scm.com/docs/gitignore
 
 github 發PR須同意
 在你的branch裡面新增一個資料夾.github以及在.github資料夾裡面新增一個檔案CODEOWNERS，
+* Email帳號
 
 
 3
