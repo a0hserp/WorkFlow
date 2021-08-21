@@ -32,13 +32,10 @@ $ git reset HEAD^            # 回退所有內容到上一個版本
 $ git reset HEAD^ hello.php  # 回退 hello.php 文件的版本到上一個版本  
 $ git  reset  052e           # 回退到指定版本
 
-<<<<<<< HEAD
 
  git pull //拉回資料
  git pull= git fetch + git merge
 
-=======
->>>>>>> fa7eb30fa34d9324b93ba1bf92e343ea9f68d5d5
 
 git remote add origin  git@github.com:a0hserp/WorkFlow.git //加入github 主機
 git clone git@github.com:a0hserp/WorkFlow.git //複製遠端
@@ -52,6 +49,9 @@ https://www.youtube.com/watch?v=PNEM7CH3ZAg&list=PLYrA-SsMvTPOZeB6DHvB0ewl3miMf-
 .gitignore 編輯
 線上產生
 https://www.toptal.com/developers/gitignore
+
+
+1
 
 
 
