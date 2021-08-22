@@ -107,11 +107,16 @@ type
     BroadCommand: TRtcPCustomCommand;
     MDS: TDataSource;
     Timer1: TTimer;
+    RoomState: TRtcResult;
     RtcClientModule: TRtcClientModule;
     Token_Result: TRtcResult;
+    OffWorkResult: TRtcResult;
+    UserList: TRtcResult;
     HistoryResult: TRtcResult;
+    RtcHttpEphone: TRtcHttpClient;
     RtcEphoneModule: TRtcClientModule;
     EphoneQueryResult: TRtcResult;
+    MTable: TClientDataSet;
     VMtable: TClientDataSet;
     HTable: TClientDataSet;
     OpenPictureDialog1: TOpenPictureDialog;
@@ -119,8 +124,10 @@ type
     FCMClient: TRtcHttpClient;
     AdvMenuOfficeStyler: TAdvMenuOfficeStyler;
     imlMain: TImageList;
+    EphoneResult: TRtcResult;
     EphoneTable: TClientDataSet;
     EphoneDS: TDataSource;
+    CheckMailResult: TRtcResult;
     Image1: TImage;
   private
     { Private declarations }
