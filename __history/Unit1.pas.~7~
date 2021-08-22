@@ -81,7 +81,9 @@ type
     BDDPiror2: TAdvGlowButton;
     BHostoryToday2: TAdvGlowButton;
     BDDNext2: TAdvGlowButton;
+    Ephone_DataType: TComboBox;
     BVisibleDetail: TAdvGlowButton;
+    wwDBGrid2: TwwDBGrid;
     EPhone_DetailPanel: TPanel;
     DB_EP_CUSNAME: TDBText;
     DB_EP_QB: TDBText;
@@ -99,6 +101,26 @@ type
     lblStatusPanel: TPanel;
     lblStatus: TLabel;
     lblStatusLeft: TPanel;
+    Panel2: TPanel;
+    btnViewDesktop: TSpeedButton;
+    btnFileTransfer: TSpeedButton;
+    btnChat: TSpeedButton;
+    sStatus2: TShape;
+    sStatus1: TShape;
+    btnShowMyDesktop: TSpeedButton;
+    btnCloseMyDesktop: TSpeedButton;
+    Panel1: TPanel;
+    Label1: TLabel;
+    Label9: TLabel;
+    xKeyMapping: TCheckBox;
+    xSmoothView: TCheckBox;
+    xForceCursor: TCheckBox;
+    cbControlMode: TComboBox;
+    xHideWallpaper: TCheckBox;
+    xReduceColors: TCheckBox;
+    xWithExplorer: TCheckBox;
+    eUsers: TListBox;
+    eConnected: TListView;
     PClient: TRtcHttpPortalClient;
     PFileTrans: TRtcPFileTransfer;
     PChat: TRtcPChat;
@@ -107,6 +129,7 @@ type
     BroadCommand: TRtcPCustomCommand;
     MDS: TDataSource;
     Timer1: TTimer;
+    RtcHttpClient: TRtcHttpClient;
     RoomState: TRtcResult;
     RtcClientModule: TRtcClientModule;
     Token_Result: TRtcResult;
@@ -127,8 +150,8 @@ type
     EphoneResult: TRtcResult;
     EphoneTable: TClientDataSet;
     EphoneDS: TDataSource;
+    Ephone_ImageList: TImageList;
     CheckMailResult: TRtcResult;
-    Image1: TImage;
   private
     { Private declarations }
   public
