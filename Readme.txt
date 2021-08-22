@@ -1,5 +1,3 @@
-第一周- git 版本控制環境建置
-
 紀錄工作歷程
 
 git使用
@@ -51,19 +49,18 @@ https://www.youtube.com/watch?v=PNEM7CH3ZAg&list=PLYrA-SsMvTPOZeB6DHvB0ewl3miMf-
 .gitignore 編輯
 線上產生
 https://www.toptal.com/developers/gitignore
-說明
-https://git-scm.com/docs/gitignore
-
-!fileA //為例外
-
-github 發PR須同意
-在你的branch裡面新增一個資料夾.github以及在.github資料夾裡面新增一個檔案CODEOWNERS，
-* Email帳號
-
 
 
 GUI管理工具
 https://www.sourcetreeapp.com/
+
+
+3333
+
+66666
+
+
+
 
 
 
