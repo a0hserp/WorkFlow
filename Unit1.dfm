@@ -37,4 +37,19 @@ object Form1: TForm1
     Caption = 'Panel2'
     TabOrder = 2
   end
+  object Panel3: TPanel
+    Left = 400
+    Top = 72
+    Width = 185
+    Height = 41
+    Caption = 'Panel3'
+    TabOrder = 3
+  end
+  object ProgressBar1: TProgressBar
+    Left = 352
+    Top = 192
+    Width = 150
+    Height = 17
+    TabOrder = 4
+  end
 end
