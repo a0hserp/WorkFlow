@@ -14,8 +14,8 @@ object Form1: TForm1
   PixelsPerInch = 96
   TextHeight = 13
   object Image1: TImage
-    Left = 232
-    Top = 32
+    Left = 104
+    Top = 176
     Width = 105
     Height = 105
     Picture.Data = {
