@@ -1,6 +1,6 @@
 set LESSCHARSET=utf-8
 git add *.dfm
-git commit -m 'è¦†è“‹ç•«é¢æª”'
+git commit -m 'ÂĞ»\µe­±ÀÉ'
 git push origin dev
 
 git add .
