@@ -10,6 +10,7 @@ uses
 type
   TForm1 = class(TForm)
     ListBox1: TListBox;
+    Image1: TImage;
   private
     { Private declarations }
   public
