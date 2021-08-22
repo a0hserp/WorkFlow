@@ -8,7 +8,11 @@ uses
 
 type
   TForm1 = class(TForm)
-    ListBox1: TListBox;
+    Panel1: TPanel;
+    Button1: TButton;
+    Panel2: TPanel;
+    Panel3: TPanel;
+    ProgressBar1: TProgressBar;
   private
     { Private declarations }
   public
