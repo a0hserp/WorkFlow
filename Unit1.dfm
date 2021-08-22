@@ -977,10 +977,9 @@ object Form1: TForm1
           Anchors = [akLeft, akTop, akBottom]
           BevelOuter = bvNone
           TabOrder = 0
-          ExplicitHeight = 387
           object myDesktopPanel: TPanel
             Left = 0
-            Top = 310
+            Top = 207
             Width = 157
             Height = 77
             Align = alBottom
@@ -991,7 +990,7 @@ object Form1: TForm1
             Left = 0
             Top = 0
             Width = 157
-            Height = 310
+            Height = 207
             Align = alClient
             BevelOuter = bvNone
             TabOrder = 1
@@ -1050,31 +1049,41 @@ object Form1: TForm1
                 ParentFont = False
                 Rounded = True
                 TabOrder = 0
-                Appearance.BorderColorHot = clSilver
-                Appearance.BorderColorCheckedHot = clSilver
-                Appearance.BorderColorDown = clSilver
-                Appearance.BorderColorChecked = clSilver
+                Appearance.BorderColor = 11382963
+                Appearance.BorderColorHot = 11565130
+                Appearance.BorderColorCheckedHot = 11565130
+                Appearance.BorderColorDown = 11565130
+                Appearance.BorderColorChecked = 13744549
+                Appearance.BorderColorDisabled = 13948116
                 Appearance.Color = clWhite
                 Appearance.ColorTo = clWhite
-                Appearance.ColorChecked = 15438437
-                Appearance.ColorCheckedTo = 15438437
-                Appearance.ColorDisabled = 15921906
-                Appearance.ColorDisabledTo = 15921906
-                Appearance.ColorDown = 15438437
-                Appearance.ColorDownTo = 15438437
-                Appearance.ColorHot = clWhite
-                Appearance.ColorHotTo = clWhite
+                Appearance.ColorChecked = 13744549
+                Appearance.ColorCheckedTo = 13744549
+                Appearance.ColorDisabled = clWhite
+                Appearance.ColorDisabledTo = clNone
+                Appearance.ColorDown = 11565130
+                Appearance.ColorDownTo = 11565130
+                Appearance.ColorHot = 16444643
+                Appearance.ColorHotTo = 16444643
                 Appearance.ColorMirror = clWhite
                 Appearance.ColorMirrorTo = clWhite
-                Appearance.ColorMirrorHot = clWhite
-                Appearance.ColorMirrorHotTo = clWhite
-                Appearance.ColorMirrorDown = 15438437
-                Appearance.ColorMirrorDownTo = 15438437
-                Appearance.ColorMirrorChecked = 15438437
-                Appearance.ColorMirrorCheckedTo = 15438437
-                Appearance.ColorMirrorDisabled = 11974326
-                Appearance.ColorMirrorDisabledTo = 15921906
-                Appearance.TextColorChecked = clWhite
+                Appearance.ColorMirrorHot = 16444643
+                Appearance.ColorMirrorHotTo = 16444643
+                Appearance.ColorMirrorDown = 11565130
+                Appearance.ColorMirrorDownTo = 11565130
+                Appearance.ColorMirrorChecked = 13744549
+                Appearance.ColorMirrorCheckedTo = 13744549
+                Appearance.ColorMirrorDisabled = clWhite
+                Appearance.ColorMirrorDisabledTo = clNone
+                Appearance.GradientHot = ggVertical
+                Appearance.GradientMirrorHot = ggVertical
+                Appearance.GradientDown = ggVertical
+                Appearance.GradientMirrorDown = ggVertical
+                Appearance.GradientChecked = ggVertical
+                Appearance.TextColorChecked = 3750459
+                Appearance.TextColorDown = 2303013
+                Appearance.TextColorHot = 2303013
+                Appearance.TextColorDisabled = 13948116
                 GroupIndex = 11
                 Style = bsCheck
               end
@@ -1097,31 +1106,41 @@ object Form1: TForm1
                 ParentFont = False
                 Rounded = True
                 TabOrder = 1
-                Appearance.BorderColorHot = clSilver
-                Appearance.BorderColorCheckedHot = clSilver
-                Appearance.BorderColorDown = clSilver
-                Appearance.BorderColorChecked = clSilver
+                Appearance.BorderColor = 11382963
+                Appearance.BorderColorHot = 11565130
+                Appearance.BorderColorCheckedHot = 11565130
+                Appearance.BorderColorDown = 11565130
+                Appearance.BorderColorChecked = 13744549
+                Appearance.BorderColorDisabled = 13948116
                 Appearance.Color = clWhite
                 Appearance.ColorTo = clWhite
-                Appearance.ColorChecked = 15438437
-                Appearance.ColorCheckedTo = 15438437
-                Appearance.ColorDisabled = 15921906
-                Appearance.ColorDisabledTo = 15921906
-                Appearance.ColorDown = 15438437
-                Appearance.ColorDownTo = 15438437
-                Appearance.ColorHot = clWhite
-                Appearance.ColorHotTo = clWhite
+                Appearance.ColorChecked = 13744549
+                Appearance.ColorCheckedTo = 13744549
+                Appearance.ColorDisabled = clWhite
+                Appearance.ColorDisabledTo = clNone
+                Appearance.ColorDown = 11565130
+                Appearance.ColorDownTo = 11565130
+                Appearance.ColorHot = 16444643
+                Appearance.ColorHotTo = 16444643
                 Appearance.ColorMirror = clWhite
                 Appearance.ColorMirrorTo = clWhite
-                Appearance.ColorMirrorHot = clWhite
-                Appearance.ColorMirrorHotTo = clWhite
-                Appearance.ColorMirrorDown = 15438437
-                Appearance.ColorMirrorDownTo = 15438437
-                Appearance.ColorMirrorChecked = 15438437
-                Appearance.ColorMirrorCheckedTo = 15438437
-                Appearance.ColorMirrorDisabled = 11974326
-                Appearance.ColorMirrorDisabledTo = 15921906
-                Appearance.TextColorChecked = clWhite
+                Appearance.ColorMirrorHot = 16444643
+                Appearance.ColorMirrorHotTo = 16444643
+                Appearance.ColorMirrorDown = 11565130
+                Appearance.ColorMirrorDownTo = 11565130
+                Appearance.ColorMirrorChecked = 13744549
+                Appearance.ColorMirrorCheckedTo = 13744549
+                Appearance.ColorMirrorDisabled = clWhite
+                Appearance.ColorMirrorDisabledTo = clNone
+                Appearance.GradientHot = ggVertical
+                Appearance.GradientMirrorHot = ggVertical
+                Appearance.GradientDown = ggVertical
+                Appearance.GradientMirrorDown = ggVertical
+                Appearance.GradientChecked = ggVertical
+                Appearance.TextColorChecked = 3750459
+                Appearance.TextColorDown = 2303013
+                Appearance.TextColorHot = 2303013
+                Appearance.TextColorDisabled = 13948116
                 GroupIndex = 11
                 Style = bsCheck
               end
@@ -1144,31 +1163,41 @@ object Form1: TForm1
                 ParentFont = False
                 Rounded = True
                 TabOrder = 2
-                Appearance.BorderColorHot = clSilver
-                Appearance.BorderColorCheckedHot = clSilver
-                Appearance.BorderColorDown = clSilver
-                Appearance.BorderColorChecked = clSilver
+                Appearance.BorderColor = 11382963
+                Appearance.BorderColorHot = 11565130
+                Appearance.BorderColorCheckedHot = 11565130
+                Appearance.BorderColorDown = 11565130
+                Appearance.BorderColorChecked = 13744549
+                Appearance.BorderColorDisabled = 13948116
                 Appearance.Color = clWhite
                 Appearance.ColorTo = clWhite
-                Appearance.ColorChecked = 15438437
-                Appearance.ColorCheckedTo = 15438437
-                Appearance.ColorDisabled = 15921906
-                Appearance.ColorDisabledTo = 15921906
-                Appearance.ColorDown = 15438437
-                Appearance.ColorDownTo = 15438437
-                Appearance.ColorHot = clWhite
-                Appearance.ColorHotTo = clWhite
+                Appearance.ColorChecked = 13744549
+                Appearance.ColorCheckedTo = 13744549
+                Appearance.ColorDisabled = clWhite
+                Appearance.ColorDisabledTo = clNone
+                Appearance.ColorDown = 11565130
+                Appearance.ColorDownTo = 11565130
+                Appearance.ColorHot = 16444643
+                Appearance.ColorHotTo = 16444643
                 Appearance.ColorMirror = clWhite
                 Appearance.ColorMirrorTo = clWhite
-                Appearance.ColorMirrorHot = clWhite
-                Appearance.ColorMirrorHotTo = clWhite
-                Appearance.ColorMirrorDown = 15438437
-                Appearance.ColorMirrorDownTo = 15438437
-                Appearance.ColorMirrorChecked = 15438437
-                Appearance.ColorMirrorCheckedTo = 15438437
-                Appearance.ColorMirrorDisabled = 11974326
-                Appearance.ColorMirrorDisabledTo = 15921906
-                Appearance.TextColorChecked = clWhite
+                Appearance.ColorMirrorHot = 16444643
+                Appearance.ColorMirrorHotTo = 16444643
+                Appearance.ColorMirrorDown = 11565130
+                Appearance.ColorMirrorDownTo = 11565130
+                Appearance.ColorMirrorChecked = 13744549
+                Appearance.ColorMirrorCheckedTo = 13744549
+                Appearance.ColorMirrorDisabled = clWhite
+                Appearance.ColorMirrorDisabledTo = clNone
+                Appearance.GradientHot = ggVertical
+                Appearance.GradientMirrorHot = ggVertical
+                Appearance.GradientDown = ggVertical
+                Appearance.GradientMirrorDown = ggVertical
+                Appearance.GradientChecked = ggVertical
+                Appearance.TextColorChecked = 3750459
+                Appearance.TextColorDown = 2303013
+                Appearance.TextColorHot = 2303013
+                Appearance.TextColorDisabled = 13948116
                 GroupIndex = 11
                 Style = bsCheck
               end
@@ -1191,31 +1220,41 @@ object Form1: TForm1
                 ParentFont = False
                 Rounded = True
                 TabOrder = 3
-                Appearance.BorderColorHot = clSilver
-                Appearance.BorderColorCheckedHot = clSilver
-                Appearance.BorderColorDown = clSilver
-                Appearance.BorderColorChecked = clSilver
+                Appearance.BorderColor = 11382963
+                Appearance.BorderColorHot = 11565130
+                Appearance.BorderColorCheckedHot = 11565130
+                Appearance.BorderColorDown = 11565130
+                Appearance.BorderColorChecked = 13744549
+                Appearance.BorderColorDisabled = 13948116
                 Appearance.Color = clWhite
                 Appearance.ColorTo = clWhite
-                Appearance.ColorChecked = 15438437
-                Appearance.ColorCheckedTo = 15438437
-                Appearance.ColorDisabled = 15921906
-                Appearance.ColorDisabledTo = 15921906
-                Appearance.ColorDown = 15438437
-                Appearance.ColorDownTo = 15438437
-                Appearance.ColorHot = clWhite
-                Appearance.ColorHotTo = clWhite
+                Appearance.ColorChecked = 13744549
+                Appearance.ColorCheckedTo = 13744549
+                Appearance.ColorDisabled = clWhite
+                Appearance.ColorDisabledTo = clNone
+                Appearance.ColorDown = 11565130
+                Appearance.ColorDownTo = 11565130
+                Appearance.ColorHot = 16444643
+                Appearance.ColorHotTo = 16444643
                 Appearance.ColorMirror = clWhite
                 Appearance.ColorMirrorTo = clWhite
-                Appearance.ColorMirrorHot = clWhite
-                Appearance.ColorMirrorHotTo = clWhite
-                Appearance.ColorMirrorDown = 15438437
-                Appearance.ColorMirrorDownTo = 15438437
-                Appearance.ColorMirrorChecked = 15438437
-                Appearance.ColorMirrorCheckedTo = 15438437
-                Appearance.ColorMirrorDisabled = 11974326
-                Appearance.ColorMirrorDisabledTo = 15921906
-                Appearance.TextColorChecked = clWhite
+                Appearance.ColorMirrorHot = 16444643
+                Appearance.ColorMirrorHotTo = 16444643
+                Appearance.ColorMirrorDown = 11565130
+                Appearance.ColorMirrorDownTo = 11565130
+                Appearance.ColorMirrorChecked = 13744549
+                Appearance.ColorMirrorCheckedTo = 13744549
+                Appearance.ColorMirrorDisabled = clWhite
+                Appearance.ColorMirrorDisabledTo = clNone
+                Appearance.GradientHot = ggVertical
+                Appearance.GradientMirrorHot = ggVertical
+                Appearance.GradientDown = ggVertical
+                Appearance.GradientMirrorDown = ggVertical
+                Appearance.GradientChecked = ggVertical
+                Appearance.TextColorChecked = 3750459
+                Appearance.TextColorDown = 2303013
+                Appearance.TextColorHot = 2303013
+                Appearance.TextColorDisabled = 13948116
                 GroupIndex = 11
                 Style = bsCheck
               end
@@ -1238,31 +1277,41 @@ object Form1: TForm1
                 ParentFont = False
                 Rounded = True
                 TabOrder = 4
-                Appearance.BorderColorHot = clSilver
-                Appearance.BorderColorCheckedHot = clSilver
-                Appearance.BorderColorDown = clSilver
-                Appearance.BorderColorChecked = clSilver
+                Appearance.BorderColor = 11382963
+                Appearance.BorderColorHot = 11565130
+                Appearance.BorderColorCheckedHot = 11565130
+                Appearance.BorderColorDown = 11565130
+                Appearance.BorderColorChecked = 13744549
+                Appearance.BorderColorDisabled = 13948116
                 Appearance.Color = clWhite
                 Appearance.ColorTo = clWhite
-                Appearance.ColorChecked = 15438437
-                Appearance.ColorCheckedTo = 15438437
-                Appearance.ColorDisabled = 15921906
-                Appearance.ColorDisabledTo = 15921906
-                Appearance.ColorDown = 15438437
-                Appearance.ColorDownTo = 15438437
-                Appearance.ColorHot = clWhite
-                Appearance.ColorHotTo = clWhite
+                Appearance.ColorChecked = 13744549
+                Appearance.ColorCheckedTo = 13744549
+                Appearance.ColorDisabled = clWhite
+                Appearance.ColorDisabledTo = clNone
+                Appearance.ColorDown = 11565130
+                Appearance.ColorDownTo = 11565130
+                Appearance.ColorHot = 16444643
+                Appearance.ColorHotTo = 16444643
                 Appearance.ColorMirror = clWhite
                 Appearance.ColorMirrorTo = clWhite
-                Appearance.ColorMirrorHot = clWhite
-                Appearance.ColorMirrorHotTo = clWhite
-                Appearance.ColorMirrorDown = 15438437
-                Appearance.ColorMirrorDownTo = 15438437
-                Appearance.ColorMirrorChecked = 15438437
-                Appearance.ColorMirrorCheckedTo = 15438437
-                Appearance.ColorMirrorDisabled = 11974326
-                Appearance.ColorMirrorDisabledTo = 15921906
-                Appearance.TextColorChecked = clWhite
+                Appearance.ColorMirrorHot = 16444643
+                Appearance.ColorMirrorHotTo = 16444643
+                Appearance.ColorMirrorDown = 11565130
+                Appearance.ColorMirrorDownTo = 11565130
+                Appearance.ColorMirrorChecked = 13744549
+                Appearance.ColorMirrorCheckedTo = 13744549
+                Appearance.ColorMirrorDisabled = clWhite
+                Appearance.ColorMirrorDisabledTo = clNone
+                Appearance.GradientHot = ggVertical
+                Appearance.GradientMirrorHot = ggVertical
+                Appearance.GradientDown = ggVertical
+                Appearance.GradientMirrorDown = ggVertical
+                Appearance.GradientChecked = ggVertical
+                Appearance.TextColorChecked = 3750459
+                Appearance.TextColorDown = 2303013
+                Appearance.TextColorHot = 2303013
+                Appearance.TextColorDisabled = 13948116
                 GroupIndex = 11
                 Style = bsCheck
               end
@@ -1285,31 +1334,41 @@ object Form1: TForm1
                 ParentFont = False
                 Rounded = True
                 TabOrder = 5
-                Appearance.BorderColorHot = clSilver
-                Appearance.BorderColorCheckedHot = clSilver
-                Appearance.BorderColorDown = clSilver
-                Appearance.BorderColorChecked = clSilver
+                Appearance.BorderColor = 11382963
+                Appearance.BorderColorHot = 11565130
+                Appearance.BorderColorCheckedHot = 11565130
+                Appearance.BorderColorDown = 11565130
+                Appearance.BorderColorChecked = 13744549
+                Appearance.BorderColorDisabled = 13948116
                 Appearance.Color = clWhite
                 Appearance.ColorTo = clWhite
-                Appearance.ColorChecked = 15438437
-                Appearance.ColorCheckedTo = 15438437
-                Appearance.ColorDisabled = 15921906
-                Appearance.ColorDisabledTo = 15921906
-                Appearance.ColorDown = 15438437
-                Appearance.ColorDownTo = 15438437
-                Appearance.ColorHot = clWhite
-                Appearance.ColorHotTo = clWhite
+                Appearance.ColorChecked = 13744549
+                Appearance.ColorCheckedTo = 13744549
+                Appearance.ColorDisabled = clWhite
+                Appearance.ColorDisabledTo = clNone
+                Appearance.ColorDown = 11565130
+                Appearance.ColorDownTo = 11565130
+                Appearance.ColorHot = 16444643
+                Appearance.ColorHotTo = 16444643
                 Appearance.ColorMirror = clWhite
                 Appearance.ColorMirrorTo = clWhite
-                Appearance.ColorMirrorHot = clWhite
-                Appearance.ColorMirrorHotTo = clWhite
-                Appearance.ColorMirrorDown = 15438437
-                Appearance.ColorMirrorDownTo = 15438437
-                Appearance.ColorMirrorChecked = 15438437
-                Appearance.ColorMirrorCheckedTo = 15438437
-                Appearance.ColorMirrorDisabled = 11974326
-                Appearance.ColorMirrorDisabledTo = 15921906
-                Appearance.TextColorChecked = clWhite
+                Appearance.ColorMirrorHot = 16444643
+                Appearance.ColorMirrorHotTo = 16444643
+                Appearance.ColorMirrorDown = 11565130
+                Appearance.ColorMirrorDownTo = 11565130
+                Appearance.ColorMirrorChecked = 13744549
+                Appearance.ColorMirrorCheckedTo = 13744549
+                Appearance.ColorMirrorDisabled = clWhite
+                Appearance.ColorMirrorDisabledTo = clNone
+                Appearance.GradientHot = ggVertical
+                Appearance.GradientMirrorHot = ggVertical
+                Appearance.GradientDown = ggVertical
+                Appearance.GradientMirrorDown = ggVertical
+                Appearance.GradientChecked = ggVertical
+                Appearance.TextColorChecked = 3750459
+                Appearance.TextColorDown = 2303013
+                Appearance.TextColorHot = 2303013
+                Appearance.TextColorDisabled = 13948116
                 GroupIndex = 11
                 Style = bsCheck
               end
@@ -1320,7 +1379,7 @@ object Form1: TForm1
                 Width = 24
                 Height = 23
                 Font.Charset = ANSI_CHARSET
-                Font.Color = clBlack
+                Font.Color = clWindowText
                 Font.Height = -16
                 Font.Name = #26032#32048#26126#39636
                 Font.Style = [fsBold]
@@ -1355,32 +1414,42 @@ object Form1: TForm1
                 ParentShowHint = False
                 ShowHint = True
                 TabOrder = 6
-                Appearance.BorderColor = 9198383
-                Appearance.BorderColorHot = 55807
-                Appearance.BorderColorDown = 26574
-                Appearance.Color = 16316920
-                Appearance.ColorTo = 16316920
-                Appearance.ColorChecked = 33023
-                Appearance.ColorCheckedTo = 33023
-                Appearance.ColorDisabled = 15921906
-                Appearance.ColorDisabledTo = 15921906
-                Appearance.ColorDown = 6665724
-                Appearance.ColorDownTo = 10933245
-                Appearance.ColorHot = 14348030
-                Appearance.ColorHotTo = 14085118
-                Appearance.ColorMirror = 16316920
-                Appearance.ColorMirrorTo = 16316920
-                Appearance.ColorMirrorHot = 7128564
-                Appearance.ColorMirrorHotTo = 11589887
-                Appearance.ColorMirrorDown = 5351679
-                Appearance.ColorMirrorDownTo = 7846911
-                Appearance.ColorMirrorChecked = 33023
-                Appearance.ColorMirrorCheckedTo = 33023
-                Appearance.ColorMirrorDisabled = 11974326
-                Appearance.ColorMirrorDisabledTo = 15921906
+                Appearance.BorderColor = 11382963
+                Appearance.BorderColorHot = 11565130
+                Appearance.BorderColorCheckedHot = 11565130
+                Appearance.BorderColorDown = 11565130
+                Appearance.BorderColorChecked = 13744549
+                Appearance.BorderColorDisabled = 13948116
+                Appearance.Color = clWhite
+                Appearance.ColorTo = clWhite
+                Appearance.ColorChecked = 13744549
+                Appearance.ColorCheckedTo = 13744549
+                Appearance.ColorDisabled = clWhite
+                Appearance.ColorDisabledTo = clNone
+                Appearance.ColorDown = 11565130
+                Appearance.ColorDownTo = 11565130
+                Appearance.ColorHot = 16444643
+                Appearance.ColorHotTo = 16444643
+                Appearance.ColorMirror = clWhite
+                Appearance.ColorMirrorTo = clWhite
+                Appearance.ColorMirrorHot = 16444643
+                Appearance.ColorMirrorHotTo = 16444643
+                Appearance.ColorMirrorDown = 11565130
+                Appearance.ColorMirrorDownTo = 11565130
+                Appearance.ColorMirrorChecked = 13744549
+                Appearance.ColorMirrorCheckedTo = 13744549
+                Appearance.ColorMirrorDisabled = clWhite
+                Appearance.ColorMirrorDisabledTo = clNone
+                Appearance.GradientHot = ggVertical
+                Appearance.GradientMirrorHot = ggVertical
+                Appearance.GradientDown = ggVertical
+                Appearance.GradientMirrorDown = ggVertical
+                Appearance.GradientChecked = ggVertical
                 Appearance.SystemFont = False
-                Appearance.TextColorDown = clBlue
-                Appearance.TextColorHot = clTeal
+                Appearance.TextColorChecked = 3750459
+                Appearance.TextColorDown = 2303013
+                Appearance.TextColorHot = 2303013
+                Appearance.TextColorDisabled = 13948116
               end
               object BDDNext: TAdvGlowButton
                 Tag = 5
@@ -1389,7 +1458,7 @@ object Form1: TForm1
                 Width = 24
                 Height = 23
                 Font.Charset = ANSI_CHARSET
-                Font.Color = clBlack
+                Font.Color = clWindowText
                 Font.Height = -16
                 Font.Name = #26032#32048#26126#39636
                 Font.Style = [fsBold]
@@ -1424,32 +1493,42 @@ object Form1: TForm1
                 ParentShowHint = False
                 ShowHint = True
                 TabOrder = 7
-                Appearance.BorderColor = 9198383
-                Appearance.BorderColorHot = 55807
-                Appearance.BorderColorDown = 26574
-                Appearance.Color = 16316920
-                Appearance.ColorTo = 16316920
-                Appearance.ColorChecked = 33023
-                Appearance.ColorCheckedTo = 33023
-                Appearance.ColorDisabled = 15921906
-                Appearance.ColorDisabledTo = 15921906
-                Appearance.ColorDown = 6665724
-                Appearance.ColorDownTo = 10933245
-                Appearance.ColorHot = 14348030
-                Appearance.ColorHotTo = 14085118
-                Appearance.ColorMirror = 16316920
-                Appearance.ColorMirrorTo = 16316920
-                Appearance.ColorMirrorHot = 7128564
-                Appearance.ColorMirrorHotTo = 11589887
-                Appearance.ColorMirrorDown = 5351679
-                Appearance.ColorMirrorDownTo = 7846911
-                Appearance.ColorMirrorChecked = 33023
-                Appearance.ColorMirrorCheckedTo = 33023
-                Appearance.ColorMirrorDisabled = 11974326
-                Appearance.ColorMirrorDisabledTo = 15921906
+                Appearance.BorderColor = 11382963
+                Appearance.BorderColorHot = 11565130
+                Appearance.BorderColorCheckedHot = 11565130
+                Appearance.BorderColorDown = 11565130
+                Appearance.BorderColorChecked = 13744549
+                Appearance.BorderColorDisabled = 13948116
+                Appearance.Color = clWhite
+                Appearance.ColorTo = clWhite
+                Appearance.ColorChecked = 13744549
+                Appearance.ColorCheckedTo = 13744549
+                Appearance.ColorDisabled = clWhite
+                Appearance.ColorDisabledTo = clNone
+                Appearance.ColorDown = 11565130
+                Appearance.ColorDownTo = 11565130
+                Appearance.ColorHot = 16444643
+                Appearance.ColorHotTo = 16444643
+                Appearance.ColorMirror = clWhite
+                Appearance.ColorMirrorTo = clWhite
+                Appearance.ColorMirrorHot = 16444643
+                Appearance.ColorMirrorHotTo = 16444643
+                Appearance.ColorMirrorDown = 11565130
+                Appearance.ColorMirrorDownTo = 11565130
+                Appearance.ColorMirrorChecked = 13744549
+                Appearance.ColorMirrorCheckedTo = 13744549
+                Appearance.ColorMirrorDisabled = clWhite
+                Appearance.ColorMirrorDisabledTo = clNone
+                Appearance.GradientHot = ggVertical
+                Appearance.GradientMirrorHot = ggVertical
+                Appearance.GradientDown = ggVertical
+                Appearance.GradientMirrorDown = ggVertical
+                Appearance.GradientChecked = ggVertical
                 Appearance.SystemFont = False
-                Appearance.TextColorDown = clBlue
-                Appearance.TextColorHot = clTeal
+                Appearance.TextColorChecked = 3750459
+                Appearance.TextColorDown = 2303013
+                Appearance.TextColorHot = 2303013
+                Appearance.TextColorDisabled = 13948116
               end
               object BHostoryToday: TAdvGlowButton
                 Tag = 5
@@ -1459,7 +1538,7 @@ object Form1: TForm1
                 Height = 23
                 Caption = '2016/01/01'
                 Font.Charset = ANSI_CHARSET
-                Font.Color = clBlack
+                Font.Color = clWindowText
                 Font.Height = -12
                 Font.Name = #26032#32048#26126#39636
                 Font.Style = []
@@ -1475,32 +1554,42 @@ object Form1: TForm1
                 ParentShowHint = False
                 ShowHint = True
                 TabOrder = 8
-                Appearance.BorderColor = 9198383
-                Appearance.BorderColorHot = 55807
-                Appearance.BorderColorDown = 26574
-                Appearance.Color = 16316920
-                Appearance.ColorTo = 16316920
-                Appearance.ColorChecked = 33023
-                Appearance.ColorCheckedTo = 33023
-                Appearance.ColorDisabled = 15921906
-                Appearance.ColorDisabledTo = 15921906
-                Appearance.ColorDown = 6665724
-                Appearance.ColorDownTo = 10933245
-                Appearance.ColorHot = 14348030
-                Appearance.ColorHotTo = 14085118
-                Appearance.ColorMirror = 16316920
-                Appearance.ColorMirrorTo = 16316920
-                Appearance.ColorMirrorHot = 7128564
-                Appearance.ColorMirrorHotTo = 11589887
-                Appearance.ColorMirrorDown = 5351679
-                Appearance.ColorMirrorDownTo = 7846911
-                Appearance.ColorMirrorChecked = 33023
-                Appearance.ColorMirrorCheckedTo = 33023
-                Appearance.ColorMirrorDisabled = 11974326
-                Appearance.ColorMirrorDisabledTo = 15921906
+                Appearance.BorderColor = 11382963
+                Appearance.BorderColorHot = 11565130
+                Appearance.BorderColorCheckedHot = 11565130
+                Appearance.BorderColorDown = 11565130
+                Appearance.BorderColorChecked = 13744549
+                Appearance.BorderColorDisabled = 13948116
+                Appearance.Color = clWhite
+                Appearance.ColorTo = clWhite
+                Appearance.ColorChecked = 13744549
+                Appearance.ColorCheckedTo = 13744549
+                Appearance.ColorDisabled = clWhite
+                Appearance.ColorDisabledTo = clNone
+                Appearance.ColorDown = 11565130
+                Appearance.ColorDownTo = 11565130
+                Appearance.ColorHot = 16444643
+                Appearance.ColorHotTo = 16444643
+                Appearance.ColorMirror = clWhite
+                Appearance.ColorMirrorTo = clWhite
+                Appearance.ColorMirrorHot = 16444643
+                Appearance.ColorMirrorHotTo = 16444643
+                Appearance.ColorMirrorDown = 11565130
+                Appearance.ColorMirrorDownTo = 11565130
+                Appearance.ColorMirrorChecked = 13744549
+                Appearance.ColorMirrorCheckedTo = 13744549
+                Appearance.ColorMirrorDisabled = clWhite
+                Appearance.ColorMirrorDisabledTo = clNone
+                Appearance.GradientHot = ggVertical
+                Appearance.GradientMirrorHot = ggVertical
+                Appearance.GradientDown = ggVertical
+                Appearance.GradientMirrorDown = ggVertical
+                Appearance.GradientChecked = ggVertical
                 Appearance.SystemFont = False
-                Appearance.TextColorDown = clBlue
-                Appearance.TextColorHot = clTeal
+                Appearance.TextColorChecked = 3750459
+                Appearance.TextColorDown = 2303013
+                Appearance.TextColorHot = 2303013
+                Appearance.TextColorDisabled = 13948116
               end
               object BwordCloudVisible: TAdvGlowButton
                 Left = 3
@@ -1521,30 +1610,41 @@ object Form1: TForm1
                 ParentFont = False
                 Rounded = True
                 TabOrder = 9
-                Appearance.BorderColorHot = clSilver
-                Appearance.BorderColorCheckedHot = clSilver
-                Appearance.BorderColorDown = clSilver
-                Appearance.BorderColorChecked = clSilver
+                Appearance.BorderColor = 11382963
+                Appearance.BorderColorHot = 11565130
+                Appearance.BorderColorCheckedHot = 11565130
+                Appearance.BorderColorDown = 11565130
+                Appearance.BorderColorChecked = 13744549
+                Appearance.BorderColorDisabled = 13948116
                 Appearance.Color = clWhite
                 Appearance.ColorTo = clWhite
-                Appearance.ColorChecked = 14935011
-                Appearance.ColorCheckedTo = 14935011
-                Appearance.ColorDisabled = 15921906
-                Appearance.ColorDisabledTo = 15921906
-                Appearance.ColorDown = 14935011
-                Appearance.ColorDownTo = 14935011
-                Appearance.ColorHot = clWhite
-                Appearance.ColorHotTo = clWhite
+                Appearance.ColorChecked = 13744549
+                Appearance.ColorCheckedTo = 13744549
+                Appearance.ColorDisabled = clWhite
+                Appearance.ColorDisabledTo = clNone
+                Appearance.ColorDown = 11565130
+                Appearance.ColorDownTo = 11565130
+                Appearance.ColorHot = 16444643
+                Appearance.ColorHotTo = 16444643
                 Appearance.ColorMirror = clWhite
                 Appearance.ColorMirrorTo = clWhite
-                Appearance.ColorMirrorHot = clWhite
-                Appearance.ColorMirrorHotTo = clWhite
-                Appearance.ColorMirrorDown = 14935011
-                Appearance.ColorMirrorDownTo = 14935011
-                Appearance.ColorMirrorChecked = 14935011
-                Appearance.ColorMirrorCheckedTo = 14935011
-                Appearance.ColorMirrorDisabled = 11974326
-                Appearance.ColorMirrorDisabledTo = 15921906
+                Appearance.ColorMirrorHot = 16444643
+                Appearance.ColorMirrorHotTo = 16444643
+                Appearance.ColorMirrorDown = 11565130
+                Appearance.ColorMirrorDownTo = 11565130
+                Appearance.ColorMirrorChecked = 13744549
+                Appearance.ColorMirrorCheckedTo = 13744549
+                Appearance.ColorMirrorDisabled = clWhite
+                Appearance.ColorMirrorDisabledTo = clNone
+                Appearance.GradientHot = ggVertical
+                Appearance.GradientMirrorHot = ggVertical
+                Appearance.GradientDown = ggVertical
+                Appearance.GradientMirrorDown = ggVertical
+                Appearance.GradientChecked = ggVertical
+                Appearance.TextColorChecked = 3750459
+                Appearance.TextColorDown = 2303013
+                Appearance.TextColorHot = 2303013
+                Appearance.TextColorDisabled = 13948116
                 GroupIndex = 11
                 Style = bsCheck
               end
@@ -1556,7 +1656,7 @@ object Form1: TForm1
                 Height = 23
                 Caption = #26178
                 Font.Charset = ANSI_CHARSET
-                Font.Color = clBlack
+                Font.Color = clWindowText
                 Font.Height = -13
                 Font.Name = #26032#32048#26126#39636
                 Font.Style = []
@@ -1572,32 +1672,42 @@ object Form1: TForm1
                 ParentShowHint = False
                 ShowHint = True
                 TabOrder = 10
-                Appearance.BorderColor = 9198383
-                Appearance.BorderColorHot = 55807
-                Appearance.BorderColorDown = 26574
-                Appearance.Color = 16316920
-                Appearance.ColorTo = 16316920
-                Appearance.ColorChecked = 33023
-                Appearance.ColorCheckedTo = 33023
-                Appearance.ColorDisabled = 15921906
-                Appearance.ColorDisabledTo = 15921906
-                Appearance.ColorDown = 6665724
-                Appearance.ColorDownTo = 10933245
-                Appearance.ColorHot = 14348030
-                Appearance.ColorHotTo = 14085118
-                Appearance.ColorMirror = 16316920
-                Appearance.ColorMirrorTo = 16316920
-                Appearance.ColorMirrorHot = 7128564
-                Appearance.ColorMirrorHotTo = 11589887
-                Appearance.ColorMirrorDown = 5351679
-                Appearance.ColorMirrorDownTo = 7846911
-                Appearance.ColorMirrorChecked = 33023
-                Appearance.ColorMirrorCheckedTo = 33023
-                Appearance.ColorMirrorDisabled = 11974326
-                Appearance.ColorMirrorDisabledTo = 15921906
+                Appearance.BorderColor = 11382963
+                Appearance.BorderColorHot = 11565130
+                Appearance.BorderColorCheckedHot = 11565130
+                Appearance.BorderColorDown = 11565130
+                Appearance.BorderColorChecked = 13744549
+                Appearance.BorderColorDisabled = 13948116
+                Appearance.Color = clWhite
+                Appearance.ColorTo = clWhite
+                Appearance.ColorChecked = 13744549
+                Appearance.ColorCheckedTo = 13744549
+                Appearance.ColorDisabled = clWhite
+                Appearance.ColorDisabledTo = clNone
+                Appearance.ColorDown = 11565130
+                Appearance.ColorDownTo = 11565130
+                Appearance.ColorHot = 16444643
+                Appearance.ColorHotTo = 16444643
+                Appearance.ColorMirror = clWhite
+                Appearance.ColorMirrorTo = clWhite
+                Appearance.ColorMirrorHot = 16444643
+                Appearance.ColorMirrorHotTo = 16444643
+                Appearance.ColorMirrorDown = 11565130
+                Appearance.ColorMirrorDownTo = 11565130
+                Appearance.ColorMirrorChecked = 13744549
+                Appearance.ColorMirrorCheckedTo = 13744549
+                Appearance.ColorMirrorDisabled = clWhite
+                Appearance.ColorMirrorDisabledTo = clNone
+                Appearance.GradientHot = ggVertical
+                Appearance.GradientMirrorHot = ggVertical
+                Appearance.GradientDown = ggVertical
+                Appearance.GradientMirrorDown = ggVertical
+                Appearance.GradientChecked = ggVertical
                 Appearance.SystemFont = False
-                Appearance.TextColorDown = clBlue
-                Appearance.TextColorHot = clTeal
+                Appearance.TextColorChecked = 3750459
+                Appearance.TextColorDown = 2303013
+                Appearance.TextColorHot = 2303013
+                Appearance.TextColorDisabled = 13948116
               end
             end
             object HistoryPanel: TPanel
@@ -1692,22 +1802,21 @@ object Form1: TForm1
             Align = alClient
             BevelOuter = bvNone
             TabOrder = 1
-            ExplicitWidth = 694
-            ExplicitHeight = 410
             object Splitter1: TSplitter
-              Left = 505
+              Left = 350
               Top = 0
               Width = 4
-              Height = 410
+              Height = 307
               Align = alRight
               ExplicitLeft = 488
               ExplicitTop = 4
+              ExplicitHeight = 410
             end
             object DBGrid1: TDBGrid
               Left = 0
               Top = 0
-              Width = 505
-              Height = 410
+              Width = 350
+              Height = 307
               Align = alClient
               DataSource = MDS
               Font.Charset = ANSI_CHARSET
@@ -1789,17 +1898,17 @@ object Form1: TForm1
                 end>
             end
             object eHVUsersPanel: TPanel
-              Left = 509
+              Left = 354
               Top = 0
               Width = 185
-              Height = 410
+              Height = 307
               Align = alRight
               TabOrder = 2
               object eHVUsers: TListBox
                 Left = 1
                 Top = 1
                 Width = 183
-                Height = 331
+                Height = 228
                 AutoComplete = False
                 Align = alClient
                 BevelKind = bkFlat
@@ -1822,7 +1931,6 @@ object Form1: TForm1
                 Align = alBottom
                 BevelOuter = bvNone
                 TabOrder = 1
-                ExplicitTop = 332
                 object BRemote: TAdvGlowButton
                   Left = 5
                   Top = 6
@@ -1842,30 +1950,41 @@ object Form1: TForm1
                   ParentFont = False
                   Rounded = True
                   TabOrder = 0
-                  Appearance.BorderColorHot = clSilver
-                  Appearance.BorderColorCheckedHot = clSilver
-                  Appearance.BorderColorDown = clSilver
-                  Appearance.BorderColorChecked = clSilver
+                  Appearance.BorderColor = 11382963
+                  Appearance.BorderColorHot = 11565130
+                  Appearance.BorderColorCheckedHot = 11565130
+                  Appearance.BorderColorDown = 11565130
+                  Appearance.BorderColorChecked = 13744549
+                  Appearance.BorderColorDisabled = 13948116
                   Appearance.Color = clWhite
                   Appearance.ColorTo = clWhite
-                  Appearance.ColorChecked = 14935011
-                  Appearance.ColorCheckedTo = 14935011
-                  Appearance.ColorDisabled = 15921906
-                  Appearance.ColorDisabledTo = 15921906
-                  Appearance.ColorDown = 14935011
-                  Appearance.ColorDownTo = 14935011
-                  Appearance.ColorHot = clWhite
-                  Appearance.ColorHotTo = clWhite
+                  Appearance.ColorChecked = 13744549
+                  Appearance.ColorCheckedTo = 13744549
+                  Appearance.ColorDisabled = clWhite
+                  Appearance.ColorDisabledTo = clNone
+                  Appearance.ColorDown = 11565130
+                  Appearance.ColorDownTo = 11565130
+                  Appearance.ColorHot = 16444643
+                  Appearance.ColorHotTo = 16444643
                   Appearance.ColorMirror = clWhite
                   Appearance.ColorMirrorTo = clWhite
-                  Appearance.ColorMirrorHot = clWhite
-                  Appearance.ColorMirrorHotTo = clWhite
-                  Appearance.ColorMirrorDown = 14935011
-                  Appearance.ColorMirrorDownTo = 14935011
-                  Appearance.ColorMirrorChecked = 14935011
-                  Appearance.ColorMirrorCheckedTo = 14935011
-                  Appearance.ColorMirrorDisabled = 11974326
-                  Appearance.ColorMirrorDisabledTo = 15921906
+                  Appearance.ColorMirrorHot = 16444643
+                  Appearance.ColorMirrorHotTo = 16444643
+                  Appearance.ColorMirrorDown = 11565130
+                  Appearance.ColorMirrorDownTo = 11565130
+                  Appearance.ColorMirrorChecked = 13744549
+                  Appearance.ColorMirrorCheckedTo = 13744549
+                  Appearance.ColorMirrorDisabled = clWhite
+                  Appearance.ColorMirrorDisabledTo = clNone
+                  Appearance.GradientHot = ggVertical
+                  Appearance.GradientMirrorHot = ggVertical
+                  Appearance.GradientDown = ggVertical
+                  Appearance.GradientMirrorDown = ggVertical
+                  Appearance.GradientChecked = ggVertical
+                  Appearance.TextColorChecked = 3750459
+                  Appearance.TextColorDown = 2303013
+                  Appearance.TextColorHot = 2303013
+                  Appearance.TextColorDisabled = 13948116
                   GroupIndex = 11
                   Style = bsCheck
                 end
@@ -1888,30 +2007,41 @@ object Form1: TForm1
                   ParentFont = False
                   Rounded = True
                   TabOrder = 1
-                  Appearance.BorderColorHot = clSilver
-                  Appearance.BorderColorCheckedHot = clSilver
-                  Appearance.BorderColorDown = clSilver
-                  Appearance.BorderColorChecked = clSilver
+                  Appearance.BorderColor = 11382963
+                  Appearance.BorderColorHot = 11565130
+                  Appearance.BorderColorCheckedHot = 11565130
+                  Appearance.BorderColorDown = 11565130
+                  Appearance.BorderColorChecked = 13744549
+                  Appearance.BorderColorDisabled = 13948116
                   Appearance.Color = clWhite
                   Appearance.ColorTo = clWhite
-                  Appearance.ColorChecked = 14935011
-                  Appearance.ColorCheckedTo = 14935011
-                  Appearance.ColorDisabled = 15921906
-                  Appearance.ColorDisabledTo = 15921906
-                  Appearance.ColorDown = 14935011
-                  Appearance.ColorDownTo = 14935011
-                  Appearance.ColorHot = clWhite
-                  Appearance.ColorHotTo = clWhite
+                  Appearance.ColorChecked = 13744549
+                  Appearance.ColorCheckedTo = 13744549
+                  Appearance.ColorDisabled = clWhite
+                  Appearance.ColorDisabledTo = clNone
+                  Appearance.ColorDown = 11565130
+                  Appearance.ColorDownTo = 11565130
+                  Appearance.ColorHot = 16444643
+                  Appearance.ColorHotTo = 16444643
                   Appearance.ColorMirror = clWhite
                   Appearance.ColorMirrorTo = clWhite
-                  Appearance.ColorMirrorHot = clWhite
-                  Appearance.ColorMirrorHotTo = clWhite
-                  Appearance.ColorMirrorDown = 14935011
-                  Appearance.ColorMirrorDownTo = 14935011
-                  Appearance.ColorMirrorChecked = 14935011
-                  Appearance.ColorMirrorCheckedTo = 14935011
-                  Appearance.ColorMirrorDisabled = 11974326
-                  Appearance.ColorMirrorDisabledTo = 15921906
+                  Appearance.ColorMirrorHot = 16444643
+                  Appearance.ColorMirrorHotTo = 16444643
+                  Appearance.ColorMirrorDown = 11565130
+                  Appearance.ColorMirrorDownTo = 11565130
+                  Appearance.ColorMirrorChecked = 13744549
+                  Appearance.ColorMirrorCheckedTo = 13744549
+                  Appearance.ColorMirrorDisabled = clWhite
+                  Appearance.ColorMirrorDisabledTo = clNone
+                  Appearance.GradientHot = ggVertical
+                  Appearance.GradientMirrorHot = ggVertical
+                  Appearance.GradientDown = ggVertical
+                  Appearance.GradientMirrorDown = ggVertical
+                  Appearance.GradientChecked = ggVertical
+                  Appearance.TextColorChecked = 3750459
+                  Appearance.TextColorDown = 2303013
+                  Appearance.TextColorHot = 2303013
+                  Appearance.TextColorDisabled = 13948116
                   GroupIndex = 11
                   Style = bsCheck
                 end
@@ -1934,30 +2064,41 @@ object Form1: TForm1
                   ParentFont = False
                   Rounded = True
                   TabOrder = 2
-                  Appearance.BorderColorHot = clSilver
-                  Appearance.BorderColorCheckedHot = clSilver
-                  Appearance.BorderColorDown = clSilver
-                  Appearance.BorderColorChecked = clSilver
+                  Appearance.BorderColor = 11382963
+                  Appearance.BorderColorHot = 11565130
+                  Appearance.BorderColorCheckedHot = 11565130
+                  Appearance.BorderColorDown = 11565130
+                  Appearance.BorderColorChecked = 13744549
+                  Appearance.BorderColorDisabled = 13948116
                   Appearance.Color = clWhite
                   Appearance.ColorTo = clWhite
-                  Appearance.ColorChecked = 14935011
-                  Appearance.ColorCheckedTo = 14935011
-                  Appearance.ColorDisabled = 15921906
-                  Appearance.ColorDisabledTo = 15921906
-                  Appearance.ColorDown = 14935011
-                  Appearance.ColorDownTo = 14935011
-                  Appearance.ColorHot = clWhite
-                  Appearance.ColorHotTo = clWhite
+                  Appearance.ColorChecked = 13744549
+                  Appearance.ColorCheckedTo = 13744549
+                  Appearance.ColorDisabled = clWhite
+                  Appearance.ColorDisabledTo = clNone
+                  Appearance.ColorDown = 11565130
+                  Appearance.ColorDownTo = 11565130
+                  Appearance.ColorHot = 16444643
+                  Appearance.ColorHotTo = 16444643
                   Appearance.ColorMirror = clWhite
                   Appearance.ColorMirrorTo = clWhite
-                  Appearance.ColorMirrorHot = clWhite
-                  Appearance.ColorMirrorHotTo = clWhite
-                  Appearance.ColorMirrorDown = 14935011
-                  Appearance.ColorMirrorDownTo = 14935011
-                  Appearance.ColorMirrorChecked = 14935011
-                  Appearance.ColorMirrorCheckedTo = 14935011
-                  Appearance.ColorMirrorDisabled = 11974326
-                  Appearance.ColorMirrorDisabledTo = 15921906
+                  Appearance.ColorMirrorHot = 16444643
+                  Appearance.ColorMirrorHotTo = 16444643
+                  Appearance.ColorMirrorDown = 11565130
+                  Appearance.ColorMirrorDownTo = 11565130
+                  Appearance.ColorMirrorChecked = 13744549
+                  Appearance.ColorMirrorCheckedTo = 13744549
+                  Appearance.ColorMirrorDisabled = clWhite
+                  Appearance.ColorMirrorDisabledTo = clNone
+                  Appearance.GradientHot = ggVertical
+                  Appearance.GradientMirrorHot = ggVertical
+                  Appearance.GradientDown = ggVertical
+                  Appearance.GradientMirrorDown = ggVertical
+                  Appearance.GradientChecked = ggVertical
+                  Appearance.TextColorChecked = 3750459
+                  Appearance.TextColorDown = 2303013
+                  Appearance.TextColorHot = 2303013
+                  Appearance.TextColorDisabled = 13948116
                   GroupIndex = 11
                   Style = bsCheck
                 end
@@ -2034,30 +2175,41 @@ object Form1: TForm1
                   ParentFont = False
                   Rounded = True
                   TabOrder = 0
-                  Appearance.BorderColorHot = clSilver
-                  Appearance.BorderColorCheckedHot = clSilver
-                  Appearance.BorderColorDown = clSilver
-                  Appearance.BorderColorChecked = clSilver
+                  Appearance.BorderColor = 11382963
+                  Appearance.BorderColorHot = 11565130
+                  Appearance.BorderColorCheckedHot = 11565130
+                  Appearance.BorderColorDown = 11565130
+                  Appearance.BorderColorChecked = 13744549
+                  Appearance.BorderColorDisabled = 13948116
                   Appearance.Color = clWhite
                   Appearance.ColorTo = clWhite
-                  Appearance.ColorChecked = 14935011
-                  Appearance.ColorCheckedTo = 14935011
-                  Appearance.ColorDisabled = 15921906
-                  Appearance.ColorDisabledTo = 15921906
-                  Appearance.ColorDown = 14935011
-                  Appearance.ColorDownTo = 14935011
-                  Appearance.ColorHot = clWhite
-                  Appearance.ColorHotTo = clWhite
+                  Appearance.ColorChecked = 13744549
+                  Appearance.ColorCheckedTo = 13744549
+                  Appearance.ColorDisabled = clWhite
+                  Appearance.ColorDisabledTo = clNone
+                  Appearance.ColorDown = 11565130
+                  Appearance.ColorDownTo = 11565130
+                  Appearance.ColorHot = 16444643
+                  Appearance.ColorHotTo = 16444643
                   Appearance.ColorMirror = clWhite
                   Appearance.ColorMirrorTo = clWhite
-                  Appearance.ColorMirrorHot = clWhite
-                  Appearance.ColorMirrorHotTo = clWhite
-                  Appearance.ColorMirrorDown = 14935011
-                  Appearance.ColorMirrorDownTo = 14935011
-                  Appearance.ColorMirrorChecked = 14935011
-                  Appearance.ColorMirrorCheckedTo = 14935011
-                  Appearance.ColorMirrorDisabled = 11974326
-                  Appearance.ColorMirrorDisabledTo = 15921906
+                  Appearance.ColorMirrorHot = 16444643
+                  Appearance.ColorMirrorHotTo = 16444643
+                  Appearance.ColorMirrorDown = 11565130
+                  Appearance.ColorMirrorDownTo = 11565130
+                  Appearance.ColorMirrorChecked = 13744549
+                  Appearance.ColorMirrorCheckedTo = 13744549
+                  Appearance.ColorMirrorDisabled = clWhite
+                  Appearance.ColorMirrorDisabledTo = clNone
+                  Appearance.GradientHot = ggVertical
+                  Appearance.GradientMirrorHot = ggVertical
+                  Appearance.GradientDown = ggVertical
+                  Appearance.GradientMirrorDown = ggVertical
+                  Appearance.GradientChecked = ggVertical
+                  Appearance.TextColorChecked = 3750459
+                  Appearance.TextColorDown = 2303013
+                  Appearance.TextColorHot = 2303013
+                  Appearance.TextColorDisabled = 13948116
                   GroupIndex = 11
                   Style = bsCheck
                 end
@@ -2080,30 +2232,41 @@ object Form1: TForm1
                   ParentFont = False
                   Rounded = True
                   TabOrder = 1
-                  Appearance.BorderColorHot = clSilver
-                  Appearance.BorderColorCheckedHot = clSilver
-                  Appearance.BorderColorDown = clSilver
-                  Appearance.BorderColorChecked = clSilver
+                  Appearance.BorderColor = 11382963
+                  Appearance.BorderColorHot = 11565130
+                  Appearance.BorderColorCheckedHot = 11565130
+                  Appearance.BorderColorDown = 11565130
+                  Appearance.BorderColorChecked = 13744549
+                  Appearance.BorderColorDisabled = 13948116
                   Appearance.Color = clWhite
                   Appearance.ColorTo = clWhite
-                  Appearance.ColorChecked = 14935011
-                  Appearance.ColorCheckedTo = 14935011
-                  Appearance.ColorDisabled = 15921906
-                  Appearance.ColorDisabledTo = 15921906
-                  Appearance.ColorDown = 14935011
-                  Appearance.ColorDownTo = 14935011
-                  Appearance.ColorHot = clWhite
-                  Appearance.ColorHotTo = clWhite
+                  Appearance.ColorChecked = 13744549
+                  Appearance.ColorCheckedTo = 13744549
+                  Appearance.ColorDisabled = clWhite
+                  Appearance.ColorDisabledTo = clNone
+                  Appearance.ColorDown = 11565130
+                  Appearance.ColorDownTo = 11565130
+                  Appearance.ColorHot = 16444643
+                  Appearance.ColorHotTo = 16444643
                   Appearance.ColorMirror = clWhite
                   Appearance.ColorMirrorTo = clWhite
-                  Appearance.ColorMirrorHot = clWhite
-                  Appearance.ColorMirrorHotTo = clWhite
-                  Appearance.ColorMirrorDown = 14935011
-                  Appearance.ColorMirrorDownTo = 14935011
-                  Appearance.ColorMirrorChecked = 14935011
-                  Appearance.ColorMirrorCheckedTo = 14935011
-                  Appearance.ColorMirrorDisabled = 11974326
-                  Appearance.ColorMirrorDisabledTo = 15921906
+                  Appearance.ColorMirrorHot = 16444643
+                  Appearance.ColorMirrorHotTo = 16444643
+                  Appearance.ColorMirrorDown = 11565130
+                  Appearance.ColorMirrorDownTo = 11565130
+                  Appearance.ColorMirrorChecked = 13744549
+                  Appearance.ColorMirrorCheckedTo = 13744549
+                  Appearance.ColorMirrorDisabled = clWhite
+                  Appearance.ColorMirrorDisabledTo = clNone
+                  Appearance.GradientHot = ggVertical
+                  Appearance.GradientMirrorHot = ggVertical
+                  Appearance.GradientDown = ggVertical
+                  Appearance.GradientMirrorDown = ggVertical
+                  Appearance.GradientChecked = ggVertical
+                  Appearance.TextColorChecked = 3750459
+                  Appearance.TextColorDown = 2303013
+                  Appearance.TextColorHot = 2303013
+                  Appearance.TextColorDisabled = 13948116
                   GroupIndex = 11
                   Style = bsCheck
                 end
@@ -2156,6 +2319,12 @@ object Form1: TForm1
             Font.Name = #24494#36575#27491#40657#39636
             Font.Style = []
             ParentFont = False
+          end
+          object Image1: TImage
+            Left = 72
+            Top = 8
+            Width = 105
+            Height = 105
           end
           object BDDPiror2: TAdvGlowButton
             Tag = 5
@@ -2376,23 +2545,6 @@ object Form1: TForm1
             Appearance.TextColorHot = 2303013
             Appearance.TextColorDisabled = 13948116
           end
-          object Ephone_DataType: TComboBox
-            Left = 573
-            Top = 9
-            Width = 97
-            Height = 26
-            AutoComplete = False
-            Style = csDropDownList
-            Anchors = [akTop, akRight]
-            ItemIndex = 0
-            TabOrder = 3
-            Text = #33258#24049
-            Items.Strings = (
-              #33258#24049
-              #20840#37096
-              #20840#21312#31934#36984)
-            ExplicitLeft = 728
-          end
           object BVisibleDetail: TAdvGlowButton
             Left = 673
             Top = 7
@@ -2422,7 +2574,7 @@ object Form1: TForm1
               EEFB1ECE3964594609308E239452B0D67EECE91002A494E09C53F274B47F1E70
               0720926AEC8627493A0000000049454E44AE426082}
             Rounded = True
-            TabOrder = 4
+            TabOrder = 3
             Appearance.BorderColor = 11382963
             Appearance.BorderColorHot = 11565130
             Appearance.BorderColorCheckedHot = 11565130
@@ -2463,70 +2615,13 @@ object Form1: TForm1
             ExplicitLeft = 828
           end
         end
-        object wwDBGrid2: TwwDBGrid
-          AlignWithMargins = True
-          Left = 0
-          Top = 45
-          Width = 389
-          Height = 262
-          Margins.Left = 0
-          Margins.Top = 4
-          Margins.Right = 0
-          Margins.Bottom = 0
-          ParentCustomHint = False
-          DisableThemes = True
-          DisableThemesInTitle = True
-          LineStyle = glsSingle
-          IniAttributes.Delimiter = ';;'
-          IniAttributes.UnicodeIniFile = False
-          TitleColor = 16316661
-          FixedCols = 1
-          ShowHorzScrollBar = True
-          Align = alClient
-          Color = 13430215
-          Ctl3D = False
-          DataSource = EphoneDS
-          Font.Charset = DEFAULT_CHARSET
-          Font.Color = clWindowText
-          Font.Height = -15
-          Font.Name = 'Tahoma'
-          Font.Style = []
-          ImeName = #20013#25991' ('#32321#39636') - Yahoo! '#22855#25705#36664#20837#27861
-          Options = [dgTitles, dgIndicator, dgColumnResize, dgColLines, dgRowLines, dgTabs, dgAlwaysShowSelection, dgConfirmDelete, dgCancelOnExit, dgWordWrap, dgFixedResizable]
-          ParentCtl3D = False
-          ParentFont = False
-          ParentShowHint = False
-          ShowHint = True
-          TabOrder = 1
-          TitleAlignment = taLeftJustify
-          TitleFont.Charset = DEFAULT_CHARSET
-          TitleFont.Color = clBlack
-          TitleFont.Height = -15
-          TitleFont.Name = 'Tahoma'
-          TitleFont.Style = []
-          TitleLines = 1
-          TitleButtons = False
-          UseTFields = False
-          LineColors.HighlightColor = clWhite
-          LineColors.ShadowColor = clSilver
-          LineColors.FixedColor = clSilver
-          LineColors.GroupingColor = clWhite
-          TitleMenuAttributes.Options = []
-          TitleMenuAttributes.MenuEnabled = True
-          ImageList = Ephone_ImageList
-          GroupFieldName = 'EP_CUSNAME'
-          PaintOptions.ActiveRecordColor = 16750899
-          PaintOptions.BackgroundOptions = [coBlendFixedRow, coBlendActiveRecord]
-          ExplicitWidth = 544
-          ExplicitHeight = 365
-        end
         object EPhone_DetailPanel: TPanel
           Left = 389
           Top = 41
           Width = 335
           Height = 266
           Align = alRight
-          TabOrder = 2
+          TabOrder = 1
           Visible = False
           ExplicitLeft = 544
           ExplicitHeight = 369
@@ -2900,245 +2995,6 @@ object Form1: TForm1
       ExplicitLeft = 872
     end
   end
-  object Panel2: TPanel
-    Left = 95
-    Top = 79
-    Width = 291
-    Height = 324
-    TabOrder = 4
-    Visible = False
-    DesignSize = (
-      291
-      324)
-    object btnViewDesktop: TSpeedButton
-      Tag = 1
-      Left = 168
-      Top = 98
-      Width = 97
-      Height = 29
-      Caption = 'View Desktop'
-      Enabled = False
-      Font.Charset = DEFAULT_CHARSET
-      Font.Color = clWindowText
-      Font.Height = -11
-      Font.Name = 'Arial'
-      Font.Style = []
-      ParentFont = False
-    end
-    object btnFileTransfer: TSpeedButton
-      Left = 168
-      Top = 65
-      Width = 97
-      Height = 29
-      Caption = 'File Transfer'
-      Enabled = False
-      Font.Charset = DEFAULT_CHARSET
-      Font.Color = clWindowText
-      Font.Height = -11
-      Font.Name = 'Arial'
-      Font.Style = []
-      ParentFont = False
-    end
-    object btnChat: TSpeedButton
-      Left = 168
-      Top = 32
-      Width = 97
-      Height = 29
-      Caption = 'Chat'
-      Enabled = False
-    end
-    object sStatus2: TShape
-      Left = 12
-      Top = 4
-      Width = 15
-      Height = 15
-      Brush.Color = clSilver
-      Shape = stCircle
-    end
-    object sStatus1: TShape
-      Left = 20
-      Top = 4
-      Width = 15
-      Height = 15
-      Brush.Color = clSilver
-      Shape = stCircle
-    end
-    object btnShowMyDesktop: TSpeedButton
-      Left = 0
-      Top = 151
-      Width = 154
-      Height = 25
-      Anchors = []
-      Caption = 'Desktop to Host'
-      Enabled = False
-      Font.Charset = DEFAULT_CHARSET
-      Font.Color = clWindowText
-      Font.Height = -11
-      Font.Name = 'Arial'
-      Font.Style = []
-      ParentFont = False
-      Transparent = False
-      ExplicitTop = 134
-    end
-    object btnCloseMyDesktop: TSpeedButton
-      Left = 4
-      Top = 257
-      Width = 148
-      Height = 24
-      Anchors = []
-      Caption = 'Stop Desk View'
-      Enabled = False
-      Font.Charset = DEFAULT_CHARSET
-      Font.Color = clWindowText
-      Font.Height = -11
-      Font.Name = 'Arial'
-      Font.Style = []
-      ParentFont = False
-      ExplicitLeft = 6
-      ExplicitTop = 229
-    end
-    object Panel1: TPanel
-      Left = 160
-      Top = 136
-      Width = 109
-      Height = 149
-      BevelInner = bvRaised
-      BevelOuter = bvLowered
-      TabOrder = 0
-      object Label1: TLabel
-        Left = 4
-        Top = 4
-        Width = 82
-        Height = 14
-        Caption = 'Host initialization:'
-        Color = clBtnFace
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clGray
-        Font.Height = -11
-        Font.Name = 'Arial'
-        Font.Style = []
-        ParentColor = False
-        ParentFont = False
-      end
-      object Label9: TLabel
-        Left = 4
-        Top = 56
-        Width = 100
-        Height = 14
-        Caption = 'Host Control options:'
-        Color = clBtnFace
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clGray
-        Font.Height = -11
-        Font.Name = 'Arial'
-        Font.Style = []
-        ParentColor = False
-        ParentFont = False
-      end
-      object xKeyMapping: TCheckBox
-        Left = 8
-        Top = 96
-        Width = 77
-        Height = 17
-        Hint = 'Enable Universal Keyboard Mapping?'
-        Caption = 'Map Keys'
-        TabOrder = 3
-      end
-      object xSmoothView: TCheckBox
-        Left = 8
-        Top = 128
-        Width = 85
-        Height = 17
-        Hint = 'Use Anti-aliasing when scaling down?'
-        Caption = 'Smooth View'
-        Checked = True
-        State = cbChecked
-        TabOrder = 5
-      end
-      object xForceCursor: TCheckBox
-        Left = 8
-        Top = 112
-        Width = 85
-        Height = 17
-        Hint = 'Paint remote cursor when not standard?'
-        Caption = 'Exact Cursor'
-        TabOrder = 4
-      end
-      object cbControlMode: TComboBox
-        Left = 4
-        Top = 72
-        Width = 101
-        Height = 21
-        Hint = 'How do you want to control the Desktop?'
-        Style = csDropDownList
-        ItemIndex = 1
-        TabOrder = 2
-        Text = 'Support mode'
-        Items.Strings = (
-          'View mode'
-          'Support mode'
-          'Teach mode'
-          'Admin mode')
-      end
-      object xHideWallpaper: TCheckBox
-        Left = 8
-        Top = 20
-        Width = 97
-        Height = 17
-        Hint = 'Always Hide Desktop Wallpaper'
-        Caption = 'Hide Wallpaper'
-        TabOrder = 0
-      end
-      object xReduceColors: TCheckBox
-        Left = 8
-        Top = 36
-        Width = 97
-        Height = 17
-        Hint = 'Start with 256 Colors'
-        Caption = 'Use 256 colors'
-        TabOrder = 1
-      end
-    end
-    object xWithExplorer: TCheckBox
-      Left = 170
-      Top = 67
-      Width = 13
-      Height = 13
-      Hint = 'with Remote File Explorer'
-      TabStop = False
-      TabOrder = 1
-    end
-    object eUsers: TListBox
-      Left = 3
-      Top = 35
-      Width = 149
-      Height = 102
-      AutoComplete = False
-      Anchors = []
-      BevelKind = bkFlat
-      BorderStyle = bsNone
-      ItemHeight = 13
-      Sorted = True
-      TabOrder = 2
-    end
-    object eConnected: TListView
-      Left = 4
-      Top = 188
-      Width = 148
-      Height = 58
-      Anchors = []
-      Color = clBtnFace
-      Columns = <>
-      Enabled = False
-      IconOptions.Arrangement = iaLeft
-      IconOptions.AutoArrange = True
-      ReadOnly = True
-      RowSelect = True
-      SortType = stText
-      TabOrder = 3
-      ViewStyle = vsSmallIcon
-    end
-  end
   object PClient: TRtcHttpPortalClient
     UserVisible = True
     UserNotify = True
@@ -3192,21 +3048,12 @@ object Form1: TForm1
     Left = 620
     Top = 375
   end
-  object RtcHttpClient: TRtcHttpClient
-    MultiThreaded = True
-    ServerPort = '1000'
-    ReconnectOn.ConnectLost = True
-    AutoConnect = True
-    Left = 20
-    Top = 64
-  end
   object RoomState: TRtcResult
     Left = 72
     Top = 120
   end
   object RtcClientModule: TRtcClientModule
     AutoSyncEvents = True
-    Client = RtcHttpClient
     SecureKey = '0A251F157AF189C6BD9495897279DFE9'
     AutoRepost = 2
     ModuleFileName = '/FUNC'
@@ -3545,2000 +3392,6 @@ object Form1: TForm1
     DataSet = EphoneTable
     Left = 389
     Top = 218
-  end
-  object Ephone_ImageList: TImageList
-    BlendColor = clWhite
-    BkColor = clWhite
-    Height = 29
-    Width = 66
-    Left = 400
-    Top = 64
-    Bitmap = {
-      494C01010700D800F80042001D00FFFFFF00FF10FFFFFFFFFFFFFFFF424D3600
-      0000000000003600000028000000080100003A000000010020000000000040EF
-      000000000000000000000000000000000000FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFEFF00FEFD
-      FF00FEFEFE00FFFFFE00FFFFFC00FEFFFB00FEFFFB00FFFEFF00FFFBFF00FDF5
-      FF00FFF3FF00FEEFFF00FCECFF00FDEBFF00F5E0FF00FFEAFF00FFEFFF00FDEF
-      FF00FEF3FF00FFF7FF00FFFBFF00FFFEFF00FFFFFF00FFFFFF00FFFFFF00FFFE
-      FF00FFFEFF00FFFEFF00FFFFFE00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00E2F7FF00A8E7FF0063D6FF0032C9FF0017C2
-      FF000CBFFF0017C2FF0032C9FF0063D6FF00A8E7FF00E3F7FF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF0000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      000000000000000000000000000000000000FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFBFF00FEFC
-      FF00FEFDFF00FFFFFF00FFFFFC00FFFFFC00FFFFFF00FFF9FF00FCE9FF00ECCF
-      FF00A880F7007849D500602CC600511ABD005820C7004D16B9005D2AC2007A4C
-      D500A67DF600E4C7FF00FFF1FF00FFFBFF00FEFDFF00FFFFFC00FFFFFF00FFFE
-      FF00FFFBFF00FFFCFF00FFFEFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00D8F4FF004DD0FF000DBFFF0000BAFF0000BCFF0006BDFF0009BE
-      FF000ABEFF0009BEFF0006BDFF0000BCFF0000BAFF000DBFFF004ED0FF00D7F4
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF0000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      000000000000000000000000000000000000FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFDFF00FEFD
-      FF00FFFEFF00FFFFFF00FFFFFE00FEFFFD00FEFFFD00FEF5FF00A58BD7004E25
-      9F00571FC4006221E2005D18E500611AED005F17ED00621BED005E19E5005C1C
-      DA005E23D1005428AA00A592CB00FBF6FF00FFFEFF00FEFFFD00FFFFFF00FFFE
-      FF00FFFBFF00FFFBFF00FFFEFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF006ED8FF0000BBFF0000BBFF0007BEFF000ABEFF000BBFFF000BBFFF000BBF
-      FF000BBFFF000BBFFF000BBFFF000BBFFF000ABEFF0007BEFF0000BBFF0000BB
-      FF006AD7FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF0000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      000000000000000000000000000000000000FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFC00FFFF
-      FC00FFFFFE00FFFFFE00FFFFFE00FAFBF900F6F7F300F5EEFF00CAB0FC00572B
-      AD006226D800631EEA00611CE8006621ED00601CE5006420E9006421E8006320
-      E7005B18DF005421B800CBB8EF00F1EFF500F7F7F700FEFEFE00FFFDFF00FFFD
-      FF00FFFEFF00FFFEFF00FFFEFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00ECFAFF0024C4
-      FF0000BAFF0008BEFF000BBFFF000BBFFF000BBFFF000BBFFF000BBFFF000BBF
-      FF000BBFFF000BBFFF000BBFFF000BBFFF000BBFFF000BBFFF000BBFFF0008BE
-      FF0000BAFF0025C6FF00EBFAFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF0000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      000000000000000000000000000000000000FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFC00FFFF
-      FC00FFFFFC00FFFFFE00FCFCFC00F4F4F400EEEFEB00ECE7F600F9E4FF006A43
-      B6005B20CF00621DEA006420E9005E1BE200631FE800621FE600601DE4006320
-      E700601EE2006635C700FBEBFF00F0F0F000ECECEC00F3F2F400FFFDFF00FFFD
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00F9F8F700AE9F840096825F0096825F009682
-      5F0096825F00B0A18800EEEBE600EFECE700BFB39E00A18F71009B8768009B87
-      68009B8768009B8768009B8768009B886800A2907200CEC5B500F5F3F000FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00EAF9FF002AC7FF0000BB
-      FF000ABEFF000BBFFF000BBFFF000BBFFF000BBFFF000BBFFF000BBFFF000BBF
-      FF000BBFFF000BBFFF000BBFFF000BBFFF000BBFFF000BBFFF000BBFFF000BBF
-      FF000ABEFF0000BBFF002AC6FF00EBFAFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF0000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      000000000000000000000000000000000000FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FEFCFF00FCFB
-      FF00FFFEFF00FFFEFF00F3F2F400E7E6E800EFEFEF00F2F0F600F8EFFF00B096
-      E4005620C100641FEB00641FEB00611CE800631CEE00601AE900641FEB006222
-      E000591FCB00AD85FC00FBF0FF00EDEFE900EEEFED00EEEEEE00F4F3F500FEFE
-      FE00FFFFFE00FCFDF900FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00CCC1B1006A4D1D00927D5A00988463009884
-      6300988463006A4D1D00988564007B6238006A4D1D00836C4400927D5A00927D
-      5A00927D5A00927D5A00927D5A00927D5A008B75500073582B00C7BCAA00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF0024C6FF0000BBFF000ABF
-      FF000BBFFF000BBFFF0008C4FF0003CFFF0004CCFF0006C8FF0007C5FF0008C4
-      FF0008C4FF0008C5FF0007C6FF0006CAFF0004CEFF0002D1FF0008C4FF000BBF
-      FF000BBFFF000ABFFF0000BBFF0025C4FF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF0000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      000000000000000000000000000000000000FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FDFAFF00FFFC
-      FF00FFFCFF00F1EFF500EFEEF000F4F4F400EEEDEF00EBEAEE00F1EEF700F3E3
-      FF005529AC005D24CD00531BC2005820C500541BC400531AC300561CC8005F29
-      C8005327AA00F7DAFF00EEE5FF00F0F1ED00F3F4F000EBECEA00EAEAEA00F6F6
-      F600FFFEFF00FAF9FB00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00C5BAA700765C3000EAE6E000FBFBF900FBFB
-      F900FBFBF9006D512200785E3200A6957A00E5DFD700FBFAF900FBFAF900FBFA
-      F900FBFAF900FBFAF900FBFAF900FBFAF900F8F7F500866F490098846300FCFB
-      FA00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF006CD8FF0000BAFF000ABEFF000BBF
-      FF000BBFFF0008C4FF001F90BD00541817003F495B002C749700208FBB001C97
-      C8001B9ACC001D95C5002388B30032658300463642005D030000208FBD0007C4
-      FF0000C2FF0000C3FF0000C2FF0000BAFF006DD9FF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF0000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      000000000000000000000000000000000000FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFEFF00FBF8
-      FF00FFF9FF00F6F1FF00EBECEA00EEF0EA00EEECF200F2EFF800EEEDF100FAF0
-      FF008265BA006743AD00A787E600CDB0FF00E1C6FF00D3B6FF00A783ED006745
-      AA008269B300F8E8FF00EEE8FB00F1F0F200EEEFEB00F2F4EE00F0F0F000F3F1
-      F700FEF9FF00FFFBFF00FFFEFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00C4B9A600795F3400EEEAE500FFFFFF00FFFF
-      FF00FFFFFF006D512200A8967B00FDFCFB00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00937F5B00755A2E00BCAF
-      9900F9F8F600FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00D7F3FF0000BBFF0008BEFF000BBFFF000BBF
-      FF000BBFFF000AC0FF000BBCFB003A536900590D09005D0500005A0B05005614
-      12005517160057120F005B0903005C06000057110E003A5167000BBCFD0004C2
-      FF0072A59700E18B280081A2880001C0FF0000BCFF00D8F5FF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF0000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      000000000000000000000000000000000000FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FEFBFF00FFF6
-      FF00A38ECD00C9B2F600FCEEFF00F7EDFF00F2E7FF00EDE5FC00EFECF500EDE8
-      F700EDDDFF00FDEAFF00FDEEFF00FFF4FF00FBF2FF00FFF4FF00FEECFF00FBE9
-      FF00ECE1FF00F2EAFF00EEE8FB00EDE7FA00F1E8FF00F6EBFF00F7E7FF00CBB8
-      EF00A28FC800FFF1FF00FCF8FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00C4B9A600795F3400EEEAE500FFFFFF00FFFF
-      FF00FFFFFF006D512200AE9D8400FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00F9F8F600A99A7E007D64
-      3B00ECE8E200FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF004DD0FF0000BBFF000BBFFF000BBFFF000BBF
-      FF000BBFFF000BBFFF000AC1FF0005CBFF0017A1D60038576F004F2326005B09
-      02005D0400005A0D08004C292F00355D780016A6DC0005CCFF0000C3FF0053AD
-      B600FF7E0000FF820100FF7F00005FAAAA0000BEFF004ED0FF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF0000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      000000000000000000000000000000000000FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFF7FF00E5D0
-      FF005122AE005A22C7006537BF00AE8AF400F1D6FF00F8E7FF00EFE9FC00FBF8
-      FF00FFFAFF00FBF5FF00FEF9FF00FFFBFF00FDF9FF00FFFBFF00FFFAFF00FEF9
-      FF00FFFCFF00FEFAFF00EFE7FE00FAEAFF00F4D7FF00B189FF006938CA005A27
-      BE005024A600E7CAFF00FFF6FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00C4B9A600795F3400EEEAE500FFFFFF00FFFF
-      FF00FFFFFF006D512200AE9D8400FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FEFEFD00AC9C81007B61
-      3700EBE8E100FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00E2F7FF000DBFFF0007BEFF000BBFFF000BBFFF000BBF
-      FF000BBFFF000BBFFF000BBFFF000ABFFF0008C4FF0006C8FF0007C7FF0007C6
-      FF000AC2FF0007C7FF0007C7FF0006C8FF0008C3FF000ABFFF0000C2FF0074A5
-      9500FF7F0000FF840A00FF8000007EA38B0000C1FF000DBFFF00E3F7FF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF0000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      000000000000000000000000000000000000FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFEFFF00A788
-      E3005519CB00621BEE005D1DDA005923C200552BA800866ABD00EDE2FF00FBFA
-      FE00FCFCFC00FFFFFE00FFFFFF00FFFEFF00FFFEFF00FCFCFC00FCFDF900FFFF
-      FB00FFFFFC00FFFCFF00E5DAFB00866DB7005226A900571DC9005E1CE0005D1A
-      E1005B20CE00A57CF500FEF3FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00C4B9A600795F3400EEEAE500FFFFFF00FFFF
-      FF00FFFFFF006D512200AE9D8400FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FEFEFD00C1B5A200785E
-      3200B8AA9400FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00A7E7FF0000BAFF000ABEFF000BBFFF000BBFFF000BBF
-      FF000BBFFF000ABEFF0006BDFF0004BDFF0008BEFF000ABFFF000ABFFF000AC0
-      FF000AC0FF000AC0FF000ABFFF000ABFFF0008BEFF0004BDFF0000BEFF0023B9
-      E500F3871600FF820000F786120029B7E00004C0FF0000BAFF00A8E7FF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF0000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      000000000000000000000000000000000000FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFE5FF007853
-      C1005F23D5005E18E700611CE8006222DF005D25CA00653DB400FCEDFF00FFFE
-      FF00FFFFFE00FFFFFC00FEFEFE00FDFCFE00FBFBFB00FFFFFE00FFFFFC00FFFF
-      FB00FCFEF800FEF9FF00FFEDFF006644A9005E28C7006424E2006320E700621F
-      E6005C1CDA007A4CD500FEF0FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00C4B9A600795F3400EEEAE500FFFFFF00FFFF
-      FF00FFFFFF006D512200AE9D8400FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FDFCFB00A391
-      73008B755000FEFDFD00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF0061D5FF0000BCFF000BBFFF000BBFFF000BBFFF000BBF
-      FF0004BDFF0000B9FF0021C5FF0038CBFF0008BEFF0000BAFF0009BEFF000BBF
-      FF000BBFFF000BBFFF0009BEFF0000BAFF0008BEFF0038CBFF0021C5FF0000BC
-      FF003CB0C700FF7B000058ACB10000C3FF000BBFFF0000BCFF0064D5FF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF0000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      000000000000000000000000000000000000FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FEDDFF006037
-      B1005E22D400641FEC00651EF0005E1BE2005B1FD100A57AF900FFEFFF00FBFA
-      FC00FFFFFE00FEFFFB00FEFFFD00FFFFFF00FFFEFF00FCFCFC00FDFEFC00FFFF
-      FC00FEFFFB00FFFAFF00FCEAFF00A17DE7005C22CE00611CE800621EE700611E
-      E5005F1BE400602DC400FEEEFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00C4B9A600795F3400EEEAE500FFFFFF00FFFF
-      FF00FFFFFF006D512200AE9D8400FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00F6F4F100775D
-      3200A4937600FDFCFB00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF0030C9FF0006BDFF000BBFFF000BBFFF000BBFFF0003BC
-      FF0024C5FF00CFF3FF00FFFFFF00FFFFFF00FFFFFF0086DFFF0000BBFF0009BE
-      FF000BBFFF0009BEFF0000BBFF0088DFFF00FFFFFF00FFFFFF00FFFFFF00CDF3
-      FF0018C7FF0034B1CE0005C0FF000ABFFF000BBFFF0006BDFF0032C9FF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF0000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      000000000000000000000000000000000000FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FEDAFF005428
-      AB005F22D6006520ED00611CE9006221E2005720C300CFAAFF00FFF3FF00FDFD
-      FD00FFFFFF00FFFFFE00FFFFFC00FFFFFF00FDFBFF00FFFDFF00FEFDFF00FFFF
-      FF00FFFFFE00FEFBFF00FFF5FF00CFB2FF00561CC800611AED00621DE9006420
-      E900611BEA00501AB900FEEBFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00C4B9A600795F3400EEEAE500FFFFFF00FFFF
-      FF00FFFFFF006D512200AC9C8100FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FDFDFC00AB9B
-      8000846C4500DAD2C700FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF0016C2FF0009BEFF000BBFFF000BBFFF0009BEFF0000BB
-      FF00ECFAFF00FFFFFF00E7DDDC00C8B5B400FEFAF900FFFFFF0073DAFF0000BB
-      FF000ABEFF0000BBFF0075DAFF00FFFFFF00FEFAF900C8B4B300E7DDDD00FFFF
-      FF00EAFAFF0000BCFF0008BEFF000BBFFF000BBFFF0009BEFF0017C1FF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF0000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      000000000000000000000000000000000000FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00F7D1FF004C1E
-      A6006326DA005F1AE6006823EF005F1FDC00501AB900E1BDFF00FDF2FF00FEFF
-      FD00FFFEFF00FEFEFE00FEFFFB00FFFFFE00FEFDFF00FEFCFF00FFFEFF00FAF9
-      FB00FFFFFF00FFFDFF00FBF3FF00E1C7FF00541BC400621BEE006520EC00621D
-      E9006019EB00551FC000F8E5FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00C4B9A600795F3400EEEAE500FFFFFF00FFFF
-      FF00FFFFFF006D51220087704A00EBE8E100FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FEFEFE00D6CF
-      C20074592D00C9BEAD00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF000DBFFF000ABEFF000BBFFF000BBFFF0000BBFF0065D7
-      FF00FFFFFF00C7B3B3003F00000040000000602B2B00FFFFFD00EDFCFF0017C2
-      FF0003BDFF0018C2FF00EDFCFF00FFFEFC0060292900400000003F000000C8B5
-      B400FFFFFF0064D6FF0000BCFF000BBFFF000BBFFF000ABEFF000DBFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF0000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      000000000000000000000000000000000000FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FED7FF005224
-      AC006528DC00611DE6005F1CE3006222DF005A22C900D1A9FF00FEF1FF00FFFF
-      FF00FFFEFF00FEFDFF00FEFFFD00FFFFFC00FFFFFE00FFFFFF00FEFDFF00FFFE
-      FF00FEFEFE00FFFBFF00FEF3FF00CFB2FF005A22C900601AE9005D19E200641F
-      EB00631CEE004B15B400FFEEFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00D0C7B90072572A007F663C00826A4100826A
-      4100826A41006A4D1D00785E32007F673E00E3DDD400FEFEFE00FFFFFF00EBE7
-      E00098846300826A4100826A4100826A4100826A4100826A4100816940006F54
-      2600836C4400EAE6E000FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF0016C2FF0009BEFF000BBFFF000BBFFF0000BAFF0095E2
-      FF00FFFFFF00784B4B004B0F0F00521818004A0C0C00CEBBBA00FFFFFF0030C8
-      FF0000BBFF0030C8FF00FFFFFF00CEBAB9004A0C0C00521818004B0F0F00794B
-      4B00FFFFFF0095E2FF0000BAFF000BBFFF000BBFFF0009BEFF0017C1FF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF0000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      000000000000000000000000000000000000FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFDDFF006035
-      B4005E21D500611CE8006420E900601FE000581BCF00A377FA00FFF0FF00FFFE
-      FF00FEFCFF00FEFDFF00FFFFFF00FFFFFE00FFFFFC00FFFFFC00FDFDFD00FFFF
-      FF00FEFEFE00FFFAFF00FEF0FF00A787E600531BC200631EEA006823EF005F1A
-      E600601BE800602DC500FEEEFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00F1EEEA00C2B6A200A8977C00A8977B00A897
-      7B00A8977B00BFB39F00DAD3C60089724C0088714B00E0DBD100FFFFFF00F0ED
-      E800A7967A006446140097836200A8977B00A8977B00A8977B00AA9A7E00BDB1
-      9C00E9E5DE00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF0030C9FF0006BDFF000BBFFF000BBFFF0000BBFF007CDD
-      FF00FFFFFF00A385850041000000480A0A004E131300F0E8E600F6FFFF0023C5
-      FF0001BCFF0023C5FF00F7FFFF00EFE6E5004E121200480A0A0041000000A585
-      8500FFFFFF007BDDFF0000BBFF000BBFFF000BBFFF0006BDFF0032C9FF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF0000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      000000000000000000000000000000000000FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FDE3FF007752
-      C0005D22D100631CEE00631DEC00611CE800611FE2006433C300FBEBFF00FFFE
-      FF00FFFCFF00FFFCFF00FEFDFF00FEFDFF00FFFFFF00FEFFFD00FFFFFC00FFFF
-      FC00FFFFFE00F8F2FF00FEEBFF006541AD005E24D000641FEB00611CE9005F1A
-      E6005F1DE0007B4BD900FEEFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00EFECE700816940008B765100F3F1ED00FFFF
-      FF00F2F0EB00694C1C00D3CABB00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF0061D5FF0000BCFF000BBFFF000BBFFF0007BDFF000FC0
-      FF00FFFFFF00FFFFFF00AE9393008E696900D9CBCB00FFFFFF00A5E8FF0000BB
-      FF0009BEFF0000BBFF00A8E8FF00FFFFFF00D9CBCB008E696900AF949400FFFF
-      FF00FFFFFF000FC0FF0007BDFF000BBFFF000BBFFF0000BCFF0063D5FF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF0000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      000000000000000000000000000000000000FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFEFFF00A487
-      DD005A23C6006422E5005C1FD500551CC500511EB600845FCD00F1E4FF00FEFD
-      FF00FFFDFF00FFFDFF00FDFCFF00FEFDFF00FFFFFF00FDFEFC00FFFFFC00FFFF
-      FE00FDFCFE00FFF9FF00F2E2FF008265BB005428AB005721C2005E23D200682C
-      DE00571FC600A67DF600FEF1FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00DAD3C700866F4900B0A18700F9F8
-      F700F9F8F6007E653C00B6A89100FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00A5E7FF0000BAFF000ABEFF000BBFFF000ABFFF0000BC
-      FF0051D1FF00F2FDFF00FFFFFF00FFFFFF00FFFFFF00C4EFFF0008BEFF0007BD
-      FF000BBFFF0007BDFF0008BEFF00C5EFFF00FFFFFF00FFFFFF00FFFFFF00F2FD
-      FF004FD1FF0000BCFF000ABFFF000BBFFF000ABEFF0000BAFF00A7E7FF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF0000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      000000000000000000000000000000000000FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FDF7FF00EEDB
-      FF004E20A800511BBA006A40BD00AF91EA00F4E1FF00FAF0FF00EDE9F500F8F7
-      FB00FCFBFD00FFFEFF00FFFFFF00FEFFFD00FFFFFC00FFFFFE00FBFBFB00FFFE
-      FF00FFFCFF00FBF7FF00EAE3F800FBF0FF00F2E2FF00B097E100643EAE00582C
-      AE004D22A100EACBFF00FEF5FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FDFDFC00B3A48B00755B2F00EAE6
-      E000FBFAF9008B744F00A8987C00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00E1F6FF000CBEFF0007BEFF000ABFFF0009C1FF0007C6
-      FF0000C4FF001DCBFF0065D7FF007BDCFF004CD0FF0004BDFF0005BDFF000BBF
-      FF000BBFFF000BBFFF0005BDFF0005BDFF004DD0FF007BDCFF0064D7FF001CCB
-      FF0000C3FF0008C5FF000AC0FF000ABFFF0007BEFF000DBFFF00E3F7FF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF0000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      000000000000000000000000000000000000FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFE00FEF4
-      FF00A586E100CCA9FF00FAE2FF00F7EBFF00F1F0F400EEF1E800EFF0EE00EEEA
-      F600EFE3FF00FCECFF00FFF1FF00FDF1FF00FFF4FF00FFF4FF00FFF0FF00FAEB
-      FF00EDE1FF00EBE2FC00EDE8F700F1EEF700EEECF200F9F1FF00FAE7FF00CBB1
-      FD00A68BDB00FEEAFF00FFF9FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00E7E2DA0067491900CFC5
-      B600FAF9F8008B755000A6957900FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF004DD0FF0000BBFF0008C4FF00208CB9005020
-      2300414353001C89B60000C7FF0000BCFF0001BCFF0008BEFF000BBFFF000BBF
-      FF000BBFFF000BBFFF000BBFFF0008BEFF0001BCFF0000BCFF0000C5FF00227B
-      A200492F380056151300218AB70008C4FF0000BBFF004ED0FF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF0000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      000000000000000000000000000000000000FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFC00FFFD
-      FF00FCF2FF00F2E7FF00EEE8FB00F0EDF600F1F1F100EDEFE900EFF2E900F7ED
-      FF008662CE006434C200A478FA00D3ACFF00DDB9FF00D0ACFF00A47AF7006840
-      B7008669BF00F8E5FF00F1E7FF00EFEBF700EEEDF100F0EFF300EDE9F500F6EF
-      FF00FEF5FF00FFF7FF00FFFDFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00EFECE7007B613700B3A5
-      8C00F9F8F70082694100B1A28900FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00D6F3FF0000BBFF0008BFFF000BBEFE00179F
-      D400483641005B08020033617E0007C8FF000ABFFF000BBFFF000BBFFF000BBF
-      FF000BBFFF000BBFFF000BBFFF000BBFFF000ABFFF0006C8FF003A556C005B09
-      040040475A0011AFE9000AC0FF0008BFFF0000BBFF00D8F5FF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF0000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      000000000000000000000000000000000000FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FDFFF900FFFF
-      FC00FFFFFF00F7F8F600EFF1EB00ECEFE600EEEFEB00F1F1F100F0EFF300F4E1
-      FF00511EB6005F1EDF00591DCF00551DC2005621BE005721C200581DCC005A22
-      C7005529AB00F0D3FF00F3E7FF00EEEBF400ECEBED00F1F2EE00EFF1EB00F6F7
-      F300FDFCFE00FFFEFF00FEFEFE00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00F6F5F200927D5A009C88
-      6800EFECE7006D512300C6BBA900FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF006AD8FF0000BAFF000ABFFF0008C5
-      FF0006C8FF002485AE005E02000011B0EB0009C1FF000BBFFF000BBFFF000BBF
-      FF000BBFFF000BBFFF000BBFFF000BBFFF0009C2FF0012AAE3005B0802001D95
-      C40005CBFF0009C3FF000ABFFF0000B9FF006CD8FF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF0000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      000000000000000000000000000000000000FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FEFFFB00FFFF
-      FE00FFFEFF00FDFDFD00F4F7EE00ECF0E500ECEFE600F0EDF600F8ECFF00AF91
-      EA005A21CA00601BE7006222E0006526E0005F20DA005E1EDC006220E4006424
-      E1005822C300AF8AF800F6EBFF00EFF0EC00F0F0F000EBEBEB00F6F7F500FBFC
-      FA00FFFFFF00FFFFFF00FFFFFE00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FDFDFC00AD9D82007257
-      2A008A734D0072572A00EDEAE400FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF0024C6FF0000BBFF000ABF
-      FF000AC0FF0006CAFF0014AAE20011AEE9000AC0FF000BBFFF000BBFFF000BBF
-      FF000BBFFF000BBFFF000BBFFF000BBFFF000ABFFF000DB8F5000DB9F70007C7
-      FF000ABFFF000ABFFF0000BBFF0024C4FF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF0000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      000000000000000000000000000000000000FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFE00FEFE
-      FE00FFFDFF00FFFEFF00FDFEFA00F4F7EE00EFF1EB00EEE8FB00F8E0FF006B41
-      BE005F22D800621CEB00621FE6006321E500611DE6006823F000601AE9006521
-      EA005A1AD7006537BF00FCEEFF00EBECEA00EFEEF000F2F1F300FDFDFD00FFFF
-      FF00FFFFFE00FFFFFE00FFFFFC00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00E8E4DD00AE9E
-      85009B886800CFC5B600FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00EAF9FF002AC7FF0000BB
-      FF000ABEFF000BBFFF0009C2FF000AC0FF000BBFFF000BBFFF000BBFFF000BBF
-      FF000BBFFF000BBFFF000BBFFF000BBFFF000BBFFF000ABFFF000AC0FF000BBF
-      FF000ABEFF0000BBFF0027C6FF00E9F9FF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF0000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      000000000000000000000000000000000000FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FEFD
-      FF00FEFBFF00FFFCFF00FFFEFF00FDFCFE00F7F7F700F3E8FF00CBA8FF005923
-      C2006220E300611AEC006520EC006420E9005E19E500611CE8006520ED005F19
-      E8005F18EA005A23C600CAB3F700F3EEFD00F4F1FA00FFFEFF00FFFFFF00FFFF
-      FE00FFFFFF00FFFFFE00FFFFFC00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00ECF9FF0023C4
-      FF0000BAFF0008BEFF000BBFFF000BBFFF000BBFFF000BBFFF000BBFFF000BBF
-      FF000BBFFF000BBFFF000BBFFF000BBFFF000BBFFF000BBFFF000BBFFF0008BE
-      FF0000BAFF0024C4FF00EAFAFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF0000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      000000000000000000000000000000000000FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FEFEFE00FFFE
-      FF00FEFBFF00FEFBFF00FFFDFF00FFFEFF00FFFFFF00FDF3FF00A384DF004B1D
-      A5005A23C6005E22D4005F22D6006023D7006528DC005F22D6005C20D2005C20
-      D2005B20CF005123AC00A28EC900FFF9FF00FDF9FF00FCFBFF00FFFFFE00FFFF
-      FE00FFFFFF00FFFFFF00FFFFFE00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF006CD8FF0000BBFF0000BBFF0007BEFF000ABEFF000BBFFF000BBFFF000BBF
-      FF000BBFFF000BBFFF000BBFFF000BBFFF000ABEFF0007BEFF0000BBFF0000BB
-      FF0069D6FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF0000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      000000000000000000000000000000000000FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFB00FFFF
-      FC00FFFEFF00FEFDFF00FEFEFE00FFFFFE00FFFFFE00FFFCFF00FFF4FF00EAD7
-      FF00A789E2007650C0005F33B5005224AC004C1EA6005226A9006339B6007550
-      BE00AA8DE300E5D2FF00FFF8FF00FFFDFF00FFFCFF00FFFDFF00FFFFFE00FFFF
-      FC00FFFEFF00FFFEFF00FFFFFE00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00D6F4FF004CD0FF000DBFFF0000BAFF0000BCFF0006BDFF0009BE
-      FF000ABFFF0009BEFF0006BDFF0000BCFF0000BAFF000DBFFF004DD0FF00D6F4
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF0000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      000000000000000000000000000000000000FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFF900FFFF
-      FB00FFFFFF00FFFFFF00FFFFFE00FEFFFB00FEFFFB00FEFFFD00FCFCFC00FFF9
-      FF00FBEAFF00FFE5FF00FFDCFF00FDD6FF00FDD7FF00FCD8FF00FDDBFF00FFE5
-      FF00FEF0FF00FFF9FF00FFFEFF00FFFFFF00FBF8FF00FFFDFF00FEFFFD00FEFF
-      FB00FFFEFF00FFFEFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00E1F6FF00A6E7FF0061D5FF0031C9FF0015C1
-      FF000CBEFF0016C1FF0031C9FF0062D6FF00A6E8FF00E2F7FF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF0000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      000000000000000000000000000000000000FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFDFF00FFFD
-      FF00FCFEFF00FAFEFF00FAFEFF00FAFEFF00FBFFFF00FDFFFF00FFFFFF00FFFF
-      FF00FFFEFF00FFFEFD00FFFFFE00FFFDF900FFFFFE00FEFCFB00FFFBFA00FFFF
-      FE00FFFFFF00FCFEFE00F7FCFB00FBFFFF00FFFFFF00FEFEFE00FFFEFD00FFFF
-      FE00FDFFFE00FBFFFE00FBFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FEFEFE00FEFE
-      FE00FEFEFE00FEFEFE00FEFEFE00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FEFEFE00FEFEFE00FEFEFE00FEFEFE00FEFEFE00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFBFF00FFFBFF00FFFEFF00FFFEFF00FFFEFF00FCFEFF00FCFEFF00FCFE
-      FE00FCFEFE00FEFAFF00FEFAFF00FFFDFF00FFFDFF00FFFDFF00FDFEFF00FDFE
-      FF00FAFAFF00FAFAFF00FFFBFF00FFFBFF00FFFBFF00FFFBFF00FFFBFF00FEFA
-      F900FEFAF900FFFFF900FFFFF900FAFFF800FAFFF800FAFFF800FAFFFB00FAFF
-      FB00FDFCFE00FDFCFE00FFFDFF00FFFDFF00FFFEFD00FFFEFD00FFFEFD00FFFF
-      FC00FFFFFC00FFFEFF00FFFEFF00FFFEFF00FFFEFF00FFFEFF00F8F4FA00F8F4
-      FA00EAE5E700EAE5E700BFBBB600BFBBB600DED8D300DED8D300DED8D300F4ED
-      F000F4EDF000FFFDFF00FFFDFF00FDFDFF00FDFDFF00F8FBFF00F8FBFF00F8FB
-      FF00FBFFFF00FBFFFF00FFFBFC00FFFBFC00FFFFFF00FCFEFF00FCFEFF00FAFF
-      FF00FAFFFF00FAFFFF00FAFFFF00FAFEFF00FFFEFF00FFFEFF00FFFEFF00FFFE
-      FF00FCFBFF00FCFBFF00FDFCFF00FFFDFF00FFFDFF00FFFDFE00FFFDFE00FFFE
-      FF00FFFEFF00FFFEFD00FFFFFC00FFFFFC00FDFFFC00FDFFFC00FBFFFA00FBFF
-      FA00FCFDFB00FFFCFF00FFFCFF00FFFAFF00FFFAFF00FDFAFF00FDFDFF00FDFD
-      FF00FFFEFF00FFFEFF00FFFDFF00FFFDFF00FFFEFF00FFFCFD00FFFCFD00FFFB
-      FE00FFFBFE00FFFEFF00FFFEFF00FBFEFF00F8FFFF00F8FFFF00FAFFFF00FAFF
-      FF00FBFFFF00FBFFFF00FAFCFD00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FDFD
-      FD00FDFDFD00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFCFF00FFFC
-      FF00FFFCFF00FEFDFF00FCFEFF00FCFEFF00FEFDFF00FFFEFF00FFFEFF00FFFB
-      FC00FFFAF900FFFFFE00FFFFFB00FBFBF500FBFAF600FFFFFC00FFFFFC00FFFA
-      F700FFFFFE00F8FBF900F8FDFB00FBFFFE00FAFFFD00FBFEFC00FEFEFE00FEFE
-      FE00FDFFFF00FDFFFF00FDFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFEFF00FFFEFF00FFFEFF00FFFEFF00FFFEFF00FEFCFF00FEFCFF00FFFE
-      FF00FFFEFF00FFFFFC00FFFFFC00FCFCF600FCFCF600FCFCF600FFFFFF00FFFF
-      FF00FDFEFF00FDFEFF00FAFAFF00FAFAFF00FBFBFF00FBFBFF00FBFBFF00FDFD
-      FF00FDFDFF00FCFDFB00FCFDFB00FFFFF700FFFFF700FFFFF700FFFDFC00FFFD
-      FC00F8F6FF00F8F6FF00F9F4FF00F9F4FF00EBE6E700EBE6E700EBE6E700C4C1
-      BD00C4C1BD00CCC9D200CCC9D20094929E0094929E0094929E00B5B4BE00B5B4
-      BE00B6B7BB00B6B7BB00C2C1BD00C2C1BD00ECEAE200ECEAE200ECEAE200EBE9
-      DF00EBE9DF00FFFFFB00FFFFFB00FCF8FD00FCF8FD00FFFDFF00FFFDFF00FFFD
-      FF00FDFEFF00FDFEFF00FFFEFF00FFFEFF00FFFFFF00FAFCFD00FAFCFD00FBFF
-      FF00FBFFFF00F1F8FB00F1F8FB00D4D8D900B7B2B300B7B2B300757274007572
-      7400B2B8C300B2B8C300AEB6C300ADACB500ADACB500B9B5BA00B9B5BA00C1BE
-      C000C1BEC000CFCDCD00D4D5D300D4D5D300D9DCDA00D9DCDA00EAEDEB00EAED
-      EB00ECEFED00FFFCFE00FFFCFE00FFFDFF00FFFDFF00F2F0F600E4E4EA00E4E4
-      EA00DEDDE100DEDDE100D7D4D600D7D4D600D1CCCE00C6C0C500C6C0C500BAB6
-      BC00BAB6BC00A8ABB300A8ABB300A9B9BF00ABBEC300ABBEC300737F8300737F
-      8300ABB2B500ABB2B500D8DADB00F2F2F200F2F2F200FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FDFDFD00FCFCFC00FCFCFC00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFBFF00FFFB
-      FF00FFFBFF00FDFCFF00FCFEFF00FCFEFF00FEFDFF00FFFEFE00FFFEFF00FDF8
-      F700FFFFFE00F1F0EC00C2C2BC0082827C0065655F0079757000C6BFBC00F4ED
-      EA00FCF9F500FFFFFC00F7FCFA00F8FFFC00FAFFFD00FBFFFE00FCFEFE00FEFE
-      FE00FDFFFF00FDFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FDFDFD00FDFDFD00FEFEFE00FEFEFE00FFFF
-      FF00FFFFFF00FEFEFE00FEFEFE00FEFEFE00FEFEFE00FEFEFE00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FEFEFE00FEFEFE00FEFE
-      FE00FEFEFE00FEFEFE00FEFEFE00FEFEFE00FEFEFE00FEFEFE00FFFFFF00FFFF
-      FF00FFFEFF00FFFEFF00FAF9FD00FAF9FD00FAF9FD00FFFDFF00FFFDFF00FFFD
-      FF00FFFDFF00FFFFFF00FFFFFF00FFFFFE00FFFFFE00FFFFFE00FFFFFE00FFFF
-      FE00FFFEFF00FFFEFF00FDFCFF00FDFCFF00F7F7FF00F7F7FF00F7F7FF00F9F9
-      FF00F9F9FF00F1F2F600F1F2F600D5D2CD00D5D2CD00D5D2CD00C9C4C500C9C4
-      C500B0ADC300B0ADC3009390A6009390A600CCC9CB00CCC9CB00CCC9CB00A4A0
-      9F00A4A09F00DCD8E300DCD8E300D4D2DE00D4D2DE00D4D2DE00D8DAE200D8DA
-      E200E9EBEC00E9EBEC00E8E9E700E8E9E700DFDCD700DFDCD700DFDCD700A3A0
-      9800A3A09800FFFFFB00FFFFFB00FFFEFF00FFFEFF00FCF8FD00FCF8FD00FCF8
-      FD00FFFEFF00FFFEFF00FFFBFC00FFFBFC00FFFDFE00FFFFFF00FFFFFF00FDFF
-      FF00FDFFFF00F7FCFD00F7FCFD00F7FCFD00FFFFFF00FFFFFF00ACB6BD00ACB6
-      BD004167790041677900002C41002F4D60002F4D6000B4C9D800B4C9D800EFFD
-      FF00EFFDFF00F4FEFF00F9FDFF00F9FDFF00F7FBFC00F7FBFC00FBFDFE00FBFD
-      FE00FDFFFF00FBFFFF00FBFFFF00FCFEFF00FCFEFF00FDFFFF00FDFFFF00FDFF
-      FF00FBFDFE00FBFDFE00FAFFFF00FAFFFF00F4FDFF00ECFBFF00ECFBFF00C2D2
-      E900C2D2E9004F7188004F718800175565007DBBC6007DBBC600A9C8D100A9C8
-      D100F1FDFF00F1FDFF00F7FBFC00FEFEFE00FEFEFE00FFFFFF00FFFFFF00FEFE
-      FE00FEFEFE00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FBFCFF00FBFC
-      FF00FBFDFE00FBFDFE00FBFDFE00FAFEFF00FCFEFE00FCFEFE00FEFEFE00F9FA
-      F800FAFDFB00CCD0CB00464A440019191300706A6500463D39005C504E00DAD1
-      CE00FEF9F600FFFFFB00FBFFFA00F9FFFA00F6FBF900FBFFFE00FCFEFE00FCFE
-      FE00FEFEFE00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FCFCFC00FCFCFC00FCFCFC00F9F9F900F9F9F900FAFAFA00FAFAFA00FBFB
-      FB00FBFBFB00FBFBFB00FBFBFB00FBFBFB00FAFAFA00FAFAFA00FBFBFB00FBFB
-      FB00FBFBFB00FBFBFB00FBFBFB00FBFBFB00FBFBFB00FBFBFB00FBFBFB00FBFB
-      FB00FBFBFB00FBFBFB00FBFBFB00FBFBFB00FBFBFB00FBFBFB00FBFBFB00FBFB
-      FB00FBFBFB00FBFBFB00FBFBFB00FBFBFB00FBFBFB00FBFBFB00FBFBFB00FBFB
-      FB00FBFBFB00FBFBFB00FBFBFB00FBFBFB00FBFBFB00FBFBFB00FBFBFB00FBFB
-      FB00FBFBFB00FBFBFB00FBFBFB00FBFBFB00FBFBFB00FAFAFA00FAFAFA00FAFA
-      FA00FAFAFA00FAFAFA00FAFAFA00FCFCFC00FCFCFC00FCFCFC00FEFEFE00FEFE
-      FE00FFFFFF00FFFFFF00FFFEFF00FFFEFF00FFFEFF00FFFBFF00FFFBFF00FFFC
-      FF00FFFCFF00F9F9FF00F9F9FF00FAFCFF00FAFCFF00FAFCFF00F8F6F600F8F6
-      F600E4DFDC00E4DFDC00CDC6C900CDC6C900BDB8C100BDB8C100BDB8C1008C8C
-      9C008C8C9C00C7CBD600C7CBD600959595009595950095959500D8D6D600D8D6
-      D600C7C3CF00C7C3CF00D8D6E200D8D6E200DBDADE00DBDADE00DBDADE00DADA
-      DA00DADADA00D9D8DC00D9D8DC00DEDDE100DEDDE100DEDDE100EBEAEC00EBEA
-      EC00E4E4E400E4E4E400EDEBEB00EDEBEB00E2DDDF00E2DDDF00E2DDDF00CECA
-      D000CECAD000FEFAFF00FEFAFF00FDFCFF00FDFCFF00FFFFFF00FFFFFF00FFFF
-      FF00FAFDFB00FAFDFB00FFFEFF00FFFEFF00FFFEFF00FDFBFB00FDFBFB00FEFE
-      FE00FEFEFE00FBFFFF00FBFFFF00FBFFFF00FDFCFE00FDFCFE00D4E4EB00D4E4
-      EB002860730028607300266A810003384D0003384D00133B4D00133B4D003653
-      610036536100C1D3DE00F4FEFF00F4FEFF00FBFEFF00FBFEFF00FFFDFF00FFFD
-      FF00FFFCFF00FBFAFC00FBFAFC00FDFFFF00FDFFFF00FEFFFD00F7FCFA00F7FC
-      FA00F4FFFF00F4FFFF00EAFFFF00EAFFFF00BBDFE9004D7B8D004D7B8D003C6B
-      86003C6B860027638000276380004AA1B5006BB6C6006BB6C600C7DFEB00C7DF
-      EB00FFFCFF00FFFCFF00FFFEFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FBFB
-      FB00FBFBFB00FEFEFE00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00F9FCFF00FBFD
-      FE00FDFCFE00FDFCFE00FBFDFE00FCFEFE00FCFEFE00FCFFFD00FFFFFE00FFFF
-      FE00FAFDFB00A6ACA7006A6B6700DBD8D40094878500695A5800685C5C00A79F
-      9F00FFFFFE00FEFDF900FDFFFC00FBFFFC00FBFFFE00F9FEFC00FCFEFE00FCFE
-      FE00FEFEFE00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FDFDFD00FDFD
-      FD00F8F8F800F8F8F800F8F8F800F5F5F500F5F5F500F6F6F600F6F6F600F7F7
-      F700F7F7F700F7F7F700F7F7F700F7F7F700F6F6F600F6F6F600F7F7F700F7F7
-      F700F7F7F700F7F7F700F7F7F700F7F7F700F7F7F700F7F7F700F7F7F700F7F7
-      F700F7F7F700F7F7F700F7F7F700F7F7F700F7F7F700F7F7F700F7F7F700F7F7
-      F700F7F7F700F7F7F700F7F7F700F7F7F700F7F7F700F7F7F700F7F7F700F7F7
-      F700F7F7F700F7F7F700F7F7F700F7F7F700F7F7F700F7F7F700F7F7F700F7F7
-      F700F7F7F700F7F7F700F7F7F700F7F7F700F7F7F700F7F7F700F7F7F700F7F7
-      F700F7F7F700F7F7F700F7F7F700FAFAFA00FAFAFA00FAFAFA00FDFDFD00FDFD
-      FD00FDFDFD00FDFDFD00FEFCFC00FEFCFC00FEFCFC00F0EAEB00F0EAEB00D0C9
-      D000D0C9D000D7D7E900D7D7E900898999008989990089899900C9C9C900C9C9
-      C9009D9A96009D9A9600C6C0C100C6C0C100D2CED300D2CED300D2CED300D3D4
-      E200D3D4E200CCD0DB00CCD0DB00D9D8DA00D9D8DA00D9D8DA00DAD8D800DAD8
-      D800DAD9DD00DAD9DD00DADAE000DADAE000D7D8DC00D7D8DC00D7D8DC00DADC
-      DD00DADCDD00E1E1E100E1E1E100E7E7E700E7E7E700E7E7E700EBE9E800EBE9
-      E800ECEAEA00ECEAEA00DFDCDE00DFDCDE00DFDBE100DFDBE100DFDBE100AAA5
-      B400AAA5B400F1EDF900F1EDF900FDFEFF00FDFEFF00FDFFFE00FDFFFE00FDFF
-      FE00FDFFFC00FDFFFC00FFFFFF00FFFFFF00FFFFFF00FFFDFF00FFFDFF00FFFE
-      FF00FFFEFF00FCFEFE00FCFEFE00FDFFFF00FEFBFD00FEFBFD00EDFFFF00EDFF
-      FF00144C5F00144C5F003C86A0001A5C75001A5C7500063F5500063F55001C46
-      59001C4659001B394A004963710049637100D2E2EE00D2E2EE00F5FBFF00F5FB
-      FF00F9FBFF00FAFEFF00FAFEFF00F8FFFF00F8FFFF00F2FEFE00EDFFFF00EDFF
-      FF00C5E4E700C5E4E7005F8D94005F8D940036727E003B8091003B8091003275
-      8E0032758E0035829D0035829D006BCBE3004491A4004491A400E6F9FF00E6F9
-      FF00FFFAFF00FFFAFF00FFFDFF00FFFEFE00FFFEFE00FEFEFE00FEFEFE00FFFF
-      FF00FFFFFF00FFFFFF00FEFEFE00FEFEFE00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFDFF00FFFD
-      FF00FFFDFF00FFFDFE00FFFEFE00FEFFFD00FEFFFD00FFFFFB00FFFFFC00FFFB
-      FA00F9F7F6008E8E8E00BAB5B600FFFCFE00947E83006B555A00665E5F008886
-      8600FBF9F900FFFFFE00FFFFFC00FDFFFC00FAFDFB00FCFFFD00FCFEFE00FCFE
-      FE00FEFDFF00FFFEFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FAFAFA00FAFA
-      FA00AEAEAE00AEAEAE00AEAEAE00909090009090900093939300939393009494
-      9400949494009090900090909000909090009393930093939300929292009292
-      9200919191009191910093939300939393009393930093939300939393009191
-      9100919191009393930093939300939393009393930093939300929292009292
-      9200929292009292920091919100919191009191910094949400949494008E8E
-      8E008E8E8E009393930093939300939393009393930093939300919191009191
-      9100939393009393930093939300939393009393930092929200929292009292
-      9200929292009393930093939300B2B2B200B2B2B200B2B2B200F7F7F700F7F7
-      F700FDFFFE00FDFFFE00F1F2EE00F1F2EE00F1F2EE00C1BCB900C1BCB900C3BE
-      BD00C3BEBD00D7D3D900D7D3D900D6D6DC00D6D6DC00D6D6DC00D1D3D300D1D3
-      D300D2D5D300D2D5D300D6D7D500D6D7D500D5D5D500D5D5D500D5D5D500D3D5
-      D600D3D5D600D5D7D800D5D7D800DBD9D800DBD9D800DBD9D800D9DAD800D9DA
-      D800D7D9D900D7D9D900D6DADB00D6DADB00D9DDDE00D9DDDE00D9DDDE00DEE0
-      E100DEE0E100E7E7E700E7E7E700ECEDEB00ECEDEB00ECEDEB00E9E7E600E9E7
-      E600E0DEDE00E0DEDE00DFDCDE00DFDCDE00E2E0E600E2E0E600E2E0E600BDB8
-      C700BDB8C700DBD8E700DBD8E700FFFEFF00FFFEFF00FEFFFD00FEFFFD00FEFF
-      FD00FFFFFC00FFFFFC00FFFEFF00FFFEFF00FFFEFF00FDFEFF00FDFEFF00FDFE
-      FF00FDFEFF00FDFFFE00FDFFFE00FDFFFC00FFFFFF00FFFFFF00F6FEFF00F6FE
-      FF00587A8A00587A8A00215972002D7694002D7694004D98B8004D98B800003B
-      5900003B59001248660011506C0011506C0014526A0014526A0010455A001045
-      5A00113C4F0064859800648598007FA3B5007FA3B500356A7E003C7F94003C7F
-      94004692A9004692A9003C8CA3003C8CA300348194001F6F80001F6F80006AC1
-      D5006AC1D50058AEC40058AEC4004193AC005D97AD005D97AD00E6FAFF00E6FA
-      FF00FDFEFF00FDFEFF00FFFEFF00FFFFFE00FFFFFE00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFDFF00FFFD
-      FF00FFFDFE00FFFEFD00FEFFFD00FEFFFD00FEFFFB00FFFFFB00FFFAF700FFFF
-      FE00F5F7F800858C8F009EA7AB00FAFDFF007F7A83005F57610064676C008085
-      8800FBFFFF00FCFEFE00F8F9F700FDFEFC00FFFFFE00FFFFFE00FCFEFE00FCFE
-      FE00FEFDFF00FFFEFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00D3D3D300D3D3
-      D300A8A8A800A8A8A800A8A8A800F5F5F500F5F5F500F7F7F700F7F7F700F1F1
-      F100F1F1F100F5F5F500F5F5F500F5F5F500F2F2F200F2F2F200F6F6F600F6F6
-      F600F5F5F500F5F5F500F5F5F500F5F5F500F5F5F500F5F5F500F5F5F500F5F5
-      F500F5F5F500F2F2F200F2F2F200F2F2F200F1F1F100F1F1F100F3F3F300F3F3
-      F300F7F7F700F7F7F700F5F5F500F5F5F500F5F5F500F3F3F300F3F3F300F9F9
-      F900F9F9F900F5F5F500F5F5F500F5F5F500F3F3F300F3F3F300F6F6F600F6F6
-      F600F2F2F200F2F2F200F2F2F200F2F2F200F2F2F200F4F4F400F4F4F400FBFB
-      FB00FBFBFB00ECECEC00ECECEC00B0B0B000B0B0B000B0B0B000D7D7D700D7D7
-      D700FDFFFF00FDFFFF00F0EFF100F0EFF100F0EFF100DFDCDE00DFDCDE00F1EC
-      EE00F1ECEE00E6E3E500E6E3E500E7E6E800E7E6E800E7E6E800E1E3E400E1E3
-      E400DFE1E100DFE1E100D5D8D600D5D8D600D6D9D700D6D9D700D6D9D700D9DA
-      D800D9DAD800DADBD900DADBD900DBD9D900DBD9D900DBD9D900D9D9D900D9D9
-      D900DADCDC00DADCDC00DDDFDF00DDDFDF00DFE1E100DFE1E100DFE1E100E6E8
-      E900E6E8E900EBEAEC00EBEAEC00E6E5E700E6E5E700E6E5E700E2E0E000E2E0
-      E000E0DEDE00E0DEDE00E0DFE100E0DFE100DEDFE300DEDFE300DEDFE300D5D1
-      DC00D5D1DC00D5D2DB00D5D2DB00FAF6FB00FAF6FB00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFC00FFFFFC00FFFEFF00FFFEFF00FFFEFF00FDFEFF00FDFEFF00FAFF
-      FF00FAFFFF00FAFFFE00FAFFFE00FBFFFC00FFFFFF00FFFFFF00F6FFFF00F6FF
-      FF007697A6007697A600134A5F00246F8900246F89003E8DA8003E8DA8004F91
-      AA004F91AA00013E580008496500084965000D536B000D536B00105870001058
-      70000850680000415D0000415D0036779300367793004088A0004995AB004995
-      AB003D8A9D003D8A9D00357E9200357E92002868800066ACC40066ACC40068C2
-      DA0068C2DA00419CB100419CB1002D77890082B3C10082B3C100F1FDFF00F1FD
-      FF00FFFDFF00FFFDFF00FFFEFF00FFFFFF00FFFFFF00FDFFFF00FDFFFF00FDFF
-      FF00FDFFFF00FDFFFF00FDFFFF00FDFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FAFEFF00FCFE
-      FF00FCFEFE00FCFFFD00F9FFFD00F9FFFB00FCFFFB00FEFFFB00FFFFFE00FBFD
-      FE00EEFDFF00758F950082A7AF00D3FCFF00678A98004B6876004C656F007082
-      8900EAF6FA00F6FDFF00FBFDFD00FFFFFE00FFFFFE00FFFDFC00FEFEFE00FEFE
-      FE00FEFDFF00FFFEFF00FFFEFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00E5E5E500E5E5
-      E500C4C4C400C4C4C400C4C4C400AEAEAE00AEAEAE00EFEFEF00EFEFEF00F3F3
-      F300F3F3F300F0F0F000F0F0F000F0F0F000F2F2F200F2F2F200F2F2F200F2F2
-      F200EFEFEF00EFEFEF00EEEEEE00EEEEEE00EEEEEE00F1F1F100F1F1F100F3F3
-      F300F3F3F300F2F2F200F2F2F200F2F2F200F2F2F200F2F2F200F2F2F200F2F2
-      F200F1F1F100F1F1F100F5F5F500F5F5F500F5F5F500ECECEC00ECECEC00EEEE
-      EE00EEEEEE00F2F2F200F2F2F200F2F2F200EEEEEE00EEEEEE00F2F2F200F2F2
-      F200EEEEEE00EEEEEE00F2F2F200F2F2F200F2F2F200F3F3F300F3F3F300ECEC
-      EC00ECECEC00B7B7B700B7B7B700C7C7C700C7C7C700C7C7C700E3E3E300E3E3
-      E300FFFBFF00FFFBFF00F5EEFD00F5EEFD00F5EEFD009B95AC009B95AC00D4D2
-      E600D4D2E600E2E1EA00E2E1EA00E5E4E800E5E4E800E5E4E800EBE7ED00EBE7
-      ED00E7E1E600E7E1E600E8E8E800E8E8E800E1E4E200E1E4E200E1E4E200D9DE
-      DC00D9DEDC00D9DBDB00D9DBDB00DCDBDF00DCDBDF00DCDBDF00DFDBE100DFDB
-      E100DEDDE100DEDDE100DFDEE000DFDEE000E8E9E700E8E9E700E8E9E700EBEB
-      EB00EBEBEB00E8E5EE00E8E5EE00E0DCE700E0DCE700E0DCE700DADBDF00DADB
-      DF00DEE0E100DEE0E100E0E2E300E0E2E300DFE1E100DFE1E100DFE1E100E3E4
-      E200E3E4E2008D8B8A008D8B8A00FFFEFF00FFFEFF00FFFDFF00FFFDFF00FFFD
-      FF00FFFEFF00FFFEFF00FFFEFE00FFFEFE00FFFFFE00FDFFFF00FDFFFF00FBFF
-      FF00FBFFFF00FAFFFF00FAFFFF00FBFFFE00FFFFFF00FFFFFF00FAFDFF00FAFD
-      FF00A6BFCF00A6BFCF0009384D00196278001962780029799000297990006DB6
-      CC006DB6CC00367A9100003951000039510010536C0010536C000A556F000A55
-      6F00085974000151700001517000388AA900388AA9003788A3003B89A0003B89
-      A000367C8D00367C8D004B8B9D004B8B9D0084C2DA0086CBE60086CBE600469D
-      B800469DB800348AA200348AA2001F5F7100AAD0DC00AAD0DC00F6FDFF00F6FD
-      FF00FFFBFF00FFFBFF00FFFEFF00FDFFFF00FDFFFF00FBFFFF00FBFFFF00FBFF
-      FF00FBFFFF00FDFFFF00FDFFFF00FDFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00F9FEFF00F9FE
-      FF00FAFFFE00FAFFFD00F9FFFB00F9FFFB00FCFFFB00FEFFFD00FFFDFD00F6FB
-      FE00DBF5FB0091BFC7007DBDC80081C9DA0077BFD1007CBACC008AB7C500A2C2
-      CD00DCF4FA00F2FEFF00F9FDFE00FEFCFC00FFFBFA00FFFFFE00FFFEFE00FEFE
-      FE00FEFDFF00FFFEFF00FFFEFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00DEDEDE00DEDE
-      DE00D6D6D600D6D6D600D6D6D600E6E6E600E6E6E600A8A8A800A8A8A800DBDB
-      DB00DBDBDB00F9F9F900F9F9F900F9F9F900EFEFEF00EFEFEF00EFEFEF00EFEF
-      EF00F2F2F200F2F2F200F2F2F200F2F2F200F2F2F200F2F2F200F2F2F200EFEF
-      EF00EFEFEF00EDEDED00EDEDED00EDEDED00F1F1F100F1F1F100F3F3F300F3F3
-      F300EFEFEF00EFEFEF00E9E9E900E9E9E900E9E9E900F8F8F800F8F8F800EFEF
-      EF00EFEFEF00EDEDED00EDEDED00EDEDED00F0F0F000F0F0F000F1F1F100F1F1
-      F100F2F2F200F2F2F200F5F5F500F5F5F500F5F5F500E8E8E800E8E8E800B2B2
-      B200B2B2B200E0E0E000E0E0E000DBDBDB00DBDBDB00DBDBDB00D9D9D900D9D9
-      D900FFFCFF00FFFCFF00FFFBFF00FFFBFF00FFFBFF00C5C1D400C5C1D400CCCA
-      DD00CCCADD00CED0D800CED0D800D1D2D600D1D2D600D1D2D600E1DDE300E1DD
-      E300E9E3E800E9E3E800EAE7E900EAE7E900EAEAEA00EAEAEA00EAEAEA00E7EC
-      EB00E7ECEB00E5E7E700E5E7E700E2E1E500E2E1E500E2E1E500E2DEE400E2DE
-      E400E3E2E600E3E2E600E8E7E900E8E7E900ECEDEB00ECEDEB00ECEDEB00E6E7
-      E500E6E7E500DFDDE300DFDDE300DEDBE400DEDBE400DEDBE400E0DFE300E0DF
-      E300E0E2E300E0E2E300E1E3E300E1E3E300E2E4E400E2E4E400E2E4E400E8E9
-      E700E8E9E700D8D6D600D8D6D600FCF7F900FCF7F900FFF9FC00FFF9FC00FFF9
-      FC00FFFEFF00FFFEFF00FFFFF800FFFFF800FFFFFB00FFFFFF00FFFFFF00FFFE
-      FF00FFFEFF00FFFEFF00FFFEFF00FFFEFF00FFFEFF00FFFEFF00FFFCFF00FFFC
-      FF00F2F9FF00F2F9FF001C374C000F4661000F4661001F6A84001F6A84004499
-      AF004499AF0066B5C800A0DBEE00A0DBEE000E4155000E4155000D425D000D42
-      5D000F4B690008506E0008506E002E7A97002E7A970029728E0028667E002866
-      7E003162700031627000B0E4F000B0E4F0007EC6D80053A3BA0053A3BA002D75
-      97002D75970015537100155371001D455800EAFFFF00EAFFFF00F6FBFE00F6FB
-      FE00FFFFFF00FFFFFF00FFFEFF00FDFFFF00FDFFFF00FBFFFF00FBFFFF00FBFF
-      FF00FBFFFF00FBFFFF00FBFFFF00FBFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00F9FEFF00FAFE
-      FF00FCFEFE00FEFFFD00FCFFFB00FEFFFB00FFFFFB00FFFEFD00FFFCFE00F4FE
-      FF00CFF2FC00A1DEEC0083D9EB0068CDE30070D4F0006CC6DF0097DBEE00A9DA
-      E800CAEDF700E8FEFF00F6FDFF00FDFDFD00FFFBFA00FFFEFD00FFFDFD00FEFE
-      FE00FEFDFF00FFFEFF00FFFEFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00DCDCDC00DCDC
-      DC00D6D6D600D6D6D600D6D6D600ECECEC00ECECEC00EBEBEB00EBEBEB00C8C8
-      C800C8C8C800D6D6D600D6D6D600D6D6D600F5F5F500F5F5F500F3F3F300F3F3
-      F300EEEEEE00EEEEEE00F0F0F000F0F0F000F0F0F000F2F2F200F2F2F200F1F1
-      F100F1F1F100EFEFEF00EFEFEF00EFEFEF00EFEFEF00EFEFEF00F1F1F100F1F1
-      F100F0F0F000F0F0F000F2F2F200F2F2F200F2F2F200ECECEC00ECECEC00F4F4
-      F400F4F4F400EBEBEB00EBEBEB00EBEBEB00F6F6F600F6F6F600EEEEEE00EEEE
-      EE00F6F6F600F6F6F600D8D8D800D8D8D800D8D8D800B6B6B600B6B6B600E5E5
-      E500E5E5E500EEEEEE00EEEEEE00DCDCDC00DCDCDC00DCDCDC00E0E0E000E0E0
-      E000FAFFFD00FAFFFD00FAFEF900FAFEF900FAFEF900B0ADA800B0ADA800CDCA
-      C600CDCAC600CCCECF00CCCECF00CCCFD300CCCFD300CCCFD300CFD1D200CFD1
-      D200CFD1D100CFD1D100DAD7D900DAD7D900E1DEE000E1DEE000E1DEE000E7E8
-      E600E7E8E600EBECEA00EBECEA00ECEAEA00ECEAEA00ECEAEA00ECEAEA00ECEA
-      EA00EBEAEC00EBEAEC00EAECEC00EAECEC00E3E8E700E3E8E700E3E8E700DCE1
-      E000DCE1E000DDDDDD00DDDDDD00E4DFE000E4DFE000E4DFE000E9E3E400E9E3
-      E400E8E3E400E8E3E400E4E4E400E4E4E400E4E5E900E4E5E900E4E5E900E1E1
-      ED00E1E1ED00A6A4B000A6A4B000EBE9EF00EBE9EF00FFFEFE00FFFEFE00FFFE
-      FE00FFFCFB00FFFCFB00FFFFF900FFFFF900FFFFFB00FFFEFF00FFFEFF00FFFD
-      FF00FFFDFF00FFFDFF00FFFDFF00FFFEFF00FFFFFF00FFFFFF00FDFEFF00FDFE
-      FF00F8FBFF00F8FBFF003E5368000C3B57000C3B57001E6180001E6180004192
-      AD004192AD0066B2C900A5DAEE00A5DAEE0090BCCD0090BCCD00013045000130
-      4500164C63000B4A66000B4A66002A6A88002A6A8800316A83001C5061001C50
-      61009FCED6009FCED600B3EAF100B3EAF10074BCCE004C97B1004C97B1002060
-      820020608200083A5800083A58003F606F00ECFFFF00ECFFFF00F3FFFF00F3FF
-      FF00F7FEFB00F7FEFB00FFFFFF00FFFFFF00FFFFFF00FDFFFF00FDFFFF00FBFF
-      FF00FBFFFF00FBFFFF00FBFFFF00FBFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00F9FEFF00FAFE
-      FF00FEFEFE00FFFEFD00FFFEFD00FFFFFB00FFFFFB00FFFEFE00FFFEFF00E8F7
-      FF00C7F2FF0090D7EB007CE0F80063D3F10060D0F40072D9FA008EE1F70098D9
-      E800C2EFFC00E1FEFF00EFFAFE00FCFEFF00FFFEFF00FFFFFE00FFFDFD00FEFE
-      FE00FEFDFF00FFFEFF00FFFEFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00DEDEDE00DEDE
-      DE00DBDBDB00DBDBDB00DBDBDB00E7E7E700E7E7E700EEEEEE00EEEEEE00F0F0
-      F000F0F0F000CBCBCB00CBCBCB00CBCBCB00CACACA00CACACA00F3F3F300F3F3
-      F300F2F2F200F2F2F200F1F1F100F1F1F100F1F1F100EFEFEF00EFEFEF00F1F1
-      F100F1F1F100F5F5F500F5F5F500F5F5F500F2F2F200F2F2F200EFEFEF00EFEF
-      EF00F0F0F000F0F0F000F1F1F100F1F1F100F1F1F100EFEFEF00EFEFEF00EFEF
-      EF00EFEFEF00F2F2F200F2F2F200F2F2F200EEEEEE00EEEEEE00F4F4F400F4F4
-      F400DBDBDB00DBDBDB00CACACA00CACACA00CACACA00EEEEEE00EEEEEE00F0F0
-      F000F0F0F000EFEFEF00EFEFEF00D8D8D800D8D8D800D8D8D800DADADA00DADA
-      DA00FAFFFB00FAFFFB00FBFFFB00FBFFFB00FBFFFB00D2D0CF00D2D0CF00BEBC
-      BC00BEBCBC00CECDD100CECDD100CDCED200CDCED200CDCED200CDD2D100CDD2
-      D100CED3D200CED3D200D2D1D300D2D1D300D5D2D400D5D2D400D5D2D400D8D6
-      D500D8D6D500DFDEDA00DFDEDA00E5E5E500E5E5E500E5E5E500EAEAEA00EAEA
-      EA00EAE8E800EAE8E800E4E4E400E4E4E400DBDFE000DBDFE000DBDFE000DCE1
-      E000DCE1E000E4E2E100E4E2E100E7E4E000E7E4E000E7E4E000EAE2E200EAE2
-      E200E9E4E300E9E4E300E8E6E600E8E6E600E6E6EC00E6E6EC00E6E6EC00E9E8
-      F800E9E8F800CBCBD900CBCBD900DCDAE000DCDAE000FFFFFE00FFFFFE00FFFF
-      FE00FFFFFB00FFFFFB00FFFFFC00FFFFFC00FFFFFE00FDFFFF00FDFFFF00FFFE
-      FF00FFFEFF00FFFEFF00FFFEFF00FFFFFF00FFFFFF00FFFFFF00FBFFFF00FBFF
-      FF00F6FCFF00F6FCFF006C7F9400042E4B00042E4B001B5578001B5578004B97
-      B4004B97B40065AFC90091C9DC0091C9DC00C9F5FF00C9F5FF006B96A5006B96
-      A500012F410010435D0010435D0032648000326480001E4B6000719CAB00719C
-      AB00D1FFFF00D1FFFF0098CFD60098CFD6006FB4C700468DA800468DA800104B
-      6B00104B6B00002642000026420069889700E7FDFF00E7FDFF00F1FFFF00F1FF
-      FF00F7FFFB00F7FFFB00FFFFFE00FFFEFF00FFFEFF00FFFFFF00FFFFFF00FDFF
-      FE00FDFFFE00FDFFFE00FBFFFE00FBFFFE00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FAFDFF00FCFE
-      FF00FFFEFE00FFFEFD00FFFEFD00FFFFFB00FFFEFD00FCFEFF00F6FCFF00E8FE
-      FF00B9EBFD0088D6ED0078DDFD0062D1F7006BD6FF0069CDF7007FDAF50089D7
-      E800AFE6F500DDFFFF00EDFDFF00F9FDFE00FFFDFD00FFFCFB00FFFDFC00FEFE
-      FE00FEFDFF00FFFEFF00FFFEFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00DFDFDF00DFDF
-      DF00D4D4D400D4D4D400D4D4D400EAEAEA00EAEAEA00F0F0F000F0F0F000F4F4
-      F400F4F4F400F7F7F700F7F7F700F7F7F700D8D8D800D8D8D800C1C1C100C1C1
-      C100F2F2F200F2F2F200F8F8F800F8F8F800F8F8F800F4F4F400F4F4F400EFEF
-      EF00EFEFEF00F3F3F300F3F3F300F3F3F300F3F3F300F3F3F300F0F0F000F0F0
-      F000F4F4F400F4F4F400F5F5F500F5F5F500F5F5F500F0F0F000F0F0F000F3F3
-      F300F3F3F300F1F1F100F1F1F100F1F1F100FAFAFA00FAFAFA00D1D1D100D1D1
-      D100CBCBCB00CBCBCB00F5F5F500F5F5F500F5F5F500F7F7F700F7F7F700F3F3
-      F300F3F3F300EAEAEA00EAEAEA00D8D8D800D8D8D800D8D8D800E1E1E100E1E1
-      E100FFFFFC00FFFFFC00F8F8FE00F8F8FE00F8F8FE00E6E3FD00E6E3FD00B9B5
-      D200B9B5D200D1CDD900D1CDD900D7D4D600D7D4D600D7D4D600CFD1D100CFD1
-      D100CDCFCF00CDCFCF00CFD0D400CFD0D400D3D2D400D3D2D400D3D2D400D8D4
-      D300D8D4D300D8D4D300D8D4D300D5D4D800D5D4D800D5D4D800D9D8DC00D9D8
-      DC00DFDDDC00DFDDDC00E1DFDE00E1DFDE00DDDFDF00DDDFDF00DDDFDF00E0E2
-      E300E0E2E300E7E5E500E7E5E500E8E4E300E8E4E300E8E4E300E8E4E300E8E4
-      E300E9E7E600E9E7E600E6E8E900E6E8E900E4E7EC00E4E7EC00E4E7EC00E6E5
-      EF00E6E5EF00E2DFE800E2DFE800BEB9BA00BEB9BA00FFFCF900FFFCF900FFFC
-      F900FFFFF700FFFFF700FFFBFF00FFFBFF00FDFDFF00F4FEFE00F4FEFE00F6FF
-      FF00F6FFFF00FFFFFE00FFFFFE00FFFFFF00F5F8FC00F5F8FC00F3FEFF00F3FE
-      FF0096ADBC0096ADBC001939500024506D0024506D003269880032698800478B
-      A800478BA80066AEC60089CDE00089CDE000A4DDEC00A4DDEC00C5F0F900C5F0
-      F900D2F1FA002F4656002F4656003B4F61003B4F6100D5ECFB00D6F6FF00D6F6
-      FF00ACDCE800ACDCE8008EC7D6008EC7D60062A1B60038789100387891002460
-      7D0024607D0024597400245974000F385100A6C4D700A6C4D700F1FFFF00F1FF
-      FF00F5FBFA00F5FBFA00FFFFFF00FFFFFF00FFFFFF00FFFEFD00FFFEFD00FFFF
-      FB00FFFFFB00FFFFFA00FBFDF700FBFDF700FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FAFDFF00FCFE
-      FF00FFFDFF00FFFDFE00FFFEFD00FEFFFD00FCFEFE00F5FEFF00EAFEFF00CEF9
-      FF008ACEE50080DAF8006AD2F70067D5FF006DD7FF006ED4FF0072D5F5007DD7
-      EF0085CCE000C8F9FF00E4FDFF00F3FCFF00FAFAFA00FFFFFE00FFFDFC00FEFE
-      FE00FEFDFF00FFFEFF00FFFEFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00DCDCDC00DCDC
-      DC00D8D8D800D8D8D800D8D8D800ECECEC00ECECEC00ECECEC00ECECEC00F4F4
-      F400F4F4F400F6F6F600F6F6F600F6F6F600F8F8F800F8F8F800E2E2E200E2E2
-      E200C5C5C500C5C5C500E7E7E700E7E7E700E7E7E700F6F6F600F6F6F600F2F2
-      F200F2F2F200F3F3F300F3F3F300F3F3F300F4F4F400F4F4F400F1F1F100F1F1
-      F100F4F4F400F4F4F400F3F3F300F3F3F300F3F3F300F0F0F000F0F0F000F4F4
-      F400F4F4F400F5F5F500F5F5F500F5F5F500C4C4C400C4C4C400D8D8D800D8D8
-      D800FAFAFA00FAFAFA00F8F8F800F8F8F800F8F8F800F5F5F500F5F5F500EFEF
-      EF00EFEFEF00EFEFEF00EFEFEF00D9D9D900D9D9D900D9D9D900DDDDDD00DDDD
-      DD00FFFDFC00FFFDFC00FDFCFF00FDFCFF00FDFCFF00F0EEFF00F0EEFF008E89
-      A8008E89A800D3CFDB00D3CFDB00D2D0D000D2D0D000D2D0D000D3D3D300D3D3
-      D300D2D4D400D2D4D400D1D2D600D1D2D600D5D4D600D5D4D600D5D4D600DAD6
-      D500DAD6D500D8D4D300D8D4D300D4D3D700D4D3D700D4D3D700D4D5D900D4D5
-      D900DAD8D700DAD8D700DBD9D800DBD9D800E3E3E300E3E3E300E3E3E300E2E1
-      E300E2E1E300E4E2E200E4E2E200E7E5E400E7E5E400E7E5E400E9E8E400E9E8
-      E400E9EAE800E9EAE800E8EAEB00E8EAEB00E7E7ED00E7E7ED00E7E7ED00EBEB
-      F100EBEBF100EAE8EE00EAE8EE009792940097929400FFFFFE00FFFFFE00FFFF
-      FE00FFFFFC00FFFFFC00FCFBFF00FCFBFF00FBFEFF00F8FFFE00F8FFFE00F7FF
-      FD00F7FFFD00FBFDFD00FBFDFD00F9FCFF00F3FCFF00F3FCFF009AAFC4009AAF
-      C4001A3E56001A3E560035647F00457C9700457C97004F8FA7004F8FA7005DA3
-      BA005DA3BA006AB2C40083C4D20083C4D200A4E2EA00A4E2EA00B5EEEF00B5EE
-      EF00DCFFFF00D4DEE500D4DEE500DEE3EC00DEE3EC00E7FFFF00BBE7EE00BBE7
-      EE0093D0DE0093D0DE006EB6C8006EB6C80064ABBF00569FB500569FB5004993
-      AD004993AD00387B9A00387B9A0030658A00163F6000163F6000ACC5D900ACC5
-      D900EFFEFF00EFFEFF00F8FEFF00FDFFFF00FDFFFF00FDFDFD00FDFDFD00FFFF
-      FE00FFFFFE00FFFFFC00FFFFFB00FFFFFB00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00F8FDFE00FDFF
-      FF00FFFDFF00FFFDFF00F9FBFC00FAFFFE00F4F9F800EDFFFF00CAFBFF0074BE
-      D80074D8F50064D2F40068D4FD0069D5FF0069D8FF006BD8FE006AD3FA006CD0
-      F3007DD8F7007CC4DC00D1F8FF00ECFDFF00F9FEFF00FFFEFD00FFFEFD00FFFE
-      FE00FFFEFF00FFFDFF00FFFEFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00DFDFDF00DFDF
-      DF00D3D3D300D3D3D300D3D3D300ECECEC00ECECEC00EFEFEF00EFEFEF00F3F3
-      F300F3F3F300F7F7F700F7F7F700F7F7F700F9F9F900F9F9F900FAFAFA00FAFA
-      FA00F0F0F000F0F0F000BEBEBE00BEBEBE00BEBEBE00E8E8E800E8E8E800F8F8
-      F800F8F8F800F8F8F800F8F8F800F8F8F800E1E1E100E1E1E100C3C3C300C3C3
-      C300E4E4E400E4E4E400F2F2F200F2F2F200F2F2F200F7F7F700F7F7F700F1F1
-      F100F1F1F100BFBFBF00BFBFBF00BFBFBF00D9D9D900D9D9D900F8F8F800F8F8
-      F800F7F7F700F7F7F700FBFBFB00FBFBFB00FBFBFB00F5F5F500F5F5F500F1F1
-      F100F1F1F100EDEDED00EDEDED00D9D9D900D9D9D900D9D9D900DDDDDD00DDDD
-      DD00FEFEFE00FEFEFE00FFFEFF00FFFEFF00FFFEFF00FDFCFF00FDFCFF00CFCE
-      D800CFCED800D5D4D800D5D4D800CFCFCF00CFCFCF00CFCFCF00D5D5D500D5D5
-      D500D4D4D400D4D4D400D4D3D500D4D3D500D5D5D500D5D5D500D5D5D500D6D4
-      D400D6D4D400D5D3D300D5D3D300D6D5D700D6D5D700D6D5D700D3D2D400D3D2
-      D400B3B3B300B3B3B300A6A6A600A6A6A600B9B8BA00B9B8BA00B9B8BA00D4D3
-      D500D4D3D500E5E5E500E5E5E500E7E8E600E7E8E600E7E8E600E8E9E500E8E9
-      E500EAEBE900EAEBE900EBEAEC00EBEAEC00F0EFF300F0EFF300F0EFF300F0ED
-      F600F0EDF600EFECF500EFECF500D8D3DC00D8D3DC00F7F3F900F7F3F900F7F3
-      F900FFFDFF00FFFDFF00FDFEFF00FDFEFF00FBFFFF00F9FFFD00F9FFFD00F6FE
-      FD00F6FEFD00F8FEFF00F8FEFF00EFFAFF0094ABC10094ABC100224461002244
-      610042718D0042718D004D86A000639FB500639FB5006EB0C3006EB0C30080C3
-      D20080C3D20097D7E200A8DDE700A8DDE700ADE0E300ADE0E300A4D8D800A4D8
-      D800C3EAE800F5FCFF00F5FCFF00FBFEFF00FBFEFF00E1F6F800C1E7EC00C1E7
-      EC00AEE3F000AEE3F0009BDBED009BDBED008ACCDF0079C0D40079C0D40063AF
-      C60063AFC600519AB800519AB8004788AE00437A9F00437A9F0024516C002451
-      6C00A5C5D800A5C5D800E9FBFF00F4FEFF00F4FEFF00F9FEFF00F9FEFF00FBFD
-      FE00FBFDFE00FEFFFD00FFFEFA00FFFEFA00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00F7FCFB00FCFE
-      FE00FFFCFE00FFFCFF00FBFCFF00FAFFFF00F3FDFD00DEFBFF008BCEE30070D0
-      EE005FD2F3005ED6FA0072DEFF0072DDFF0067D7FB006BDEFF0069D8FE006BD8
-      FE0063CFF10072CCEA0092CBE000DCFAFF00F2FFFF00FAFDFB00FEFEFE00FEFE
-      FE00FDFEFF00FFFEFF00FFFEFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00DCDCDC00DCDC
-      DC00D8D8D800D8D8D800D8D8D800EBEBEB00EBEBEB00EEEEEE00EEEEEE00F2F2
-      F200F2F2F200F2F2F200F2F2F200F2F2F200F8F8F800F8F8F800FAFAFA00FAFA
-      FA00F6F6F600F6F6F600F1F1F100F1F1F100F1F1F100BBBBBB00BBBBBB00DDDD
-      DD00DDDDDD00D5D5D500D5D5D500D5D5D500BABABA00BABABA00EAEAEA00EAEA
-      EA00B6B6B600B6B6B600DADADA00DADADA00DADADA00F5F5F500F5F5F500BDBD
-      BD00BDBDBD00DADADA00DADADA00DADADA00FDFDFD00FDFDFD00FAFAFA00FAFA
-      FA00FBFBFB00FBFBFB00F5F5F500F5F5F500F5F5F500F5F5F500F5F5F500F1F1
-      F100F1F1F100EDEDED00EDEDED00D9D9D900D9D9D900D9D9D900DDDDDD00DDDD
-      DD00FFFFFF00FFFFFF00FDFDFD00FDFDFD00FDFDFD00FFFFFF00FFFFFF00A7A7
-      A700A7A7A700B5B5B500B5B5B500D8D8D800D8D8D800D8D8D800D7D7D700D7D7
-      D700D4D4D400D4D4D400D6D6D600D6D6D600D7D7D700D7D7D700D7D7D700D7D7
-      D700D7D7D700DBDBDB00DBDBDB00D8D8D800D8D8D800D8D8D800A8A8A800A8A8
-      A800A6A6A600A6A6A600A6A6A600A6A6A600ACABAD00ACABAD00ACABAD00ACAC
-      AC00ACACAC00B0B0B000B0B0B000C4C5C300C4C5C300C4C5C300E1E2DE00E1E2
-      DE00EEEFED00EEEFED00ECECEC00ECECEC00ECEBEF00ECEBEF00ECEBEF00EDEA
-      F300EDEAF300F4F0FB00F4F0FB00ACA8B400ACA8B400D7D3DE00D7D3DE00D7D3
-      DE00FFFCFF00FFFCFF00FFFDFC00FFFDFC00FEFCFB00FDFFFE00FDFFFE00F6FF
-      FF00F6FFFF00ECF9FF00ECF9FF0093ABC100264E6B00264E6B00427595004275
-      9500548FA900548FA90068A7BC0077B5C70077B5C70080BDCB0080BDCB0091CC
-      D60091CCD6009ECDD500C4E4E900C4E4E900DBF4F600DBF4F600E8FFFF00E8FF
-      FF00E6FDFF00EEFFFF00EEFFFF00F1FEFF00F1FEFF00F1FFFF00EDFFFF00EDFF
-      FF00E4FCFF00E4FCFF00C5E8F600C5E8F600A5D5E70087C2D50087C2D50073B8
-      CC0073B8CC0068B4CB0068B4CB004E9CB900448FAF00448FAF00347798003477
-      98002459740024597400A1C2D500E7FAFF00E7FAFF00F3FDFF00F3FDFF00F8FE
-      FF00F8FEFF00FBFDFE00FFFEFD00FFFEFD00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FBFEFC00FCFE
-      FE00FCFEFF00FBFCFF00FCFDFF00F7FDFF00EEFFFF00C2EAF6006DBDD40071D8
-      F80062D5F60069DDFE0071DCFF0074DFFF006FDFFD006BE0FB006AE2FF0064DD
-      FD005FD6F60070DBF70074C2D900B8ECF900E8FFFF00F6FEFD00F9FFFE00FAFF
-      FE00FAFFFF00FBFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00E1E1E100E1E1
-      E100D5D5D500D5D5D500D5D5D500E9E9E900E9E9E900EEEEEE00EEEEEE00F3F3
-      F300F3F3F300F7F7F700F7F7F700F7F7F700FCFCFC00FCFCFC00FBFBFB00FBFB
-      FB00FBFBFB00FBFBFB00F9F9F900F9F9F900F9F9F900F6F6F600F6F6F6009E9E
-      9E009E9E9E00B9B9B900B9B9B900B9B9B900EFEFEF00EFEFEF00E9E9E900E9E9
-      E900EAEAEA00EAEAEA00C1C1C100C1C1C100C1C1C1009D9D9D009D9D9D00E8E8
-      E800E8E8E800F7F7F700F7F7F700F7F7F700F7F7F700F7F7F700FBFBFB00FBFB
-      FB00FCFCFC00FCFCFC00F6F6F600F6F6F600F6F6F600F5F5F500F5F5F500F1F1
-      F100F1F1F100EDEDED00EDEDED00D9D9D900D9D9D900D9D9D900DDDDDD00DDDD
-      DD00FCFCFC00FCFCFC00FFFFFF00FFFFFF00FFFFFF00FEFEFE00FEFEFE00E0E0
-      E000E0E0E000CECECE00CECECE00D2D2D200D2D2D200D2D2D200D5D5D500D5D5
-      D500D6D6D600D6D6D600D6D6D600D6D6D600D5D5D500D5D5D500D5D5D500D6D6
-      D600D6D6D600D2D2D200D2D2D200AAAAAA00AAAAAA00AAAAAA00AAAAAA00AAAA
-      AA00A8A8A800A8A8A800AFAFAF00AFAFAF00ADACAE00ADACAE00ADACAE00B0B0
-      B000B0B0B000B1B1B100B1B1B100B3B4B200B3B4B200B3B4B200B6B7B300B6B7
-      B300BBBCBA00BBBCBA00CFCFCF00CFCFCF00EAE9ED00EAE9ED00EAE9ED00EEEC
-      F200EEECF200F6F3FC00F6F3FC00E7E3EE00E7E3EE00DEDBE400DEDBE400DEDB
-      E400FDFBFF00FDFBFF00FFFCF800FFFCF800FBFFFF00F0FCFF00F0FCFF0088A0
-      B40088A0B400284C6A00284C6A003E6B8C005588A2005588A200699DAE00699D
-      AE008AB8C0008AB8C000C2E6EC00E0FBFF00E0FBFF00E8FEFF00E8FEFF00E4F8
-      FF00E4F8FF00E6F9FF00EAFDFF00EAFDFF00E1FFFF00E1FFFF00C0FDFF00C0FD
-      FF0096D2E200DEF8FF00DEF8FF00E5FDFF00E5FDFF00BCF3F600C8FFFF00C8FF
-      FF00EAFFFF00EAFFFF00F2FEFF00F2FEFF00E5FCFE00E4FDFF00E4FDFF00EAFF
-      FF00EAFFFF00E8FFFF00E8FFFF00BEDCE7007FA6B5007FA6B50049778F004977
-      8F0043738F0043738F0035647F001A4058001A405800A5BFD000A5BFD000EFFC
-      FF00EFFCFF00F8FBFF00FFFEFF00FFFEFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FEFFFD00FDFF
-      FE00FAFFFE00F7FBFC00FBFBFF00F3FBFF00E5FCFF00A6DAE7006DC9E20066D5
-      F5006EDFFF0073E3FF0075DCFC0079E2FD0078E7FD0071E4F9006EE6FC0067E0
-      FA0066DFFF0064D3F3006CC8E10096D6E800E1FEFF00F4FFFF00F7FFFE00F9FF
-      FD00F8FFFF00FAFFFF00FDFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00DBDBDB00DBDB
-      DB00D6D6D600D6D6D600D6D6D600F2F2F200F2F2F200EDEDED00EDEDED00EFEF
-      EF00EFEFEF00F8F8F800F8F8F800F8F8F800F7F7F700F7F7F700F7F7F700F7F7
-      F700FAFAFA00FAFAFA00FBFBFB00FBFBFB00FBFBFB00CDCDCD00CDCDCD00C7C7
-      C700C7C7C700EAEAEA00EAEAEA00EAEAEA00E9E9E900E9E9E900EEEEEE00EEEE
-      EE00F0F0F000F0F0F000F2F2F200F2F2F200F2F2F200C3C3C300C3C3C300CFCF
-      CF00CFCFCF00FAFAFA00FAFAFA00FAFAFA00F7F7F700F7F7F700FBFBFB00FBFB
-      FB00F7F7F700F7F7F700FBFBFB00FBFBFB00FBFBFB00F5F5F500F5F5F500F1F1
-      F100F1F1F100EDEDED00EDEDED00D9D9D900D9D9D900D9D9D900DDDDDD00DDDD
-      DD00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FCFCFC00FCFCFC00EEEE
-      EE00EEEEEE00B2B2B200B2B2B200D2D2D200D2D2D200D2D2D200D4D4D400D4D4
-      D400D8D8D800D8D8D800D7D7D700D7D7D700D8D8D800D8D8D800D8D8D800D4D4
-      D400D4D4D400A9A9A900A9A9A900ACACAC00ACACAC00ACACAC00AFAFAF00AFAF
-      AF00ABABAB00ABABAB00ADADAD00ADADAD00AFAEB000AFAEB000AFAEB000B2B1
-      B300B2B1B300B3B3B300B3B3B300B4B5B300B4B5B300B4B5B300B7B8B600B7B8
-      B600B7B8B600B7B8B600B9B9B900B9B9B900BEBDBF00BEBDBF00BEBDBF00CBC9
-      CF00CBC9CF00D9D6DF00D9D6DF00D4D1DA00D4D1DA00E3E0E900E3E0E900E3E0
-      E900FFFEFF00FFFEFF00FAFFFF00FAFFFF00F0FBFF00829EAF00829EAF001841
-      5A0018415A00295D7B00295D7B005D97B40095CFE50095CFE500C1F8FF00C1F8
-      FF00D0FFFF00D0FFFF00D2F8FD00D7F2FC00D7F2FC00E3F4FF00E3F4FF00E4F3
-      FF00E4F3FF00E4F5FF00E5FCFF00E5FCFF00D0FEFF00D0FEFF0073C9DD0073C9
-      DD0082D5EA00D2F5FF00D2F5FF00DFFFFF00DFFFFF00A7F3F90095E3EA0095E3
-      EA00DAFFFF00DAFFFF00E8FAFF00E8FAFF00E7FCFE00E7FCFA00E7FCFA00ECFA
-      F900ECFAF900E7F6F900E7F6F900DDFAFF00D9FFFF00D9FFFF00C9F4FF00C9F4
-      FF0087B9CF0087B9CF00477B920016475D0016475D0002263800022638009CB6
-      C4009CB6C400EDFCFF00F4FEFF00F4FEFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFEFA00FBFE
-      FC00F7FFFD00F4FCFC00FBFBFF00F3F9FF00DFFDFF0096D1E40066CAE60063D8
-      F70076E4FF007BE4FF0086E8FF0086E9FD0080E9F7007FECFA0077E6F60077E7
-      FD0072E3FF006AD7F70067C5E2008CD1E500DCFAFF00F4FDFF00F9FFFE00FAFF
-      FD00FAFFFE00FAFFFF00FBFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00E0E0E000E0E0
-      E000D7D7D700D7D7D700D7D7D700E7E7E700E7E7E700EAEAEA00EAEAEA00F5F5
-      F500F5F5F500F6F6F600F6F6F600F6F6F600F7F7F700F7F7F700FFFFFF00FFFF
-      FF00F7F7F700F7F7F700CACACA00CACACA00CACACA00D4D4D400D4D4D400F5F5
-      F500F5F5F500EFEFEF00EFEFEF00EFEFEF00EEEEEE00EEEEEE00EDEDED00EDED
-      ED00EDEDED00EDEDED00E8E8E800E8E8E800E8E8E800F6F6F600F6F6F600D1D1
-      D100D1D1D100C7C7C700C7C7C700C7C7C700F8F8F800F8F8F800F9F9F900F9F9
-      F900F8F8F800F8F8F800F8F8F800F8F8F800F8F8F800F5F5F500F5F5F500F1F1
-      F100F1F1F100EDEDED00EDEDED00D9D9D900D9D9D900D9D9D900DEDEDE00DEDE
-      DE00FDFDFD00FDFDFD00FDFDFD00FDFDFD00FDFDFD00FFFFFF00FFFFFF00FBFB
-      FB00FBFBFB00A7A7A700A7A7A700D9D9D900D9D9D900D9D9D900D5D5D500D5D5
-      D500D9D9D900D9D9D900D6D6D600D6D6D600D2D2D200D2D2D200D2D2D200AAAA
-      AA00AAAAAA00ADADAD00ADADAD00B0B0B000B0B0B000B0B0B000AAAAAA00AAAA
-      AA00B3B3B300B3B3B300B2B2B200B2B2B200B2B1B300B2B1B300B2B1B300B7B6
-      B800B7B6B800B9B9B900B9B9B900BABBB900BABBB900BABBB900BFC0BE00BFC0
-      BE00C3C4C200C3C4C200C6C6C600C6C6C600C8C7C900C8C7C900C8C7C900CDCB
-      D100CDCBD100C5C3C900C5C3C900D1CFD500D1CFD500ECEAF000ECEAF000ECEA
-      F000FCFBFF00FCFBFF00ECFAFF00ECFAFF00738BA10008385000083850005191
-      AA005191AA009EE4FB009EE4FB00B3FDFF00A8F0FF00A8F0FF00AAF1FF00AAF1
-      FF00A8EDFE00A8EDFE00B5F3FF00C0F2FE00C0F2FE00CFF6FF00CFF6FF00DAF7
-      FF00DAF7FF00D9F5FF00D7FBFF00D7FBFF0090CDE10090CDE1004FB3CC004FB3
-      CC006ECFE300C3F7FE00C3F7FE00D1FFFF00D1FFFF0099F2FF0074D0E10074D0
-      E1009DD5E6009DD5E600DAFFFF00DAFFFF00D7F6FF00D8F5FA00D8F5FA00D7F3
-      F400D7F3F400D1F4F700D1F4F700BCF3FA00B3F4FD00B3F4FD00B0EFFD00B0EF
-      FD00B6F4FF00B6F4FF00C1FDFF00AAE2F300AAE2F300578B9800578B98000017
-      2200001722007A9DA700E0FFFF00E0FFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFEFA00FBFF
-      FA00F8FFFE00F5FDFC00FDFBFF00F4FAFF00DDFDFF0092D1E50061C8E30070E4
-      FF007FE6FF0089E9FF008FEBFC0091EDFA008CEDF7008DF0F8008DEFF90086EB
-      FA0081E7FF0080E4FF006BC6E5008ED1E800DDF8FF00F5FBFF00FCFEFE00FCFF
-      FB00FBFFFE00FAFFFF00FBFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00DDDDDD00DDDD
-      DD00D7D7D700D7D7D700D7D7D700EBEBEB00EBEBEB00F2F2F200F2F2F200F1F1
-      F100F1F1F100F3F3F300F3F3F300F3F3F300FCFCFC00FCFCFC00EDEDED00EDED
-      ED00C0C0C000C0C0C000DBDBDB00DBDBDB00DBDBDB00F3F3F300F3F3F300EEEE
-      EE00EEEEEE00EEEEEE00EEEEEE00EEEEEE00F0F0F000F0F0F000EFEFEF00EFEF
-      EF00EDEDED00EDEDED00F2F2F200F2F2F200F2F2F200EDEDED00EDEDED00F3F3
-      F300F3F3F300DFDFDF00DFDFDF00DFDFDF00BABABA00BABABA00F2F2F200F2F2
-      F200FFFFFF00FFFFFF00F7F7F700F7F7F700F7F7F700F5F5F500F5F5F500F1F1
-      F100F1F1F100EDEDED00EDEDED00D9D9D900D9D9D900D9D9D900DEDEDE00DEDE
-      DE00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FEFEFE00FEFEFE00FEFE
-      FE00FEFEFE00D7D7D700D7D7D700CFCFCF00CFCFCF00CFCFCF00D9D9D900D9D9
-      D900D3D3D300D3D3D300D3D3D300D3D3D300ADADAD00ADADAD00ADADAD00B0B0
-      B000B0B0B000B1B1B100B1B1B100AAAAAA00AAAAAA00AAAAAA00B4B4B400B4B4
-      B400B6B6B600B6B6B600BABABA00BABABA00C1C0C200C1C0C200C1C0C200C4C3
-      C500C4C3C500C8C8C800C8C8C800CBCBCB00CBCBCB00CBCBCB00CCCDCB00CCCD
-      CB00CDCECC00CDCECC00CECECE00CECECE00CFCED000CFCED000CFCED000C9C8
-      CC00C9C8CC00C9C7CD00C9C7CD00CECCD200CECCD200F7F6FA00F7F6FA00F7F6
-      FA00FDFCFE00FDFCFE00F3FFFF00F3FFFF00EDFCFF00D4E6ED00D4E6ED00B3CA
-      D200B3CAD2009BBBC0009BBBC0008BB4B70080B2B80080B2B8007EB6C1007EB6
-      C10086C1D40086C1D40090CEE00099D9E40099D9E400A2E4EF00A2E4EF00A4EA
-      F700A4EAF700A4EEFF0022719C0022719C00318DBE00318DBE003FAAD6003FAA
-      D6005FC3E5009FE4F8009FE4F800B4F8FF00B4F8FF007BDFF80060C8EB0060C8
-      EB0052A7D50052A7D5003E89B5003E89B50096E6FF0097E5F20097E5F20095DD
-      E90095DDE90096DAE70096DAE70091D7E40091D0DE0091D0DE009ACDDD009ACD
-      DD00A6CFDE00A6CFDE00B1D4DE00BCDCE200BCDCE200C9E5EC00C9E5EC00DDF5
-      FB00DDF5FB00EBFDFF00EFFFFF00EFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFE00FEFF
-      FD00FAFFFC00FAFFFE00FDFCFF00F5FCFF00DCFCFF0098D6E8006DCCE60080EB
-      FF008EECFF0099F0FF009AECF7009FF0F800A2F6FC009FF3F800A6FAFF0097EB
-      F70090EAFF008CE3FF007AC8E50094CDE300E4FAFF00FBFEFF00FFFEFE00FFFF
-      FB00FDFFFE00FDFFFF00FDFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00DEDEDE00DEDE
-      DE00D6D6D600D6D6D600D6D6D600ECECEC00ECECEC00EAEAEA00EAEAEA00F3F3
-      F300F3F3F300FEFEFE00FEFEFE00FEFEFE00E9E9E900E9E9E900BFBFBF00BFBF
-      BF00E5E5E500E5E5E500F1F1F100F1F1F100F1F1F100F1F1F100F1F1F100F2F2
-      F200F2F2F200EAEAEA00EAEAEA00EAEAEA00F4F4F400F4F4F400EFEFEF00EFEF
-      EF00F1F1F100F1F1F100ECECEC00ECECEC00ECECEC00F0F0F000F0F0F000F1F1
-      F100F1F1F100F5F5F500F5F5F500F5F5F500E6E6E600E6E6E600BEBEBE00BEBE
-      BE00E7E7E700E7E7E700FFFFFF00FFFFFF00FFFFFF00F5F5F500F5F5F500F1F1
-      F100F1F1F100EDEDED00EDEDED00DADADA00DADADA00DADADA00DEDEDE00DEDE
-      DE00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FEFEFE00FEFEFE00FFFF
-      FF00FFFFFF00ADADAD00ADADAD00BEBEBE00BEBEBE00BEBEBE00DBDBDB00DBDB
-      DB00D1D1D100D1D1D100AEAEAE00AEAEAE00B1B1B100B1B1B100B1B1B100B5B5
-      B500B5B5B500BBBBBB00BBBBBB00C4C4C400C4C4C400C4C4C400C6C6C600C6C6
-      C600CECECE00CECECE00CBCBCB00CBCBCB00CDCCCE00CDCCCE00CDCCCE00CBCA
-      CC00CBCACC00CBCBCB00CBCBCB00CDCDCD00CDCDCD00CDCDCD00CDCECC00CDCE
-      CC00CCCDCB00CCCDCB00CACACA00CACACA00C8C7C900C8C7C900C8C7C900C8C7
-      CB00C8C7CB00BFBEC200BFBEC200F0EFF300F0EFF300FFFEFF00FFFEFF00FFFE
-      FF00FFFEFF00FFFEFF00F8FEF900F8FEF900FBFFFE00FBFFFF00FBFFFF00F9FE
-      FF00F9FEFF00F4FFFF00F4FFFF00EDFFFF00E1FEFF00E1FEFF00DCFFFF00DCFF
-      FF00CCF5FF00CCF5FF00B6E3F100A8D7DF00A8D7DF0093C9D00093C9D00087C7
-      D20087C7D20039839B000C6090000C6090002989BF002989BF0036A2D20036A2
-      D20058BDE30092DEF50092DEF500AAF6FF00AAF6FF0076DDF6005AC5EA005AC5
-      EA00469DD500469DD5002B77AB002B77AB00458EAA008FD2E1008FD2E1009CD8
-      E8009CD8E800B3EAF900B3EAF900C0F2FE00D2FCFF00D2FCFF00E0FDFF00E0FD
-      FF00E5FBFF00E5FBFF00EBFEFF00EFFFFF00EFFFFF00F1FFFF00F1FFFF00F4FF
-      FF00F4FFFF00F4FBFE00F6FBFE00F6FBFE00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFEFE00FCFD
-      FB00FDFFFE00FCFFFD00FFFCFE00F8FEFF00E1FCFF00A6DAEA0079CBE4008DE9
-      FF00A0F2FF00A5F1FD00AFF7FE00B1F8FC00B2F9FD00B2F9FD00ADF4F700A9F4
-      FD00A4F2FF009AE7FF008DD0EB00A9D8ED00E7FBFF00F8FDFF00FFFEFE00FFFE
-      FD00FFFFFF00FDFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00E0E0E000E0E0
-      E000D0D0D000D0D0D000D0D0D000EEEEEE00EEEEEE00ECECEC00ECECEC00F6F6
-      F600F6F6F600E1E1E100E1E1E100E1E1E100C4C4C400C4C4C400F0F0F000F0F0
-      F000F3F3F300F3F3F300F6F6F600F6F6F600F6F6F600F2F2F200F2F2F200F0F0
-      F000F0F0F000F8F8F800F8F8F800F8F8F800EFEFEF00EFEFEF00F2F2F200F2F2
-      F200F4F4F400F4F4F400F4F4F400F4F4F400F4F4F400F6F6F600F6F6F600F1F1
-      F100F1F1F100F2F2F200F2F2F200F2F2F200F7F7F700F7F7F700EEEEEE00EEEE
-      EE00C3C3C300C3C3C300E5E5E500E5E5E500E5E5E500F5F5F500F5F5F500F1F1
-      F100F1F1F100EDEDED00EDEDED00DADADA00DADADA00DADADA00DEDEDE00DEDE
-      DE00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FDFD
-      FD00FDFDFD00F1F1F100F1F1F100CCCCCC00CCCCCC00CCCCCC00CBCBCB00CBCB
-      CB00BFBFBF00BFBFBF00C8C8C800C8C8C800C9C9C900C9C9C900C9C9C900CBCB
-      CB00CBCBCB00CFCFCF00CFCFCF00CBCBCB00CBCBCB00CBCBCB00CBCBCB00CBCB
-      CB00CCCCCC00CCCCCC00CDCDCD00CDCDCD00CDCCCE00CDCCCE00CDCCCE00CCCB
-      CD00CCCBCD00CCCCCC00CCCCCC00CCCCCC00CCCCCC00CCCCCC00CCCDCB00CCCD
-      CB00CDCECC00CDCECC00CBCBCB00CBCBCB00C4C4C400C4C4C400C4C4C400C3C2
-      C400C3C2C400F0EFF300F0EFF300FEFDFF00FEFDFF00FFFEFF00FFFEFF00FFFE
-      FF00FDFDFD00FDFDFD00FFFEFF00FFFEFF00FFFEFE00FBFDFE00FBFDFE00FAFE
-      FF00FAFEFF00FAFFFE00FAFFFE00F4FAF900F6FFFF00F6FFFF00F3FFFF00F3FF
-      FF00EDFEFF00EDFEFF00EFFEFF00F1FDFF00F1FDFF00F1FFFF00F1FFFF00E3FD
-      FF00E3FDFF00A0CBE000165B8600165B86002480B3002480B300309DC900309D
-      C9004BB6D8008ADDF2008ADDF200A2F7FF00A2F7FF006DDAEF0051C0E00051C0
-      E0004498CC004498CC00346FA000346FA000AAC9E200EDFDFF00EDFDFF00EDFA
-      FF00EDFAFF00F1FDFF00F1FDFF00F0FCFF00F4FFFF00F4FFFF00F8FEFF00F8FE
-      FF00FAFEFF00FAFEFF00F6FFFF00F6FFFF00F6FFFF00F7FFFF00F7FFFF00FAFF
-      FF00FAFFFF00FBFFFF00FDFFFF00FDFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FDFCFE00FFFD
-      FD00FFFDFC00FFFDFC00FFFDFF00F9FEFF00E8FBFF00D0F8FF0083C2D600A3EC
-      FF00B2F6FF00B7F6FE00C1FEFF00C2FBFD00C2F9FE00C3FBFF00BAFAFB00B1F7
-      FE00A7F2FF00A3E8FC008DC4D900CFF6FF00E8FEFF00F5FFFF00FCFEFE00FFFE
-      FD00FEFEFE00FCFEFE00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00DEDEDE00DEDE
-      DE00D7D7D700D7D7D700D7D7D700ECECEC00ECECEC00F1F1F100F1F1F100D1D1
-      D100D1D1D100C8C8C800C8C8C800C8C8C800FAFAFA00FAFAFA00F7F7F700F7F7
-      F700F6F6F600F6F6F600F6F6F600F6F6F600F6F6F600F6F6F600F6F6F600F6F6
-      F600F6F6F600F6F6F600F6F6F600F6F6F600F6F6F600F6F6F600F6F6F600F6F6
-      F600F6F6F600F6F6F600F7F7F700F7F7F700F7F7F700F5F5F500F5F5F500F6F6
-      F600F6F6F600F6F6F600F6F6F600F6F6F600F2F2F200F2F2F200FBFBFB00FBFB
-      FB00F5F5F500F5F5F500CDCDCD00CDCDCD00CDCDCD00D7D7D700D7D7D700F1F1
-      F100F1F1F100EFEFEF00EFEFEF00D8D8D800D8D8D800D8D8D800DFDFDF00DFDF
-      DF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00F8F8F800F8F8F800D9D9D900D9D9D900D9D9D900C6C6C600C6C6
-      C600CFCFCF00CFCFCF00CCCCCC00CCCCCC00CDCDCD00CDCDCD00CDCDCD00CDCD
-      CD00CDCDCD00CBCBCB00CBCBCB00CBCBCB00CBCBCB00CBCBCB00CCCCCC00CCCC
-      CC00CCCCCC00CCCCCC00CCCCCC00CCCCCC00C8C7C900C8C7C900C8C7C900CFCE
-      D000CFCED000CDCDCD00CDCDCD00CBCBCB00CBCBCB00CBCBCB00CACACA00CACA
-      CA00CBCBCB00CBCBCB00C4C4C400C4C4C400C0C0C000C0C0C000C0C0C000F4F3
-      F500F4F3F500FBFAFC00FBFAFC00FFFEFF00FFFEFF00FFFFFF00FFFFFF00FFFF
-      FF00FEFEFE00FEFEFE00FFFEFF00FFFEFF00FDFFFF00FBFFFF00FBFFFF00F8FA
-      FA00F8FAFA00FFFFFE00FFFFFE00FFFFFE00FDFFFE00FDFFFE00F9FEFD00F9FE
-      FD00FAFFFF00FAFFFF00F8FDFC00FFFFFB00FFFFFB00FFFFFA00FFFFFA00FBFD
-      FD00FBFDFD00E9FBFF00A0CDE800A0CDE8002469900024699000318DBC00318D
-      BC0043A7D10078D4E70078D4E7009CF7FF009CF7FF0064CBE60053B4D50053B4
-      D5003D84A5003D84A500A5D4EA00A5D4EA00EDFFFF00F6FBFC00F6FBFC00FAFF
-      FF00FAFFFF00F9FFFE00F9FFFE00F7FFF800FDFFF900FDFFF900FFFFFE00FFFF
-      FE00FFFDFF00FFFDFF00FFFEFF00FDFAFC00FDFAFC00FFFEFF00FFFEFF00FBFB
-      FB00FBFBFB00FFFEFE00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FDFCFE00FFFC
-      FE00FFFCFD00FFFCFD00FFFDFD00F9FDFE00EEFDFF00DEFCFF00ADDCEA00A1DA
-      E900C1FAFF00C4FBFF00C2F5F800CFFFFF00CCF6FD00D0FDFF00C2FAFB00C3FF
-      FF00B6F6FF00A4DDEC00B6DFEE00DFFCFF00E7FCFE00F1FEFC00FAFFFE00FEFE
-      FE00FCFEFF00FCFEFE00FFFFFE00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00DFDFDF00DFDF
-      DF00D5D5D500D5D5D500D5D5D500ECECEC00ECECEC00C5C5C500C5C5C500C6C6
-      C600C6C6C600FDFDFD00FDFDFD00FDFDFD00F8F8F800F8F8F800F6F6F600F6F6
-      F600F7F7F700F7F7F700F7F7F700F7F7F700F7F7F700F7F7F700F7F7F700F7F7
-      F700F7F7F700F7F7F700F7F7F700F7F7F700F7F7F700F7F7F700F7F7F700F7F7
-      F700F7F7F700F7F7F700F9F9F900F9F9F900F9F9F900F6F6F600F6F6F600F6F6
-      F600F6F6F600FBFBFB00FBFBFB00FBFBFB00F7F7F700F7F7F700F5F5F500F5F5
-      F500FBFBFB00FBFBFB00F6F6F600F6F6F600F6F6F600CBCBCB00CBCBCB00C0C0
-      C000C0C0C000F1F1F100F1F1F100DADADA00DADADA00DADADA00DEDEDE00DEDE
-      DE00FDFDFD00FDFDFD00FFFFFF00FFFFFF00FFFFFF00FEFEFE00FEFEFE00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00F2F2F200F2F2F200F2F2F200DADADA00DADA
-      DA00D1D1D100D1D1D100D1D1D100D1D1D100CECECE00CECECE00CECECE00CBCB
-      CB00CBCBCB00CCCCCC00CCCCCC00CDCDCD00CDCDCD00CDCDCD00CCCCCC00CCCC
-      CC00CBCBCB00CBCBCB00CBCBCB00CBCBCB00CECDCF00CECDCF00CECDCF00CAC9
-      CB00CAC9CB00CCCCCC00CCCCCC00CBCBCB00CBCBCB00CBCBCB00CBCBCB00CBCB
-      CB00C1C1C100C1C1C100BEBEBE00BEBEBE00F7F7F700F7F7F700F7F7F700FBFA
-      FC00FBFAFC00FEFDFF00FEFDFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FEFEFE00FEFEFE00FBFFFF00FBFFFF00F9FEFD00FFFEFF00FFFEFF00FFFF
-      FF00FFFFFF00FFFFFE00FFFFFE00FFFEFA00FDFEFA00FDFEFA00FBFFFE00FBFF
-      FE00F8FEFD00F8FEFD00FDFFFE00FFFDFA00FFFDFA00FFFFFC00FFFFFC00FFFF
-      FF00FFFFFF00F3FEFF00DFFAFF00DFFAFF005083A4005083A4003080AF003080
-      AF0044A3CF0070CAE30070CAE30093F0FF0093F0FF0069CBED004BA4C6004BA4
-      C600609BAF00609BAF00DAFDFF00DAFDFF00F0FFFF00FAFFFF00FAFFFF00F7FF
-      FF00F7FFFF00F8FFFE00F8FFFE00F7FFF800FBFFF900FBFFF900FEFCFC00FEFC
-      FC00FFFDFF00FFFDFF00FFFEFF00FFFEFF00FFFEFF00FFFEFF00FFFEFF00FFFE
-      FF00FFFEFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FBFDFE00FEFD
-      FF00FFFCFD00FFFBFC00FEFCFC00F9FEFC00F6FEFD00EBFFFF00DAFDFF00AEDB
-      E600B5E5EB00CDFCFF00D3FFFF00D8FFFF00D9FAFF00D3F7FD00D1FCFF00CDFC
-      FF00BCEDF500AFD7E300DBF5FC00EFFFFF00EFFFFF00F2FFFC00FAFFFE00FCFE
-      FF00FCFEFF00FBFFFF00FDFFFE00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00DFDFDF00DFDF
-      DF00D5D5D500D5D5D500D5D5D500BEBEBE00BEBEBE00D7D7D700D7D7D700FFFF
-      FF00FFFFFF00FAFAFA00FAFAFA00FAFAFA00F9F9F900F9F9F900F7F7F700F7F7
-      F700F9F9F900F9F9F900F9F9F900F9F9F900F9F9F900F9F9F900F9F9F900F9F9
-      F900F9F9F900F9F9F900F9F9F900F9F9F900F9F9F900F9F9F900F9F9F900F9F9
-      F900F9F9F900F9F9F900F7F7F700F7F7F700F7F7F700FAFAFA00FAFAFA00F7F7
-      F700F7F7F700F7F7F700F7F7F700F7F7F700F8F8F800F8F8F800F6F6F600F6F6
-      F600F9F9F900F9F9F900FEFEFE00FEFEFE00FEFEFE00FFFFFF00FFFFFF00DBDB
-      DB00DBDBDB00BFBFBF00BFBFBF00D4D4D400D4D4D400D4D4D400DFDFDF00DFDF
-      DF00FDFDFD00FDFDFD00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FEFE
-      FE00FEFEFE00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00F3F3F300F3F3
-      F300E7E7E700E7E7E700D9D9D900D9D9D900D2D2D200D2D2D200D2D2D200CCCC
-      CC00CCCCCC00CCCCCC00CCCCCC00CDCDCD00CDCDCD00CDCDCD00CCCCCC00CCCC
-      CC00CCCCCC00CCCCCC00CDCDCD00CDCDCD00CECECE00CECECE00CECECE00C9C9
-      C900C9C9C900CCCCCC00CCCCCC00CCCCCC00CCCCCC00CCCCCC00BFBFBF00BFBF
-      BF00BDBDBD00BDBDBD00F7F7F700F7F7F700FDFDFD00FDFDFD00FDFDFD00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FEFEFE00FEFEFE00FEFE
-      FE00FEFEFE00FEFEFE00FAFFFE00FAFFFE00FDFFFE00FFFEFF00FFFEFF00FFFD
-      FF00FFFDFF00FFFEFE00FFFEFE00FFFFFC00FFFFFC00FFFFFC00FDFFFC00FDFF
-      FC00FDFFFF00FDFFFF00FEFDFF00FFFFFF00FFFFFF00FFFEFF00FFFEFF00FDFC
-      FE00FDFCFE00FBFDFF00F3F9FF00F3F9FF00B6D1EB00B6D1EB003074A1003074
-      A1003D95C3006CC5E7006CC5E7008CE8FF008CE8FF005EC1E7004C9DBE004C9D
-      BE00ACD3E100ACD3E100F3FFFF00F3FFFF00FAFFFF00FDFFFF00FDFFFF00FDFF
-      FF00FDFFFF00FBFFFF00FBFFFF00FBFFFC00FBFFFC00FBFFFC00FFFEFF00FFFE
-      FF00FFFDFF00FFFDFF00FFFDFF00FFFEFF00FFFEFF00FFFEFF00FFFEFF00FFFE
-      FF00FFFEFF00FFFEFF00FFFEFF00FFFEFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00F9FDFE00FEFE
-      FE00FFFCFD00FFFBFC00FEFCFC00FBFEFC00FAFFFB00F1FFFD00E2FCFF00DAFE
-      FF00BEE6EB00BDE8EB00D3F9FE00D2F6FC00DCF9FF00DFFCFF00DEFCFF00C4E5
-      E800C8E8EE00E2FCFF00F2FEFF00F4FCFC00F6FFFE00F5FEFB00FAFEFF00FCFE
-      FF00FCFEFF00FBFFFF00FBFFFE00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00DEDEDE00DEDE
-      DE00B5B5B500B5B5B500B5B5B500E8E8E800E8E8E800FEFEFE00FEFEFE00FFFF
-      FF00FFFFFF00FDFDFD00FDFDFD00FDFDFD00FCFCFC00FCFCFC00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FDFDFD00FDFDFD00FDFDFD00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FCFCFC00FCFCFC00FCFCFC00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FEFEFE00FEFEFE00FAFAFA00FAFAFA00FAFAFA00FFFFFF00FFFFFF00FCFC
-      FC00FCFCFC00E8E8E800E8E8E800BCBCBC00BCBCBC00BCBCBC00DBDBDB00DBDB
-      DB00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FEFE
-      FE00FEFEFE00FDFDFD00FDFDFD00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FEFEFE00FEFEFE00FFFFFF00FFFFFF00EFEFEF00EFEFEF00EFEFEF00DCDC
-      DC00DCDCDC00CECECE00CECECE00C7C7C700C7C7C700C7C7C700C5C5C500C5C5
-      C500C7C7C700C7C7C700C9C9C900C9C9C900CACACA00CACACA00CACACA00CDCD
-      CD00CDCDCD00C9C9C900C9C9C900BABABA00BABABA00BABABA00C0C0C000C0C0
-      C000EFEFEF00EFEFEF00FFFFFF00FFFFFF00FEFEFE00FEFEFE00FEFEFE00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FDFDFD00FDFDFD00FDFD
-      FD00FEFEFE00FEFEFE00FFFEFF00FFFEFF00FFFEFF00FFFDFF00FFFDFF00FFFD
-      FF00FFFDFF00FFFDFF00FFFDFF00FFFEFF00FFFFFE00FFFFFE00FFFFFE00FFFF
-      FE00FCFEFE00FCFEFE00FDFFFF00FCFDFF00FCFDFF00FDFEFF00FDFEFF00FFFE
-      FF00FFFEFF00FDFDFD00FDFFFC00FDFFFC00EDFFFF00EDFFFF00A9D9EB00A9D9
-      EB003C85A10058AFD10058AFD10086E0FF0086E0FF0067B4D4009CD3E8009CD3
-      E800EDFFFF00EDFFFF00FFFEFD00FFFEFD00FFFFFE00FFFEFF00FFFEFF00FFFE
-      FF00FFFEFF00FDFFFF00FDFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFE00FDFFFE00FDFFFE00FDFFFE00FDFFFE00FDFF
-      FE00FDFFFE00FBFFFE00FBFFFE00FBFFFE00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FAFFFE00FEFE
-      FE00FFFDFE00FFFBFE00FDFCFE00FCFFFD00FBFFFA00F1FFFB00E6FEFF00D5F9
-      FF00D7FDFF00CCF4F900C3E7EF00C8E9F200CCEBF400CEEAF100D9EDF200EBFC
-      FF00EAF8FE00F3FEFF00F8FCFD00FFFFFE00FCFDFB00FDFEFC00FFFDFF00FFFE
-      FF00FDFFFF00FBFFFE00FBFFFC00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00E8E8E800E8E8
-      E800999999009999990099999900A1A1A100A1A1A1009F9F9F009F9F9F009898
-      9800989898009B9B9B009B9B9B009B9B9B009E9E9E009E9E9E00999999009999
-      99009A9A9A009A9A9A009A9A9A009A9A9A009A9A9A009A9A9A009A9A9A009A9A
-      9A009A9A9A009A9A9A009A9A9A009A9A9A009A9A9A009A9A9A009A9A9A009A9A
-      9A009A9A9A009A9A9A009B9B9B009B9B9B009B9B9B009A9A9A009A9A9A009C9C
-      9C009C9C9C009C9C9C009C9C9C009C9C9C009B9B9B009B9B9B009B9B9B009B9B
-      9B009B9B9B009B9B9B009C9C9C009C9C9C009C9C9C009C9C9C009C9C9C009999
-      990099999900A1A1A100A1A1A100999999009999990099999900EAEAEA00EAEA
-      EA00FFFFFF00FFFFFF00FEFEFE00FEFEFE00FEFEFE00FEFEFE00FEFEFE00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FCFCFC00FCFCFC00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00F7F7F700F7F7F700E6E6E600E6E6E600E6E6E600D5D5D500D5D5
-      D500C8C8C800C8C8C800C0C0C000C0C0C000C0C0C000C0C0C000C0C0C000CACA
-      CA00CACACA00BABABA00BABABA00C7C7C700C7C7C700C7C7C700F8F7F900F8F7
-      F900FDFCFE00FDFCFE00FDFDFD00FDFDFD00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FEFEFE00FEFEFE00FEFE
-      FE00FEFEFE00FEFEFE00FFFEFF00FFFEFF00FFFEFF00FDFEFF00FDFEFF00FBFE
-      FF00FBFEFF00FDFEFF00FDFEFF00FFFEFF00FFFEFF00FFFEFF00FFFEFF00FFFE
-      FF00FFFFFF00FFFFFF00FDFFFF00FBFEFF00FBFEFF00FCFDFF00FCFDFF00FFFE
-      FF00FFFEFF00FFFFFE00FDFFF900FDFFF900EFFEFA00EFFEFA00DCFFFF00DCFF
-      FF005D98AB0050A8C60050A8C60081DBFA0081DBFA006DADC600D7FEFF00D7FE
-      FF00EFFEFF00EFFEFF00FFFFFE00FFFFFE00FFFFFE00FFFEFF00FFFEFF00FFFE
-      FF00FFFEFF00FFFEFF00FFFEFF00FFFEFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFE00FFFFFE00FDFFFC00FBFFFC00FBFFFC00FDFFFC00FDFFFC00FBFF
-      FC00FBFFFC00FBFFFC00FBFFFC00FBFFFC00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FAFFFD00FCFF
-      FD00FFFDFF00FFFCFE00FEFDFF00FCFEFE00FBFFFA00F0FEFA00E3FDFF00C4E8
-      F000C3E8F000C4E9F100C7EAF400C9E9F400CAEBF400E4FFFF00EDFDFF00F2FB
-      FF00F6FAFF00FBFFFF00F9FAF800FCFBF700FFFFFE00FFFEFF00FFFDFF00FFFD
-      FF00FFFFFF00FDFFFE00FBFFFC00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FEFEFE00FEFEFE00FFFFFF00FFFFFF00FEFE
-      FE00FEFEFE00FDFDFD00FDFDFD00FDFDFD00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FBFBFB00FBFBFB00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FEFEFE00FEFEFE00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FDFDFD00FDFDFD00FEFE
-      FE00FEFEFE00FFFFFF00FFFFFF00FDFDFD00FDFDFD00FDFDFD00FFFFFF00FFFF
-      FF00FEFEFE00FEFEFE00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FEFEFE00FEFEFE00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FDFDFD00FDFDFD00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FDFD
-      FD00FDFDFD00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FEFEFE00FEFE
-      FE00EDEDED00EDEDED00DCDCDC00DCDCDC00C6C6C600C6C6C600C6C6C600B9B9
-      B900B9B9B900C0C0C000C0C0C000F3F3F300F3F3F300F3F3F300FEFDFF00FEFD
-      FF00FFFEFF00FFFEFF00FEFEFE00FEFEFE00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FDFFFE00FDFFFE00FBFFFE00FAFFFF00FAFFFF00F8FF
-      FF00F8FFFF00FAFFFF00FAFFFF00FDFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFEFE00FFFEFE00FFFEFF00FDFEFF00FDFEFF00FDFEFF00FDFEFF00FCFE
-      FF00FCFEFF00FFFFFF00FFFFFE00FFFFFE00FBFFFE00FBFFFE00EDFEFF00EDFE
-      FF00A7D5E0003993AB003993AB007ED8F1007ED8F100A4CFE400ECFDFF00ECFD
-      FF00F3FFFF00F3FFFF00F8FDFE00F8FDFE00FDFFFF00FFFFFF00FFFFFF00FFFE
-      FF00FFFEFF00FFFDFF00FFFDFF00FFFDFF00FFFEFF00FFFEFF00FFFFFF00FFFF
-      FF00FDFFFE00FDFFFE00FFFFFE00FDFFFE00FDFFFE00FFFFFE00FFFFFE00FDFF
-      FE00FDFFFE00FDFFFE00FDFFFE00FDFFFE00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FAFFFB00FDFF
-      FE00FEFDFF00FDFCFF00FDFCFF00FBFDFE00F9FFFA00EFFEFA00DBFBFF00C4ED
-      F600C3EAF300C9ECF900C4E6F300C3E5F200CBF2FB00D8FAFF00EBFEFF00F1FA
-      FD00F9FCFF00FCFEFF00FAFFFE00FDFFFC00FFFFFE00FFFAFB00FFFDFF00FFFD
-      FF00FFFFFF00FFFFFC00FFFFFB00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FEFEFE00FEFEFE00FEFEFE00FCFCFC00FCFCFC00FFFFFF00FFFFFF00FDFD
-      FD00FDFDFD00FFFFFF00FFFFFF00FFFFFF00FDFDFD00FDFDFD00FEFEFE00FEFE
-      FE00FEFEFE00FEFEFE00FEFEFE00FEFEFE00FEFEFE00FEFEFE00FEFEFE00FEFE
-      FE00FEFEFE00FEFEFE00FEFEFE00FEFEFE00FEFEFE00FEFEFE00FEFEFE00FEFE
-      FE00FEFEFE00FEFEFE00FFFFFF00FFFFFF00FFFFFF00FEFEFE00FEFEFE00FFFF
-      FF00FFFFFF00FEFEFE00FEFEFE00FEFEFE00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FEFEFE00FEFEFE00FBFBFB00FBFBFB00FBFBFB00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FEFEFE00FEFEFE00FFFFFF00FFFFFF00FFFFFF00FAFAFA00FAFA
-      FA00FEFEFE00FEFEFE00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FDFDFD00FDFDFD00FEFEFE00FEFEFE00FEFEFE00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FDFDFD00FDFDFD00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FEFEFE00FEFEFE00FEFEFE00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00EBEB
-      EB00EBEBEB00FAFAFA00FAFAFA00FFFFFF00FFFFFF00FFFFFF00FEFDFF00FEFD
-      FF00FCFBFD00FCFBFD00FFFEFF00FFFEFF00FEFDFF00FEFDFF00FEFDFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFEFF00FFFEFF00FFFFFE00FFFFFE00FFFFFE00FFFF
-      FF00FFFFFF00FDFFFF00FDFFFF00FDFFFF00FFFEFF00FFFEFF00FFFEFF00FFFE
-      FF00FFFFFE00FFFFFE00FFFDF900FFFFFC00FFFFFC00FFFFFC00FFFFFC00FDFF
-      FE00FDFFFE00FFFFFF00FEFBFD00FEFBFD00FFFDFF00FFFDFF00FEFCFC00FEFC
-      FC00F4FFFF00ABCFD900ABCFD900ABD0DE00ABD0DE00F1FBFF00FDFDFF00FDFD
-      FF00FCFEFE00FCFEFE00FDFFFC00FDFFFC00FFFFFC00FFFFFC00FFFFFC00FFFF
-      FE00FFFFFE00FFFFFF00FFFFFF00FDFEFF00FDFEFF00FDFEFF00FFFEFF00FFFE
-      FF00FFFFFF00FFFFFF00FFFEFF00FFFFFF00FFFFFF00FFFEFF00FFFEFF00FFFF
-      FF00FFFFFF00FFFEFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00F9FFF900FBFF
-      FC00FDFFFF00FBFCFF00FCFAFF00FAFCFD00F9FEFC00EFFFFD00DAFFFF00BFEA
-      F300C1E9F500C7EDF900C5E6F500C4E7F400C9F2FB00D7FBFF00EAFFFF00F0F9
-      FC00FBFFFF00FDFFFF00F6FFFC00F9FFFA00FFFDFE00FFFDFF00FFFCFF00FFFD
-      FF00FFFFFE00FFFFFC00FFFFFB00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FCFCFC00FCFC
-      FC00FFFFFF00FFFFFF00FFFFFF00FCFCFC00FCFCFC00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FCFCFC00FCFCFC00FCFCFC00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FEFEFE00FEFEFE00FFFF
-      FF00FFFFFF00FEFEFE00FEFEFE00FEFEFE00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FCFCFC00FCFCFC00FFFFFF00FFFFFF00FFFFFF00FEFEFE00FEFEFE00FFFF
-      FF00FFFFFF00FEFEFE00FEFEFE00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FEFEFE00FEFEFE00FEFEFE00FDFDFD00FDFDFD00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FDFDFD00FDFD
-      FD00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FDFD
-      FD00FDFDFD00FEFEFE00FEFEFE00FEFEFE00FEFEFE00FEFEFE00FEFEFE00FEFE
-      FE00FEFEFE00FEFEFE00FFFFFF00FFFFFF00FEFEFE00FEFEFE00FEFEFE00FDFD
-      FD00FDFDFD00FFFFFF00FFFFFF00FDFDFD00FDFDFD00FDFDFD00FFFEFF00FFFE
-      FF00FFFEFF00FFFEFF00FEFDFF00FEFDFF00FFFEFF00FFFEFF00FFFEFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00FEFEFE00FEFEFE00FEFEFE00FEFEFE00FEFE
-      FE00FFFFFF00FFFFFF00FFFEFF00FFFEFF00FFFEFF00FFFFFE00FFFFFE00FFFF
-      FE00FFFFFE00FFFEFF00FFFEFF00FDFFFF00FFFEFF00FFFEFF00FFFEFF00FFFE
-      FF00FFFFFE00FFFFFE00FFFFFB00FFFFFB00FFFFFB00FDFFF900FDFFF900FFFF
-      FC00FFFFFC00FDFFFF00FFFBFF00FFFBFF00FFFDFF00FFFDFF00FFFFFE00FFFF
-      FE00FCFEFE00E4F7FF00E4F7FF00E4F8FF00E4F8FF00F9FCFF00FFFDFF00FFFD
-      FF00FFFFFE00FFFFFE00FFFFF900FFFFF900FFFFFB00FFFFFB00FFFFFB00FFFF
-      FC00FFFFFC00FDFFFF00FDFFFF00FBFFFF00FDFEFF00FDFEFF00FFFEFF00FFFE
-      FF00FFFEFF00FFFEFF00FFFEFF00FFFEFF00FFFEFF00FFFEFF00FFFEFF00FFFE
-      FF00FFFEFF00FFFEFF00FFFEFF00FFFEFF00424D3E000000000000003E000000
-      28000000080100003A0000000100010000000000280800000000000000000000
-      000000000000000000000000FFFFFF00FFFFC00000E1FFFFFFFFFFFFFFFFFFFF
-      FFFFFFFE003FFFFFFC0000000000000000000000FFFFC4800021FFFFFFFFFFFF
-      FFFFFFFFFFFFFFF8000FFFFFFC0000000000000000000000FFFFC4000021FFFF
-      FFFFFFFFFFFFFFFFFFFFFFF00007FFFFFC0000000000000000000000FFFFC000
-      0001FFFFFFFFFFFFFFFFFFFFFFFFFFC00001FFFFFC0000000000000000000000
-      FFFFC000000FFFFFFFFFFE00001FFFFFFFFFFF800000FFFFFC00000000000000
-      00000000FFFFC0000003FFFFFFFFFE00001FFFFFFFFFFF800000FFFFFC000000
-      0000000000000000FFFFC0000003FFFFFFFFFE00000FFFFFFFFFFF0000007FFF
-      FC0000000000000000000000FFFFC0000001FFFFFFFFFE38FF87FFFFFFFFFE00
-      00003FFFFC0000000000000000000000FFFFC0000001FFFFFFFFFE39FF87FFFF
-      FFFFFE0000003FFFFC0000000000000000000000FFFFC0000001FFFFFFFFFE39
-      FF87FFFFFFFFFC0000001FFFFC0000000000000000000000FFFFC0020001FFFF
-      FFFFFE39FF87FFFFFFFFFC0000001FFFFC0000000000000000000000FFFFC000
-      0001FFFFFFFFFE39FFC3FFFFFFFFFC0000001FFFFC0000000000000000000000
-      FFFFC0010001FFFFFFFFFE39FFC3FFFFFFFFFC0380E01FFFFC00000000000000
-      00000000FFFFC0091001FFFFFFFFFE39FFC3FFFFFFFFFC0441101FFFFC000000
-      0000000000000000FFFFC0000801FFFFFFFFFE38FFC3FFFFFFFFFC0800081FFF
-      FC0000000000000000000000FFFFC0104001FFFFFFFFFE002003FFFFFFFFFC08
-      22081FFFFC0000000000000000000000FFFFC0021001FFFFFFFFFE002007FFFF
-      FFFFFC0800081FFFFC0000000000000000000000FFFFC0008001FFFFFFFFFFFE
-      11FFFFFFFFFFFC0C41181FFFFC0000000000000000000000FFFFC0008001FFFF
-      FFFFFFFF01FFFFFFFFFFFC0380E01FFFFC0000000000000000000000FFFFC002
-      0001FFFFFFFFFFFF01FFFFFFFFFFFC0000001FFFFC0000000000000000000000
-      FFFFC0000001FFFFFFFFFFFF81FFFFFFFFFFFE0000003FFFFC00000000000000
-      00000000FFFFC0000001FFFFFFFFFFFF81FFFFFFFFFFFE0000003FFFFC000000
-      0000000000000000FFFFC8000001FFFFFFFFFFFF81FFFFFFFFFFFF0000007FFF
-      FC0000000000000000000000FFFFC000000DFFFFFFFFFFFF81FFFFFFFFFFFF80
-      0000FFFFFC0000000000000000000000FFFFC0000011FFFFFFFFFFFFC3FFFFFF
-      FFFFFF800000FFFFFC0000000000000000000000FFFFE0000029FFFFFFFFFFFF
-      FFFFFFFFFFFFFFC00001FFFFFC0000000000000000000000FFFFC080000DFFFF
-      FFFFFFFFFFFFFFFFFFFFFFF00007FFFFFC0000000000000000000000FFFFC000
-      0001FFFFFFFFFFFFFFFFFFFFFFFFFFF8000FFFFFFC0000000000000000000000
-      FFFFCC000103FFFFFFFFFFFFFFFFFFFFFFFFFFFE003FFFFFFC00000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000}
   end
   object CheckMailResult: TRtcResult
     Left = 144
