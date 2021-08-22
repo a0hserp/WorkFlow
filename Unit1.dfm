@@ -3048,10 +3048,6 @@ object Form1: TForm1
     Left = 620
     Top = 375
   end
-  object RoomState: TRtcResult
-    Left = 72
-    Top = 120
-  end
   object RtcClientModule: TRtcClientModule
     AutoSyncEvents = True
     SecureKey = '0A251F157AF189C6BD9495897279DFE9'
@@ -3064,30 +3060,12 @@ object Form1: TForm1
     Left = 216
     Top = 120
   end
-  object OffWorkResult: TRtcResult
-    Left = 144
-    Top = 120
-  end
-  object UserList: TRtcResult
-    Left = 16
-    Top = 120
-  end
   object HistoryResult: TRtcResult
     Left = 16
     Top = 176
   end
-  object RtcHttpEphone: TRtcHttpClient
-    MultiThreaded = True
-    ServerAddr = 'www.hserp.tw'
-    ServerPort = '1000'
-    ReconnectOn.ConnectLost = True
-    AutoConnect = True
-    Left = 476
-    Top = 64
-  end
   object RtcEphoneModule: TRtcClientModule
     AutoSyncEvents = True
-    Client = RtcHttpEphone
     SecureKey = '0A251F157AF189C6BD9495897279DFE9'
     AutoRepost = 2
     ModuleFileName = '/FUNC'
@@ -3097,12 +3075,6 @@ object Form1: TForm1
   object EphoneQueryResult: TRtcResult
     Left = 480
     Top = 120
-  end
-  object MTable: TClientDataSet
-    Aggregates = <>
-    Params = <>
-    Left = 277
-    Top = 130
   end
   object VMtable: TClientDataSet
     Aggregates = <>
@@ -3370,10 +3342,6 @@ object Form1: TForm1
       0000000000000000000000000000000000000000000000000000000000000000
       000000000000}
   end
-  object EphoneResult: TRtcResult
-    Left = 72
-    Top = 176
-  end
   object EphoneTable: TClientDataSet
     Aggregates = <>
     FieldDefs = <>
@@ -3392,9 +3360,5 @@ object Form1: TForm1
     DataSet = EphoneTable
     Left = 389
     Top = 218
-  end
-  object CheckMailResult: TRtcResult
-    Left = 144
-    Top = 184
   end
 end
