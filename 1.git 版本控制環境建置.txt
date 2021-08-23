@@ -16,14 +16,13 @@ git使用
  git config --global user.name "a0"
  git config --global user.email a0@hserp.tw
 
-Git 支線概念講解
+
 
 
 3.基本指令
  git init //初始化
  git add . //加入所有檔案
  git commit -m '摘要描述' //提交
- git branch dev //開分支
  git status //目前狀態
  git log   //查看紀錄
  git reset //返回步驟
@@ -36,8 +35,10 @@ $ git  reset  052e           # 回退到指定版本
  git pull //拉回資料
  git pull= git fetch + git merge
 
-
-
+3.重頭戲
+-------------------------------------------------------------
+ Git 支線概念講解
+ git branch dev //開分支
 
 
 
