@@ -25,6 +25,7 @@ Git 支線概念講解
  git commit -m '摘要描述' //提交
  git branch dev //開分支
  git status //目前狀態
+ git log   //查看紀錄
  git reset //返回步驟
 -----------
 $ git reset HEAD^            # 回退所有內容到上一個版本  
