@@ -37,7 +37,7 @@ git reset ORIG_HEAD #後悔reset
 
 git stash //將目前檔案存下
 git stash drop //拋棄上一次存檔
-
+git stash list 
 
 
 4.設定遠端git
