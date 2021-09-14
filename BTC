@@ -1,0 +1,36 @@
+BTC 地址筆記
+
+
+
+1.地址三總格式 
+P2PKH (Pay 2 Public Key Hash) 類型以數字1開頭的
+P2SH（Pay 2 Script Hash）類型以數字3開頭。
+Bech32類型以bc1開頭
+
+
+由bitcoin core 生成地址 匯出私鑰
+
+
+https://bitcoincore.org/  下載exe 最新 並逕行同步
+
+
+啟動GUI 已舊模式產生
+bitcoin-qt -addresstype=legacy 產生新錢包
+
+
+進入控制台 匯出私鑰
+
+dumpwallet 'C:\AA\mywallet20210112.txt'
+
+匯入私鑰
+
+importprivkey L4AVRpTCHUqfGECJpXQgddiQgiQ5311iomcQYEfSJSWywU98nr3 "AAA" false
+
+
+刪除錢包
+settings.json 清掉
+錢包目錄刪除
+
+
+
+https://iancoleman.io/bip39/
