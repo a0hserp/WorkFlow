@@ -68,6 +68,10 @@ git clone git@github.com:a0hserp/WorkFlow.git //複製遠端
 
 git pull 將遠端分支資料拉回並合併本地分支
 
+git pull origin //更新本地的origin
+git merge origin/main  //合併本地端 branch
+
+
 推至遠端
 $ git push <remote> <local_branch>:<remote_name>
 
